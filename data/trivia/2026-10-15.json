@@ -1,0 +1,71 @@
+{
+ "date": "2026-10-15",
+ "answer": {
+  "name": "Joker's Jinx",
+  "park": "Six Flags America",
+  "page": "Joker's Jinx"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "This steel coaster reaches a top speed of 60 mph, stands 79 feet tall, and features 4 inversions."
+  },
+  {
+   "kind": "stats",
+   "text": "Manufactured by Premier Rides, this attraction made its debut in 1999."
+  },
+  {
+   "kind": "park",
+   "text": "Located in the state of Maryland, this ride's home park was once called Adventure World before being rebranded into a major chain."
+  },
+  {
+   "kind": "fact",
+   "text": "This steel launched coaster at Six Flags America is famous for its 'spaghetti bowl' layout, where the track is tangled into a dense, knotted mess."
+  },
+  {
+   "kind": "name",
+   "text": "The name of this ride refers to a famous comic book clown's personal hex or streak of bad luck."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "height: 79 ft, speed: 60 mph, inversions: 4"
+   },
+   {
+    "source": "stats",
+    "quote": "maker: Premier, year: 1999"
+   },
+   {
+    "source": "wikipedia",
+    "quote": "The Joker's Jinx is a decommissioned steel roller coaster at Six Flags America in Prince George's County, Maryland. ... On October 28, 1998, it was announced that Adventure World would be renamed Six Flags America"
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Joker's Jinx would be an LIM spaghetti bowl launch coaster by Premier Rides."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Joker's Jinx is located in the Gotham City section of the park"
+   }
+  ],
+  "sources": [
+   {
+    "name": "wikipedia",
+    "title": "The Joker's Jinx",
+    "url": "https://en.wikipedia.org/wiki/The_Joker%27s_Jinx"
+   },
+   {
+    "name": "coasterpedia",
+    "title": "Joker's Jinx",
+    "url": "https://coasterpedia.net/wiki/Joker%27s_Jinx"
+   }
+  ],
+  "model": "gemini-3-flash-preview",
+  "response_id": "eZvOapjtJ47oz7IP4c_H8As",
+  "generated_at": "2026-10-13T20:58:59+00:00"
+ }
+}

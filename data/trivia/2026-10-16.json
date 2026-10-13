@@ -1,0 +1,71 @@
+{
+ "date": "2026-10-16",
+ "answer": {
+  "name": "Goliath",
+  "park": "Walibi Holland",
+  "page": "Goliath (Walibi Holland)"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "Standing 154 feet tall, this non-inverting steel coaster hits a top speed of 66 mph."
+  },
+  {
+   "kind": "stats",
+   "text": "This coaster was built by the manufacturer Intamin and made its grand debut in 2002."
+  },
+  {
+   "kind": "park",
+   "text": "This coaster is located in the Netherlands at a park that was once part of the Six Flags chain, a legacy that explains why several other coasters in the world share its name."
+  },
+  {
+   "kind": "fact",
+   "text": "Formerly the fastest and tallest coaster in the Benelux region, this steel ride at Walibi Holland is well-known for its cable lift hill and an overbanked element called a Stengel Dive."
+  },
+  {
+   "kind": "name",
+   "text": "This coaster's name refers to a biblical giant from Gath who was famously defeated by David and his sling."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "height: 154 ft, speed: 66 mph, inversions: 0"
+   },
+   {
+    "source": "stats",
+    "quote": "maker: Intamin, year: 2002"
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "At this time, the park was owned by Six Flags, who have named several of their roller coasters 'Goliath'."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "It was previously described as \"the fastest, highest, and longest coaster in the Benelux\". Since 2021, both these records belong to Kondaa in Walibi Belgium. ... it ascends a hill called a Stengel Dive, the top being overbanked to around 100° to the right"
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Goliath is a steel roller coaster located at the Walibi Holland theme park in Biddinghuizen, Dronten, in the Netherlands."
+   }
+  ],
+  "sources": [
+   {
+    "name": "wikipedia",
+    "title": "Goliath (Walibi Holland)",
+    "url": "https://en.wikipedia.org/wiki/Goliath_%28Walibi_Holland%29"
+   },
+   {
+    "name": "coasterpedia",
+    "title": "Goliath (Walibi Holland)",
+    "url": "https://coasterpedia.net/wiki/Goliath_%28Walibi_Holland%29"
+   }
+  ],
+  "model": "gemini-3-flash-preview",
+  "response_id": "UJzOaqKrG8_P-8YPqIbM0Ag",
+  "generated_at": "2026-10-13T21:02:35+00:00"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "date": "2026-10-14",
+ "answer": {
+  "name": "Yankee Cannonball",
+  "park": "Canobie Lake Park",
+  "page": "Yankee Cannonball"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "A nostalgic experience, this ride features 0 inversions, a height of 64 feet, and a top speed of 35 mph."
+  },
+  {
+   "kind": "stats",
+   "text": "Manufactured by Philadelphia Toboggan Coasters, this ride opened in its current location in 1936."
+  },
+  {
+   "kind": "park",
+   "text": "You can find this coaster in New Hampshire, where it remains the star attraction of its lakeside park."
+  },
+  {
+   "kind": "fact",
+   "text": "Recognized as an ACE Coaster Landmark, this ride was the first large-scale wooden roller coaster to be successfully relocated from another park."
+  },
+  {
+   "kind": "name",
+   "text": "The name's first word is a nickname for someone from the North, and the second is a type of heavy projectile used in the American Civil War."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "height: \"64 ft\", speed: \"35 mph\", inversions: 0"
+   },
+   {
+    "source": "stats",
+    "quote": "maker: \"Philidelphia Toboggan Coasters\", year: 1936"
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "state = New Hampshire"
+   },
+   {
+    "source": "wikipedia",
+    "quote": "This was the earliest successful relocation of a large-scale wooden roller coaster."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "In 1983, it was renamed again to Yankee Cannonball, in commemoration of the American Civil War."
+   }
+  ],
+  "sources": [
+   {
+    "name": "wikipedia",
+    "title": "Yankee Cannonball",
+    "url": "https://en.wikipedia.org/wiki/Yankee_Cannonball"
+   },
+   {
+    "name": "coasterpedia",
+    "title": "Yankee Cannonball",
+    "url": "https://coasterpedia.net/wiki/Yankee_Cannonball"
+   }
+  ],
+  "model": "gemini-3-flash-preview",
+  "response_id": "WprOatWcKtCs1MkPwoikKA",
+  "generated_at": "2026-10-13T20:54:08+00:00"
+ }
+}
