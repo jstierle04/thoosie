@@ -1,0 +1,6 @@
+# Stats Coasterpedia is missing, filled in by hand. Applied on top of the wiki data on every import.
+# One coaster per line:  Coasterpedia page title | field=value, field=value
+# Fields: name, park, country, maker, type, year, height (ft), speed (mph), inversions
+# Better long-term fix: add the stat to the Coasterpedia page itself, then delete the line here.
+
+Matterhorn Bobsleds | speed=27   # both tracks; Coasterpedia leaves speed blank. VERIFY before launch.

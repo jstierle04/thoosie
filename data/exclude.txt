@@ -1,0 +1,2 @@
+# Coasters that should never be the daily/infinite answer, one per line: "Name @ Park".
+# They can still be guessed. Overrides the automatic pool and featured.txt.

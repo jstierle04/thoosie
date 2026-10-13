@@ -1,0 +1,67 @@
+# Always in the answer pool, on top of the automatic top-300 (any status except defunct, which
+# is left out of the game; standing-but-not-operating coasters are fine).
+# One coaster per line: "Name @ Park" (park optional if the name is unique).
+
+Millennium Force @ Cedar Point
+Steel Vengeance @ Cedar Point
+Top Thrill 2 @ Cedar Point
+Maverick @ Cedar Point
+Magnum XL-200 @ Cedar Point
+Fury 325 @ Carowinds
+El Toro @ Six Flags Great Adventure
+Nitro @ Six Flags Great Adventure
+Jersey Devil Coaster @ Six Flags Great Adventure
+Superman the Ride @ Six Flags New England
+Iron Gwazi @ Busch Gardens Tampa Bay
+Montu @ Busch Gardens Tampa Bay
+Kumba @ Busch Gardens Tampa Bay
+Apollo's Chariot @ Busch Gardens Williamsburg
+Griffon @ Busch Gardens Williamsburg
+Pantheon @ Busch Gardens Williamsburg
+Pantherian @ Kings Dominion
+The Beast @ Kings Island
+Orion @ Kings Island
+Diamondback @ Kings Island
+Banshee @ Kings Island
+Phoenix @ Knoebels
+The Steel Curtain @ Kennywood
+Twisted Colossus @ Six Flags Magic Mountain
+X2 @ Six Flags Magic Mountain
+Goliath @ Six Flags Magic Mountain
+Tatsu @ Six Flags Magic Mountain
+Goliath @ Six Flags Great America
+Raging Bull @ Six Flags Great America
+Batman: The Ride @ Six Flags Great America
+Expedition Everest @ Disney's Animal Kingdom
+Jurassic World VelociCoaster @ Islands of Adventure
+Hagrid's Magical Creatures Motorbike Adventure @ Islands of Adventure
+The Incredible Hulk Coaster @ Islands of Adventure
+Mako @ SeaWorld Orlando
+Manta @ SeaWorld Orlando
+Lightning Rod @ Dollywood
+Thunderhead @ Dollywood
+The Voyage @ Holiday World
+Thunderbird @ Holiday World
+Outlaw Run @ Silver Dollar City
+Time Traveler @ Silver Dollar City
+Cyclone @ Luna Park
+Leviathan @ Canada's Wonderland
+Behemoth @ Canada's Wonderland
+Yukon Striker @ Canada's Wonderland
+Taron @ Phantasialand
+Silver Star @ Europa-Park
+Blue Fire Megacoaster @ Europa-Park
+Wodan Timbur Coaster @ Europa-Park
+Helix @ Liseberg
+Balder @ Liseberg
+Nemesis Reborn @ Alton Towers
+The Smiler @ Alton Towers
+Stealth @ Thorpe Park
+Shambhala @ PortAventura Park
+Red Force @ Ferrari Land
+Hyperion @ Energylandia
+Zadra @ Energylandia
+Formula Rossa @ Ferrari World
+Steel Dragon 2000 @ Nagashima Spa Land
+Eejanaika @ Fuji-Q Highland
+T Express @ Everland

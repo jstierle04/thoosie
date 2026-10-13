@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thoosie</title>
+  <meta name="description" content="A daily roller coaster guessing game.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500;700&family=Archivo:wght@400;600;800&family=Bungee&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="masthead">
+    <div class="bulbs" aria-hidden="true"></div>
+    <div class="wrap masthead-inner">
+      <div>
+        <h1 class="logo">Thoosie</h1>
+        <p class="tagline">The daily coaster guess &middot; <span id="puzzle-no">No. 001</span></p>
+      </div>
+      <nav class="masthead-nav">
+        <button type="button" class="chip" id="help-btn">How to ride</button>
+        <button type="button" class="chip" id="stats-btn">Stats</button>
+      </nav>
+    </div>
+    <svg class="track" viewBox="0 0 3000 90" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+      <defs>
+        <path id="track-path" d="M0 78 H150 C230 78 250 30 320 30 C380 30 400 78 470 78 H600 C680 78 700 14 780 14 C850 14 870 78 950 78 H1080 C1160 78 1180 40 1240 40 C1290 40 1310 78 1380 78 H1460 C1540 78 1540 18 1500 18 C1460 18 1460 78 1540 78 H1640 C1720 78 1740 22 1820 22 C1890 22 1910 78 1990 78 H2120 C2180 78 2200 46 2250 46 C2300 46 2320 78 2380 78 H2500 C2560 78 2580 34 2640 34 C2700 34 2720 78 2780 78 H3000" />
+      </defs>
+      <use href="#track-path" class="track-ties" />
+      <use href="#track-path" class="track-rail" />
+    </svg>
+  </header>
+
+  <main class="wrap">
+    <section class="console">
+      <div class="modes" role="group" aria-label="Game mode">
+        <button type="button" class="mode-tab" data-mode="daily" aria-selected="true">Daily</button>
+        <button type="button" class="mode-tab" data-mode="infinite" aria-selected="false">Infinite <span aria-hidden="true">∞</span></button>
+      </div>
+      <div class="admit">
+        <span class="admit-label">Admit</span>
+        <div class="punches" id="punches" role="img" aria-label="8 guesses left"></div>
+      </div>
+      <form id="guess-form" class="guess-form" autocomplete="off">
+        <label for="guess-input" class="sr-only">Guess a coaster</label>
+        <input id="guess-input" type="text" placeholder="Name a coaster or park…" spellcheck="false"
+          role="combobox" aria-expanded="false" aria-controls="suggestions" aria-autocomplete="list">
+        <button type="submit" class="ride-btn">Ride</button>
+        <ul id="suggestions" class="suggestions" role="listbox" hidden></ul>
+      </form>
+      <ul class="legend" aria-label="Key">
+        <li><span class="swatch hit"></span>Exact</li>
+        <li><span class="swatch close"></span>Close</li>
+        <li><span class="arrow">↑</span>Answer is higher</li>
+      </ul>
+    </section>
+
+    <section id="result" class="result" hidden aria-live="polite"></section>
+
+    <ol id="guesses" class="guesses" reversed></ol>
+  </main>
+
+  <footer class="wrap footer">
+    Prototype &middot; new coaster at local midnight &middot;
+    coaster data from <a href="https://coasterpedia.net" target="_blank" rel="noopener">Coasterpedia</a>,
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </footer>
+
+  <dialog id="help" class="sheet">
+    <h2>How to ride</h2>
+    <p>Guess today's mystery coaster in <strong>8 rides</strong>. Every guess gets a ticket showing how close you were.</p>
+    <dl class="rules">
+      <dt><span class="swatch hit"></span></dt><dd>Exact match.</dd>
+      <dt><span class="swatch close"></span></dt>
+      <dd>Close. Same continent for <em>Country</em>; within 5 years, 25&nbsp;ft, 8&nbsp;mph or 2 inversions for the numbers.</dd>
+      <dt><span class="arrow">↑↓</span></dt><dd>The answer is higher or lower.</dd>
+    </dl>
+    <p class="fine"><strong>Daily:</strong> one coaster a day, and everyone gets the same one.
+      <strong>Infinite:</strong> a random coaster every round, as many rounds as you like, with its own stats and streak.</p>
+    <form method="dialog"><button class="ride-btn">Got it</button></form>
+  </dialog>
+
+  <dialog id="stats" class="sheet">
+    <h2>Your credits</h2>
+    <div id="stats-body"></div>
+    <form method="dialog"><button class="ride-btn">Close</button></form>
+  </dialog>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="data/coasters.js"></script>
+  <script src="src/game.js"></script>
+</body>
+</html>

@@ -1,0 +1,4457 @@
+[
+ {
+  "rank": 1,
+  "world_rank": 1,
+  "cc_id": 2268,
+  "name": "Steel Vengeance",
+  "park": "Cedar Point",
+  "maker": "Rocky Mountain Construction",
+  "country": "",
+  "continent": "America"
+ },
+ {
+  "rank": 2,
+  "world_rank": 3,
+  "cc_id": 3144,
+  "name": "VelociCoaster",
+  "park": "Universal Islands of Adventure",
+  "maker": "Intamin",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 3,
+  "world_rank": 5,
+  "cc_id": 3056,
+  "name": "Iron Gwazi",
+  "park": "Busch Gardens Tampa",
+  "maker": "Rocky Mountain Construction",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 4,
+  "world_rank": 6,
+  "cc_id": 5356,
+  "name": "ArieForce One",
+  "park": "Fun Spot America Atlanta",
+  "maker": "Rocky Mountain Construction",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 5,
+  "world_rank": 9,
+  "cc_id": 5702,
+  "name": "Stardust Racers (Green)",
+  "park": "Universal Epic Universe",
+  "maker": "Mack Rides",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 6,
+  "world_rank": 13,
+  "cc_id": 3275,
+  "name": "Stardust Racers (Yellow)",
+  "park": "Universal Epic Universe",
+  "maker": "Mack Rides",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 7,
+  "world_rank": 15,
+  "cc_id": 1783,
+  "name": "Pantherian",
+  "park": "Kings Dominion",
+  "maker": "Intamin",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 8,
+  "world_rank": 16,
+  "cc_id": 2270,
+  "name": "Fury 325",
+  "park": "Carowinds",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 9,
+  "world_rank": 17,
+  "cc_id": 861,
+  "name": "Maverick",
+  "park": "Cedar Point",
+  "maker": "Intamin",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 10,
+  "world_rank": 20,
+  "cc_id": 3687,
+  "name": "Wildcat's Revenge",
+  "park": "Hersheypark",
+  "maker": "Rocky Mountain Construction",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 11,
+  "world_rank": 24,
+  "cc_id": 6301,
+  "name": "AlpenFury",
+  "park": "Canada's Wonderland",
+  "maker": "Premier Rides",
+  "country": "Canada",
+  "continent": "America"
+ },
+ {
+  "rank": 12,
+  "world_rank": 25,
+  "cc_id": 2229,
+  "name": "Twisted Timbers",
+  "park": "Kings Dominion",
+  "maker": "Rocky Mountain Construction",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 13,
+  "world_rank": 29,
+  "cc_id": 370,
+  "name": "El Toro",
+  "park": "Six Flags Great Adventure",
+  "maker": "Intamin",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 14,
+  "world_rank": 30,
+  "cc_id": 494,
+  "name": "Voyage",
+  "park": "Holiday World",
+  "maker": "Gravity Group",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 15,
+  "world_rank": 34,
+  "cc_id": 2210,
+  "name": "Twisted Colossus",
+  "park": "Six Flags Magic Mountain",
+  "maker": "Rocky Mountain Construction",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 16,
+  "world_rank": 38,
+  "cc_id": 3068,
+  "name": "Pantheon",
+  "park": "Busch Gardens Williamsburg",
+  "maker": "Intamin",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 17,
+  "world_rank": 39,
+  "cc_id": 2211,
+  "name": "Wicked Cyclone",
+  "park": "Six Flags New England",
+  "maker": "Rocky Mountain Construction",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 18,
+  "world_rank": 41,
+  "cc_id": 2206,
+  "name": "Lightning Rod",
+  "park": "Dollywood",
+  "maker": "Rocky Mountain Construction",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 19,
+  "world_rank": 42,
+  "cc_id": 178,
+  "name": "X2",
+  "park": "Six Flags Magic Mountain",
+  "maker": "Arrow Dynamics",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 20,
+  "world_rank": 43,
+  "cc_id": 2204,
+  "name": "Iron Rattler",
+  "park": "Six Flags Fiesta Texas",
+  "maker": "Rocky Mountain Construction",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 21,
+  "world_rank": 44,
+  "cc_id": 2111,
+  "name": "Outlaw Run",
+  "park": "Silver Dollar City",
+  "maker": "Rocky Mountain Construction",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 22,
+  "world_rank": 47,
+  "cc_id": 2296,
+  "name": "Time Traveler",
+  "park": "Silver Dollar City",
+  "maker": "Mack Rides",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 23,
+  "world_rank": 49,
+  "cc_id": 2055,
+  "name": "Skyrush",
+  "park": "Hersheypark",
+  "maker": "Intamin",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 24,
+  "world_rank": 50,
+  "cc_id": 2209,
+  "name": "Wind Chaser",
+  "park": "Kentucky Kingdom",
+  "maker": "Rocky Mountain Construction",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 25,
+  "world_rank": 51,
+  "cc_id": 2058,
+  "name": "Leviathan",
+  "park": "Canada's Wonderland",
+  "maker": "Bolliger & Mabillard",
+  "country": "Canada",
+  "continent": "America"
+ },
+ {
+  "rank": 26,
+  "world_rank": 53,
+  "cc_id": 5995,
+  "name": "Top Thrill 2",
+  "park": "Cedar Point",
+  "maker": "Zamperla",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 27,
+  "world_rank": 54,
+  "cc_id": 1030,
+  "name": "Phoenix",
+  "park": "Knoebels",
+  "maker": "Philadelphia Toboggan Coasters",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 28,
+  "world_rank": 58,
+  "cc_id": 2233,
+  "name": "Mako",
+  "park": "SeaWorld Orlando",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 29,
+  "world_rank": 60,
+  "cc_id": 6371,
+  "name": "Siren’s Curse",
+  "park": "Cedar Point",
+  "maker": "Vekoma",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 30,
+  "world_rank": 61,
+  "cc_id": 187,
+  "name": "Millennium Force",
+  "park": "Cedar Point",
+  "maker": "Intamin",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 31,
+  "world_rank": 62,
+  "cc_id": 175,
+  "name": "Top Thrill Dragster",
+  "park": "Cedar Point",
+  "maker": "Intamin",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 32,
+  "world_rank": 63,
+  "cc_id": 979,
+  "name": "Phantom's Revenge",
+  "park": "Kennywood",
+  "maker": "Morgan",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 33,
+  "world_rank": 64,
+  "cc_id": 5956,
+  "name": "Fast & Furious: Hollywood Drift",
+  "park": "Universal Studios Hollywood",
+  "maker": "Intamin",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 34,
+  "world_rank": 67,
+  "cc_id": 917,
+  "name": "GhostRider",
+  "park": "Knott's Berry Farm",
+  "maker": "Custom Coasters International, Inc.",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 35,
+  "world_rank": 68,
+  "cc_id": 2469,
+  "name": "Railblazer",
+  "park": "California's Great America",
+  "maker": "Rocky Mountain Construction",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 36,
+  "world_rank": 70,
+  "cc_id": 2945,
+  "name": "Hagrid’s Magical Creatures Motorbike Adventure",
+  "park": "Universal Islands of Adventure",
+  "maker": "Intamin",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 37,
+  "world_rank": 71,
+  "cc_id": 2799,
+  "name": "Guardians of the Galaxy: Cosmic Rewind",
+  "park": "Walt Disney World - Epcot",
+  "maker": "Vekoma",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 38,
+  "world_rank": 72,
+  "cc_id": 2370,
+  "name": "Mystic Timbers",
+  "park": "Kings Island",
+  "maker": "Great Coasters International",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 39,
+  "world_rank": 73,
+  "cc_id": 412,
+  "name": "Superman the Ride",
+  "park": "Six Flags New England",
+  "maker": "Intamin",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 40,
+  "world_rank": 74,
+  "cc_id": 314,
+  "name": "Tatsu",
+  "park": "Six Flags Magic Mountain",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 41,
+  "world_rank": 75,
+  "cc_id": 575,
+  "name": "Goliath",
+  "park": "Six Flags Over Georgia",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 42,
+  "world_rank": 76,
+  "cc_id": 1311,
+  "name": "Ravine Flyer II",
+  "park": "Waldameer",
+  "maker": "Gravity Group",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 43,
+  "world_rank": 77,
+  "cc_id": 170,
+  "name": "Kingda Ka",
+  "park": "Six Flags Great Adventure",
+  "maker": "Intamin",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 44,
+  "world_rank": 80,
+  "cc_id": 2586,
+  "name": "Twisted Cyclone",
+  "park": "Six Flags Over Georgia",
+  "maker": "Rocky Mountain Construction",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 45,
+  "world_rank": 81,
+  "cc_id": 228,
+  "name": "Storm Runner",
+  "park": "Hersheypark",
+  "maker": "Intamin",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 46,
+  "world_rank": 83,
+  "cc_id": 2169,
+  "name": "Goliath",
+  "park": "Six Flags Great America",
+  "maker": "Rocky Mountain Construction",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 47,
+  "world_rank": 84,
+  "cc_id": 2207,
+  "name": "Medusa Steel Coaster",
+  "park": "Six Flags Mexico",
+  "maker": "Rocky Mountain Construction",
+  "country": "Mexico",
+  "continent": "America"
+ },
+ {
+  "rank": 48,
+  "world_rank": 85,
+  "cc_id": 284,
+  "name": "Montu",
+  "park": "Busch Gardens Tampa",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 49,
+  "world_rank": 87,
+  "cc_id": 3066,
+  "name": "Orion",
+  "park": "Kings Island",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 50,
+  "world_rank": 90,
+  "cc_id": 1619,
+  "name": "Diamondback",
+  "park": "Kings Island",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 51,
+  "world_rank": 91,
+  "cc_id": 2205,
+  "name": "Joker",
+  "park": "Six Flags Discovery Kingdom",
+  "maker": "Rocky Mountain Construction",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 52,
+  "world_rank": 93,
+  "cc_id": 2337,
+  "name": "Lightning Run",
+  "park": "Kentucky Kingdom",
+  "maker": "Chance Rides",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 53,
+  "world_rank": 94,
+  "cc_id": 2335,
+  "name": "Cannibal",
+  "park": "Lagoon",
+  "maker": "ART Engineering",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 54,
+  "world_rank": 99,
+  "cc_id": 1252,
+  "name": "Behemoth",
+  "park": "Canada's Wonderland",
+  "maker": "Bolliger & Mabillard",
+  "country": "Canada",
+  "continent": "America"
+ },
+ {
+  "rank": 55,
+  "world_rank": 100,
+  "cc_id": 2343,
+  "name": "Wonder Woman Golden Lasso",
+  "park": "Six Flags Fiesta Texas",
+  "maker": "Rocky Mountain Construction",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 56,
+  "world_rank": 101,
+  "cc_id": 201,
+  "name": "Xcelerator",
+  "park": "Knott's Berry Farm",
+  "maker": "Intamin",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 57,
+  "world_rank": 103,
+  "cc_id": 3897,
+  "name": "Wonder Woman Flight of Courage",
+  "park": "Six Flags Magic Mountain",
+  "maker": "Rocky Mountain Construction",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 58,
+  "world_rank": 107,
+  "cc_id": 2208,
+  "name": "New Texas Giant",
+  "park": "Six Flags Over Texas",
+  "maker": "Rocky Mountain Construction",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 59,
+  "world_rank": 108,
+  "cc_id": 6328,
+  "name": "Fire Runner",
+  "park": "Lost Island Theme Park",
+  "maker": "Rocky Mountain Construction",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 60,
+  "world_rank": 111,
+  "cc_id": 270,
+  "name": "Alpengeist",
+  "park": "Busch Gardens Williamsburg",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 61,
+  "world_rank": 117,
+  "cc_id": 3048,
+  "name": "Maxx Force",
+  "park": "Six Flags Great America",
+  "maker": "S&S Sansei Technologies",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 62,
+  "world_rank": 118,
+  "cc_id": 186,
+  "name": "Nitro",
+  "park": "Six Flags Great Adventure",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 63,
+  "world_rank": 119,
+  "cc_id": 1572,
+  "name": "Manta",
+  "park": "SeaWorld Orlando",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 64,
+  "world_rank": 121,
+  "cc_id": 2129,
+  "name": "Gold Striker",
+  "park": "California's Great America",
+  "maker": "Great Coasters International",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 65,
+  "world_rank": 124,
+  "cc_id": 3286,
+  "name": "Jersey Devil Coaster",
+  "park": "Six Flags Great Adventure",
+  "maker": "Rocky Mountain Construction",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 66,
+  "world_rank": 126,
+  "cc_id": 3069,
+  "name": "Candymonium",
+  "park": "Hersheypark",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 67,
+  "world_rank": 127,
+  "cc_id": 3880,
+  "name": "Stunt Pilot",
+  "park": "Silverwood Theme Park",
+  "maker": "Rocky Mountain Construction",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 68,
+  "world_rank": 128,
+  "cc_id": 721,
+  "name": "Boulder Dash",
+  "park": "Lake Compounce",
+  "maker": "Custom Coasters International, Inc.",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 69,
+  "world_rank": 130,
+  "cc_id": 3154,
+  "name": "Texas Stingray",
+  "park": "SeaWorld San Antonio",
+  "maker": "Great Coasters International",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 70,
+  "world_rank": 134,
+  "cc_id": 559,
+  "name": "Thunderhead",
+  "park": "Dollywood",
+  "maker": "Great Coasters International",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 71,
+  "world_rank": 135,
+  "cc_id": 932,
+  "name": "Griffon",
+  "park": "Busch Gardens Williamsburg",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 72,
+  "world_rank": 136,
+  "cc_id": 2364,
+  "name": "Thunderbird",
+  "park": "Holiday World",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 73,
+  "world_rank": 138,
+  "cc_id": 2849,
+  "name": "Copperhead Strike",
+  "park": "Carowinds",
+  "maker": "Mack Rides",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 74,
+  "world_rank": 140,
+  "cc_id": 2946,
+  "name": "Steel Curtain",
+  "park": "Kennywood",
+  "maker": "S&S Sansei Technologies",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 75,
+  "world_rank": 141,
+  "cc_id": 732,
+  "name": "Afterburn",
+  "park": "Carowinds",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 76,
+  "world_rank": 144,
+  "cc_id": 2896,
+  "name": "Yukon Striker",
+  "park": "Canada's Wonderland",
+  "maker": "Bolliger & Mabillard",
+  "country": "Canada",
+  "continent": "America"
+ },
+ {
+  "rank": 77,
+  "world_rank": 145,
+  "cc_id": 212,
+  "name": "Beast",
+  "park": "Kings Island",
+  "maker": "Charlie Dinn",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 78,
+  "world_rank": 146,
+  "cc_id": 2589,
+  "name": "Monster",
+  "park": "Adventureland Iowa",
+  "maker": "Gerstlauer",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 79,
+  "world_rank": 149,
+  "cc_id": 174,
+  "name": "Hades 360",
+  "park": "Mt. Olympus Water & Theme Park",
+  "maker": "Gravity Group",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 80,
+  "world_rank": 150,
+  "cc_id": 722,
+  "name": "Shivering Timbers",
+  "park": "Michigan's Adventure",
+  "maker": "Custom Coasters International, Inc.",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 81,
+  "world_rank": 151,
+  "cc_id": 1106,
+  "name": "Boardwalk Bullet",
+  "park": "Kemah Boardwalk",
+  "maker": "Martin & Vleminckx",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 82,
+  "world_rank": 152,
+  "cc_id": 288,
+  "name": "Raging Bull",
+  "park": "Six Flags Great America",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 83,
+  "world_rank": 157,
+  "cc_id": 6420,
+  "name": "Tormenta Rampaging Run",
+  "park": "Six Flags Over Texas",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 84,
+  "world_rank": 158,
+  "cc_id": 202,
+  "name": "Incredible Hulk",
+  "park": "Universal Islands of Adventure",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 85,
+  "world_rank": 159,
+  "cc_id": 1782,
+  "name": "Thunder Striker",
+  "park": "Carowinds",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 86,
+  "world_rank": 161,
+  "cc_id": 472,
+  "name": "Mr. Freeze Reverse Blast",
+  "park": "Six Flags St Louis",
+  "maker": "Premier Rides",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 87,
+  "world_rank": 162,
+  "cc_id": 3759,
+  "name": "Pipeline the Surf Coaster",
+  "park": "SeaWorld Orlando",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 88,
+  "world_rank": 165,
+  "cc_id": 1622,
+  "name": "Prowler",
+  "park": "Worlds of Fun",
+  "maker": "Great Coasters International",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 89,
+  "world_rank": 168,
+  "cc_id": 176,
+  "name": "SheiKra",
+  "park": "Busch Gardens Tampa",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 90,
+  "world_rank": 170,
+  "cc_id": 424,
+  "name": "Mr. Freeze",
+  "park": "Six Flags Over Texas",
+  "maker": "Premier Rides",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 91,
+  "world_rank": 174,
+  "cc_id": 2164,
+  "name": "Banshee",
+  "park": "Kings Island",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 92,
+  "world_rank": 175,
+  "cc_id": 1779,
+  "name": "Coaster",
+  "park": "Playland",
+  "country": "Canada",
+  "continent": "America"
+ },
+ {
+  "rank": 93,
+  "world_rank": 176,
+  "cc_id": 326,
+  "name": "Volcano, the Blast Coaster",
+  "park": "Kings Dominion",
+  "maker": "Intamin",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 94,
+  "world_rank": 177,
+  "cc_id": 2130,
+  "name": "Full Throttle",
+  "park": "Six Flags Magic Mountain",
+  "maker": "Premier Rides",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 95,
+  "world_rank": 181,
+  "cc_id": 2136,
+  "name": "GateKeeper",
+  "park": "Cedar Point",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 96,
+  "world_rank": 185,
+  "cc_id": 303,
+  "name": "Apollo's Chariot",
+  "park": "Busch Gardens Williamsburg",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 97,
+  "world_rank": 189,
+  "cc_id": 892,
+  "name": "Renegade",
+  "park": "Valleyfair!",
+  "maker": "Great Coasters International",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 98,
+  "world_rank": 190,
+  "cc_id": 324,
+  "name": "Expedition Everest",
+  "park": "Walt Disney World - Disney's Animal Kingdom",
+  "maker": "Vekoma",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 99,
+  "world_rank": 193,
+  "cc_id": 234,
+  "name": "Dragon Challenge : Chinese Fireball",
+  "park": "Universal Islands of Adventure",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 100,
+  "world_rank": 194,
+  "cc_id": 520,
+  "name": "Superman Krypton Coaster",
+  "park": "Six Flags Fiesta Texas",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 101,
+  "world_rank": 197,
+  "cc_id": 433,
+  "name": "Goliath",
+  "park": "La Ronde",
+  "maker": "Bolliger & Mabillard",
+  "country": "Canada",
+  "continent": "America"
+ },
+ {
+  "rank": 102,
+  "world_rank": 198,
+  "cc_id": 1880,
+  "name": "Cheetah Hunt",
+  "park": "Busch Gardens Tampa",
+  "maker": "Intamin",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 103,
+  "world_rank": 199,
+  "cc_id": 282,
+  "name": "Kumba",
+  "park": "Busch Gardens Tampa",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 104,
+  "world_rank": 201,
+  "cc_id": 594,
+  "name": "Talon",
+  "park": "Dorney Park",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 105,
+  "world_rank": 205,
+  "cc_id": 189,
+  "name": "PowderKeg",
+  "park": "Silver Dollar City",
+  "maker": "S&S Sansei Technologies",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 106,
+  "world_rank": 206,
+  "cc_id": 256,
+  "name": "Revenge of the Mummy",
+  "park": "Universal Studios Florida",
+  "maker": "Premier Rides",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 107,
+  "world_rank": 207,
+  "cc_id": 2323,
+  "name": "TRON Lightcycle / Run",
+  "park": "Walt Disney World - Magic Kingdom",
+  "maker": "Vekoma",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 108,
+  "world_rank": 208,
+  "cc_id": 304,
+  "name": "Raptor",
+  "park": "Cedar Point",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 109,
+  "world_rank": 216,
+  "cc_id": 544,
+  "name": "Superman El Último Escape",
+  "park": "Six Flags Mexico",
+  "maker": "Morgan",
+  "country": "Mexico",
+  "continent": "America"
+ },
+ {
+  "rank": 110,
+  "world_rank": 218,
+  "cc_id": 593,
+  "name": "Steel Force",
+  "park": "Dorney Park",
+  "maker": "Morgan",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 111,
+  "world_rank": 220,
+  "cc_id": 1272,
+  "name": "Fahrenheit",
+  "park": "Hersheypark",
+  "maker": "Intamin",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 112,
+  "world_rank": 223,
+  "cc_id": 2006,
+  "name": "Verbolten",
+  "park": "Busch Gardens Williamsburg",
+  "maker": "Zierer",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 113,
+  "world_rank": 227,
+  "cc_id": 6026,
+  "name": "Flash: Vertical Velocity",
+  "park": "Six Flags Great Adventure",
+  "maker": "Vekoma",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 114,
+  "world_rank": 228,
+  "cc_id": 1457,
+  "name": "Dragon Challenge : Hungarian Horntail",
+  "park": "Universal Islands of Adventure",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 115,
+  "world_rank": 237,
+  "cc_id": 535,
+  "name": "Mamba",
+  "park": "Worlds of Fun",
+  "maker": "Morgan",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 116,
+  "world_rank": 238,
+  "cc_id": 487,
+  "name": "Dominator",
+  "park": "Geauga Lake",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 117,
+  "world_rank": 242,
+  "cc_id": 920,
+  "name": "Silver Bullet",
+  "park": "Knott's Berry Farm",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 118,
+  "world_rank": 243,
+  "cc_id": 2819,
+  "name": "TMNT Shellraiser",
+  "park": "Nickelodeon Universe Theme Park",
+  "maker": "Gerstlauer",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 119,
+  "world_rank": 246,
+  "cc_id": 530,
+  "name": "Medusa",
+  "park": "Six Flags Discovery Kingdom",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 120,
+  "world_rank": 247,
+  "cc_id": 656,
+  "name": "Flight Deck",
+  "park": "California's Great America",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 121,
+  "world_rank": 248,
+  "cc_id": 403,
+  "name": "Great Bear",
+  "park": "Hersheypark",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 122,
+  "world_rank": 251,
+  "cc_id": 460,
+  "name": "Ride of Steel",
+  "park": "Six Flags Darien Lake",
+  "maker": "Intamin",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 123,
+  "world_rank": 255,
+  "cc_id": 2054,
+  "name": "Wild Eagle",
+  "park": "Dollywood",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 124,
+  "world_rank": 261,
+  "cc_id": 2478,
+  "name": "Hangtime",
+  "park": "Knott's Berry Farm",
+  "maker": "Gerstlauer",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 125,
+  "world_rank": 263,
+  "cc_id": 5644,
+  "name": "Circuit Breaker",
+  "park": "Cotaland",
+  "maker": "Vekoma",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 126,
+  "world_rank": 264,
+  "cc_id": 2093,
+  "name": "Cyclone",
+  "park": "Luna Park Brooklyn",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 127,
+  "world_rank": 265,
+  "cc_id": 363,
+  "name": "Superman - Ride Of Steel",
+  "park": "Six Flags America",
+  "maker": "Intamin",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 128,
+  "world_rank": 266,
+  "cc_id": 1396,
+  "name": "Dominator",
+  "park": "Kings Dominion",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 129,
+  "world_rank": 269,
+  "cc_id": 614,
+  "name": "Wildfire",
+  "park": "Silver Dollar City",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 130,
+  "world_rank": 272,
+  "cc_id": 2201,
+  "name": "GaleForce",
+  "park": "Playland's Castaway Cove",
+  "maker": "S&S Sansei Technologies",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 131,
+  "world_rank": 274,
+  "cc_id": 5676,
+  "name": "Hiccup's Wing Gliders",
+  "park": "Universal Epic Universe",
+  "maker": "Intamin",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 132,
+  "world_rank": 276,
+  "cc_id": 6504,
+  "name": "Wrath of Rakshasa",
+  "park": "Six Flags Great America",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 133,
+  "world_rank": 278,
+  "cc_id": 1204,
+  "name": "Tremors (1999 - 2024)",
+  "park": "Silverwood Theme Park",
+  "maker": "Custom Coasters International, Inc.",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 134,
+  "world_rank": 280,
+  "cc_id": 577,
+  "name": "Batman The Ride",
+  "park": "Six Flags Over Georgia",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 135,
+  "world_rank": 281,
+  "cc_id": 566,
+  "name": "Batman The Ride",
+  "park": "Six Flags Great America",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 136,
+  "world_rank": 286,
+  "cc_id": 496,
+  "name": "Legend",
+  "park": "Holiday World",
+  "maker": "Custom Coasters International, Inc.",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 137,
+  "world_rank": 287,
+  "cc_id": 307,
+  "name": "Magnum XL 200",
+  "park": "Cedar Point",
+  "maker": "Arrow Dynamics",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 138,
+  "world_rank": 289,
+  "cc_id": 2269,
+  "name": "Valravn",
+  "park": "Cedar Point",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 139,
+  "world_rank": 297,
+  "cc_id": 1031,
+  "name": "Twister",
+  "park": "Knoebels",
+  "maker": "Built In-House",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 140,
+  "world_rank": 298,
+  "cc_id": 801,
+  "name": "Steel Eel",
+  "park": "SeaWorld San Antonio",
+  "maker": "Morgan",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 141,
+  "world_rank": 302,
+  "cc_id": 306,
+  "name": "Titan",
+  "park": "Six Flags Over Texas",
+  "maker": "Giovanola",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 142,
+  "world_rank": 303,
+  "cc_id": 302,
+  "name": "Incredicoaster",
+  "park": "Disney California Adventure",
+  "maker": "Intamin",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 143,
+  "world_rank": 304,
+  "cc_id": 2074,
+  "name": "Harry Potter and the Escape from Gringotts",
+  "park": "Universal Studios Florida",
+  "maker": "Intamin",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 144,
+  "world_rank": 306,
+  "cc_id": 184,
+  "name": "Medusa",
+  "park": "Six Flags Great Adventure",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 145,
+  "world_rank": 308,
+  "cc_id": 300,
+  "name": "Vampire",
+  "park": "La Ronde",
+  "maker": "Bolliger & Mabillard",
+  "country": "Canada",
+  "continent": "America"
+ },
+ {
+  "rank": 146,
+  "world_rank": 309,
+  "cc_id": 289,
+  "name": "Kraken",
+  "park": "SeaWorld Orlando",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 147,
+  "world_rank": 312,
+  "cc_id": 2371,
+  "name": "Cornball Express",
+  "park": "Indiana Beach",
+  "maker": "Custom Coasters International, Inc.",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 148,
+  "world_rank": 316,
+  "cc_id": 6583,
+  "name": "Tremors (2025)",
+  "park": "Silverwood Theme Park",
+  "maker": "Rocky Mountain Construction",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 149,
+  "world_rank": 318,
+  "cc_id": 584,
+  "name": "Batman The Ride",
+  "park": "Six Flags Great Adventure",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 150,
+  "world_rank": 319,
+  "cc_id": 2019,
+  "name": "Manta",
+  "park": "SeaWorld San Diego",
+  "maker": "Mack Rides",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 151,
+  "world_rank": 320,
+  "cc_id": 3766,
+  "name": "Matugani",
+  "park": "Lost Island Theme Park",
+  "maker": "Intamin",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 152,
+  "world_rank": 323,
+  "cc_id": 197,
+  "name": "Batman The Ride",
+  "park": "Six Flags Magic Mountain",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 153,
+  "world_rank": 325,
+  "cc_id": 5387,
+  "name": "Big Bear Mountain",
+  "park": "Dollywood",
+  "maker": "Vekoma",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 154,
+  "world_rank": 326,
+  "cc_id": 3047,
+  "name": "West Coast Racers",
+  "park": "Six Flags Magic Mountain",
+  "maker": "Premier Rides",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 155,
+  "world_rank": 327,
+  "cc_id": 3067,
+  "name": "Ice Breaker",
+  "park": "SeaWorld Orlando",
+  "maker": "Premier Rides",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 156,
+  "world_rank": 328,
+  "cc_id": 5436,
+  "name": "Dr. Diabolical's Cliffhanger",
+  "park": "Six Flags Fiesta Texas",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 157,
+  "world_rank": 330,
+  "cc_id": 1918,
+  "name": "Giant Dipper",
+  "park": "Santa Cruz Beach Boardwalk",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 158,
+  "world_rank": 332,
+  "cc_id": 534,
+  "name": "Patriot",
+  "park": "Worlds of Fun",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 159,
+  "world_rank": 333,
+  "cc_id": 470,
+  "name": "Batman The Ride",
+  "park": "Six Flags St Louis",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 160,
+  "world_rank": 334,
+  "cc_id": 1145,
+  "name": "Space Mountain",
+  "park": "Disneyland",
+  "maker": "Dynamic Attractions",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 161,
+  "world_rank": 337,
+  "cc_id": 2378,
+  "name": "Roar-O-Saurus",
+  "park": "Story Land",
+  "maker": "Gravitykraft Corporation",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 162,
+  "world_rank": 338,
+  "cc_id": 2158,
+  "name": "White Lightning",
+  "park": "Fun Spot America Orlando",
+  "maker": "Great Coasters International",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 163,
+  "world_rank": 341,
+  "cc_id": 1649,
+  "name": "Wooden Warrior",
+  "park": "Quassy Amusement Park",
+  "maker": "Gravity Group",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 164,
+  "world_rank": 342,
+  "cc_id": 2369,
+  "name": "American Thunder",
+  "park": "Six Flags St Louis",
+  "maker": "Great Coasters International",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 165,
+  "world_rank": 345,
+  "cc_id": 3141,
+  "name": "Emperor",
+  "park": "SeaWorld San Diego",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 166,
+  "world_rank": 347,
+  "cc_id": 2361,
+  "name": "Revenge of the Mummy the Ride",
+  "park": "Universal Studios Hollywood",
+  "maker": "Premier Rides",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 167,
+  "world_rank": 349,
+  "cc_id": 2063,
+  "name": "X-Flight",
+  "park": "Six Flags Great America",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 168,
+  "world_rank": 350,
+  "cc_id": 1966,
+  "name": "Rampage",
+  "park": "Alabama Adventure",
+  "maker": "Custom Coasters International, Inc.",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 169,
+  "world_rank": 354,
+  "cc_id": 196,
+  "name": "Goliath",
+  "park": "Six Flags Magic Mountain",
+  "maker": "Giovanola",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 170,
+  "world_rank": 355,
+  "cc_id": 418,
+  "name": "Shock Wave",
+  "park": "Six Flags Over Texas",
+  "maker": "Schwarzkopf",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 171,
+  "world_rank": 357,
+  "cc_id": 181,
+  "name": "Hydra the Revenge",
+  "park": "Dorney Park",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 172,
+  "world_rank": 358,
+  "cc_id": 6254,
+  "name": "Rapterra",
+  "park": "Kings Dominion",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 173,
+  "world_rank": 359,
+  "cc_id": 390,
+  "name": "Superman - Ultimate Flight",
+  "park": "Six Flags Over Georgia",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 174,
+  "world_rank": 362,
+  "cc_id": 560,
+  "name": "Tennessee Tornado",
+  "park": "Dollywood",
+  "maker": "Arrow Dynamics",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 175,
+  "world_rank": 368,
+  "cc_id": 2479,
+  "name": "Switchback",
+  "park": "ZDT's Amusement Park",
+  "maker": "Gravitykraft Corporation",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 176,
+  "world_rank": 372,
+  "cc_id": 315,
+  "name": "Rock 'n Roller Coaster Starring The Muppets",
+  "park": "Walt Disney World - Disney's Hollywood Studios",
+  "maker": "Vekoma",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 177,
+  "world_rank": 373,
+  "cc_id": 590,
+  "name": "Superman - Ultimate Flight",
+  "park": "Six Flags Great Adventure",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 178,
+  "world_rank": 375,
+  "cc_id": 2372,
+  "name": "Excalibur",
+  "park": "Funtown Splashtown USA",
+  "maker": "Custom Coasters International, Inc.",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 179,
+  "world_rank": 377,
+  "cc_id": 571,
+  "name": "Superman - Ultimate Flight",
+  "park": "Six Flags Great America",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 180,
+  "world_rank": 379,
+  "cc_id": 3123,
+  "name": "Sandy's Blasting Bronco",
+  "park": "Nickelodeon Universe Theme Park",
+  "maker": "Intamin",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 181,
+  "world_rank": 381,
+  "cc_id": 1183,
+  "name": "Kentucky Rumbler",
+  "park": "Beech Bend",
+  "maker": "Great Coasters International",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 182,
+  "world_rank": 383,
+  "cc_id": 1402,
+  "name": "Chupacabra",
+  "park": "Six Flags Fiesta Texas",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 183,
+  "world_rank": 388,
+  "cc_id": 2480,
+  "name": "Zippin Pippin",
+  "park": "Bay Beach Amusement Park",
+  "maker": "Martin & Vleminckx",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 184,
+  "world_rank": 395,
+  "cc_id": 1146,
+  "name": "Big Thunder Mountain Railroad",
+  "park": "Disneyland",
+  "maker": "Walt Disney Imagineering",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 185,
+  "world_rank": 400,
+  "cc_id": 425,
+  "name": "Batman the Ride",
+  "park": "Six Flags Over Texas",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 186,
+  "world_rank": 401,
+  "cc_id": 2109,
+  "name": "Space Mountain (Omega)",
+  "park": "Walt Disney World - Magic Kingdom",
+  "maker": "Walt Disney Imagineering",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 187,
+  "world_rank": 402,
+  "cc_id": 2376,
+  "name": "Silver Comet",
+  "park": "Niagara Amusement Park & Splash World",
+  "maker": "Custom Coasters International, Inc.",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 188,
+  "world_rank": 405,
+  "cc_id": 1150,
+  "name": "Comet",
+  "park": "Six Flags Great Escape",
+  "maker": "Philadelphia Toboggan Coasters",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 189,
+  "world_rank": 406,
+  "cc_id": 1141,
+  "name": "Space Mountain (Alpha)",
+  "park": "Walt Disney World - Magic Kingdom",
+  "maker": "Walt Disney Imagineering",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 190,
+  "world_rank": 409,
+  "cc_id": 1571,
+  "name": "Hollywood Rip, Ride, Rockit",
+  "park": "Universal Studios Florida",
+  "maker": "Maurer",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 191,
+  "world_rank": 412,
+  "cc_id": 690,
+  "name": "Mega Zeph",
+  "park": "Six Flags New Orleans",
+  "maker": "Custom Coasters International, Inc.",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 192,
+  "world_rank": 414,
+  "cc_id": 1785,
+  "name": "Wild Thing",
+  "park": "Valleyfair!",
+  "maker": "Morgan",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 193,
+  "world_rank": 415,
+  "cc_id": 360,
+  "name": "Joker's Jinx",
+  "park": "Six Flags America",
+  "maker": "Premier Rides",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 194,
+  "world_rank": 418,
+  "cc_id": 439,
+  "name": "Wicked Twister",
+  "park": "Cedar Point",
+  "maker": "Intamin",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 195,
+  "world_rank": 422,
+  "cc_id": 1019,
+  "name": "Colossus the Fire Dragon",
+  "park": "Lagoon",
+  "maker": "Schwarzkopf",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 196,
+  "world_rank": 423,
+  "cc_id": 799,
+  "name": "Great White",
+  "park": "SeaWorld San Antonio",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 197,
+  "world_rank": 424,
+  "cc_id": 840,
+  "name": "Zeus",
+  "park": "Mt. Olympus Water & Theme Park",
+  "maker": "Custom Coasters International, Inc.",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 198,
+  "world_rank": 426,
+  "cc_id": 414,
+  "name": "Batman - The Dark Knight",
+  "park": "Six Flags New England",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 199,
+  "world_rank": 428,
+  "cc_id": 495,
+  "name": "Raven",
+  "park": "Holiday World",
+  "maker": "Custom Coasters International, Inc.",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 200,
+  "world_rank": 430,
+  "cc_id": 448,
+  "name": "Big Bad Wolf",
+  "park": "Busch Gardens Williamsburg",
+  "maker": "Arrow Dynamics",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 201,
+  "world_rank": 432,
+  "cc_id": 1448,
+  "name": "Aftershock",
+  "park": "Silverwood Theme Park",
+  "maker": "Vekoma",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 202,
+  "world_rank": 434,
+  "cc_id": 961,
+  "name": "Great White",
+  "park": "Morey's Piers",
+  "maker": "Custom Coasters International, Inc.",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 203,
+  "world_rank": 435,
+  "cc_id": 517,
+  "name": "Poltergeist",
+  "park": "Six Flags Fiesta Texas",
+  "maker": "Premier Rides",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 204,
+  "world_rank": 436,
+  "cc_id": 2064,
+  "name": "Superman Ultimate Flight",
+  "park": "Six Flags Discovery Kingdom",
+  "maker": "Premier Rides",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 205,
+  "world_rank": 439,
+  "cc_id": 1140,
+  "name": "Big Thunder Mountain Railroad",
+  "park": "Walt Disney World - Magic Kingdom",
+  "maker": "Walt Disney Imagineering",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 206,
+  "world_rank": 442,
+  "cc_id": 2377,
+  "name": "Mine Blower",
+  "park": "Fun Spot America Kissimmee",
+  "maker": "Gravitykraft Corporation",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 207,
+  "world_rank": 443,
+  "cc_id": 977,
+  "name": "Jack Rabbit",
+  "park": "Kennywood",
+  "maker": "John A. Miller",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 208,
+  "world_rank": 444,
+  "cc_id": 567,
+  "name": "Déjà Vu",
+  "park": "Six Flags Great America",
+  "maker": "Vekoma",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 209,
+  "world_rank": 452,
+  "cc_id": 195,
+  "name": "Riddler's Revenge",
+  "park": "Six Flags Magic Mountain",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 210,
+  "world_rank": 453,
+  "cc_id": 468,
+  "name": "Bat (1993)",
+  "park": "Kings Island",
+  "maker": "Arrow Dynamics",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 211,
+  "world_rank": 454,
+  "cc_id": 1024,
+  "name": "Wicked",
+  "park": "Lagoon",
+  "maker": "Zierer",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 212,
+  "world_rank": 461,
+  "cc_id": 6033,
+  "name": "Bobcat",
+  "park": "Six Flags Great Escape",
+  "maker": "Gravitykraft Corporation",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 213,
+  "world_rank": 463,
+  "cc_id": 3011,
+  "name": "Oscar's Wacky Taxi",
+  "park": "Sesame Place",
+  "maker": "Gravitykraft Corporation",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 214,
+  "world_rank": 464,
+  "cc_id": 1633,
+  "name": "Apocalypse the Ride",
+  "park": "Six Flags Magic Mountain",
+  "maker": "Great Coasters International",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 215,
+  "world_rank": 465,
+  "cc_id": 260,
+  "name": "Batwing",
+  "park": "Six Flags America",
+  "maker": "Vekoma",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 216,
+  "world_rank": 473,
+  "cc_id": 5767,
+  "name": "Zambezi Zinger",
+  "park": "Worlds of Fun",
+  "maker": "Great Coasters International",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 217,
+  "world_rank": 477,
+  "cc_id": 706,
+  "name": "Vortex",
+  "park": "Canada's Wonderland",
+  "maker": "Arrow Dynamics",
+  "country": "Canada",
+  "continent": "America"
+ },
+ {
+  "rank": 218,
+  "world_rank": 478,
+  "cc_id": 1792,
+  "name": "Sky Rocket",
+  "park": "Kennywood",
+  "maker": "Premier Rides",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 219,
+  "world_rank": 479,
+  "cc_id": 935,
+  "name": "Mystery Mine",
+  "park": "Dollywood",
+  "maker": "Gerstlauer",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 220,
+  "world_rank": 484,
+  "cc_id": 617,
+  "name": "Flight of Fear",
+  "park": "Kings Dominion",
+  "maker": "Premier Rides",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 221,
+  "world_rank": 486,
+  "cc_id": 843,
+  "name": "Lightning Racer (Thunder)",
+  "park": "Hersheypark",
+  "maker": "Great Coasters International",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 222,
+  "world_rank": 488,
+  "cc_id": 1032,
+  "name": "Flying Turns",
+  "park": "Knoebels",
+  "maker": "Built In-House",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 223,
+  "world_rank": 489,
+  "cc_id": 3492,
+  "name": "Iron Menace",
+  "park": "Dorney Park",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 224,
+  "world_rank": 490,
+  "cc_id": 533,
+  "name": "Flash: Vertical Velocity",
+  "park": "Six Flags Discovery Kingdom",
+  "maker": "Intamin",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 225,
+  "world_rank": 494,
+  "cc_id": 484,
+  "name": "Steel Venom",
+  "park": "Geauga Lake",
+  "maker": "Intamin",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 226,
+  "world_rank": 495,
+  "cc_id": 2383,
+  "name": "FireChaser Express",
+  "park": "Dollywood",
+  "maker": "Gerstlauer",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 227,
+  "world_rank": 496,
+  "cc_id": 5709,
+  "name": "Classic Coaster",
+  "park": "Washington State Fair",
+  "maker": "John A. Miller",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 228,
+  "world_rank": 497,
+  "cc_id": 1446,
+  "name": "Lightning Racer (Lightning)",
+  "park": "Hersheypark",
+  "maker": "Great Coasters International",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 229,
+  "world_rank": 498,
+  "cc_id": 1333,
+  "name": "Possessed",
+  "park": "Dorney Park",
+  "maker": "Intamin",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 230,
+  "world_rank": 500,
+  "cc_id": 427,
+  "name": "Riddler Mindbender",
+  "park": "Six Flags Over Georgia",
+  "maker": "Schwarzkopf",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 231,
+  "world_rank": 503,
+  "cc_id": 183,
+  "name": "Déjà Vu",
+  "park": "Six Flags Magic Mountain",
+  "maker": "Vekoma",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 232,
+  "world_rank": 505,
+  "cc_id": 194,
+  "name": "Superman: Escape from Krypton (left)",
+  "park": "Six Flags Magic Mountain",
+  "maker": "Intamin",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 233,
+  "world_rank": 506,
+  "cc_id": 688,
+  "name": "Batman: The Ride",
+  "park": "Six Flags New Orleans",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 234,
+  "world_rank": 507,
+  "cc_id": 449,
+  "name": "Scream!",
+  "park": "Six Flags Magic Mountain",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 235,
+  "world_rank": 508,
+  "cc_id": 2155,
+  "name": "El Loco",
+  "park": "Adventuredome",
+  "maker": "S&S Sansei Technologies",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 236,
+  "world_rank": 514,
+  "cc_id": 2602,
+  "name": "Phobia Phear Coaster",
+  "park": "Lake Compounce",
+  "maker": "Premier Rides",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 237,
+  "world_rank": 516,
+  "cc_id": 569,
+  "name": "Viper",
+  "park": "Six Flags Great America",
+  "maker": "Dennis Starkey (Stand Company)",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 238,
+  "world_rank": 518,
+  "cc_id": 3139,
+  "name": "Tantrum",
+  "park": "Six Flags Darien Lake",
+  "maker": "Gerstlauer",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 239,
+  "world_rank": 520,
+  "cc_id": 919,
+  "name": "Montezooma's Revenge",
+  "park": "Knott's Berry Farm",
+  "maker": "Schwarzkopf",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 240,
+  "world_rank": 523,
+  "cc_id": 283,
+  "name": "Rougarou",
+  "park": "Cedar Point",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 241,
+  "world_rank": 524,
+  "cc_id": 981,
+  "name": "Thunderbolt",
+  "park": "Kennywood",
+  "maker": "John A. Miller",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 242,
+  "world_rank": 528,
+  "cc_id": 1063,
+  "name": "Avalanche",
+  "park": "Timber Falls Adventure Park",
+  "maker": "S&S Sansei Technologies",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 243,
+  "world_rank": 529,
+  "cc_id": 2588,
+  "name": "Impulse",
+  "park": "Knoebels",
+  "maker": "Zierer",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 244,
+  "world_rank": 530,
+  "cc_id": 2346,
+  "name": "InvadR",
+  "park": "Busch Gardens Williamsburg",
+  "maker": "Great Coasters International",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 245,
+  "world_rank": 536,
+  "cc_id": 3142,
+  "name": "Primordial",
+  "park": "Lagoon",
+  "maker": "ART Engineering",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 246,
+  "world_rank": 537,
+  "cc_id": 3082,
+  "name": "Kentucky Flyer",
+  "park": "Kentucky Kingdom",
+  "maker": "Gravitykraft Corporation",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 247,
+  "world_rank": 539,
+  "cc_id": 2891,
+  "name": "Matterhorn Bobsleds (Right)",
+  "park": "Disneyland",
+  "maker": "Arrow Dynamics",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 248,
+  "world_rank": 541,
+  "cc_id": 6110,
+  "name": "Galacticoaster",
+  "park": "Legoland California",
+  "maker": "ART Engineering",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 249,
+  "world_rank": 542,
+  "cc_id": 2778,
+  "name": "Hydrus",
+  "park": "Casino Pier",
+  "maker": "Gerstlauer",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 250,
+  "world_rank": 544,
+  "cc_id": 1147,
+  "name": "Matterhorn Bobsleds (Left)",
+  "park": "Disneyland",
+  "maker": "Arrow Dynamics",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 251,
+  "world_rank": 546,
+  "cc_id": 3055,
+  "name": "Tigris",
+  "park": "Busch Gardens Tampa",
+  "maker": "Premier Rides",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 252,
+  "world_rank": 549,
+  "cc_id": 570,
+  "name": "Flash: Vertical Velocity",
+  "park": "Six Flags Great America",
+  "maker": "Intamin",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 253,
+  "world_rank": 553,
+  "cc_id": 1059,
+  "name": "Dragon Mountain",
+  "park": "Marineland Theme Park",
+  "maker": "Arrow Dynamics",
+  "country": "Canada",
+  "continent": "America"
+ },
+ {
+  "rank": 254,
+  "world_rank": 554,
+  "cc_id": 2280,
+  "name": "Electric Eel",
+  "park": "SeaWorld San Diego",
+  "maker": "Premier Rides",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 255,
+  "world_rank": 557,
+  "cc_id": 264,
+  "name": "Speed - The Ride",
+  "park": "Nascar Café",
+  "maker": "Premier Rides",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 256,
+  "world_rank": 560,
+  "cc_id": 2350,
+  "name": "Cobra's Curse",
+  "park": "Busch Gardens Tampa",
+  "maker": "Mack Rides",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 257,
+  "world_rank": 571,
+  "cc_id": 576,
+  "name": "Georgia Scorcher",
+  "park": "Six Flags Over Georgia",
+  "maker": "Bolliger & Mabillard",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 258,
+  "world_rank": 572,
+  "cc_id": 521,
+  "name": "Greezed Lightnin'",
+  "park": "Kentucky Kingdom",
+  "maker": "Schwarzkopf",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 259,
+  "world_rank": 573,
+  "cc_id": 804,
+  "name": "Journey to Atlantis",
+  "park": "SeaWorld Orlando",
+  "maker": "Mack Rides",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 260,
+  "world_rank": 574,
+  "cc_id": 464,
+  "name": "Flight of Fear",
+  "park": "Kings Island",
+  "maker": "Premier Rides",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 261,
+  "world_rank": 575,
+  "cc_id": 1356,
+  "name": "Firehawk",
+  "park": "Kings Island",
+  "maker": "Vekoma",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 262,
+  "world_rank": 579,
+  "cc_id": 404,
+  "name": "Loch Ness Monster",
+  "park": "Busch Gardens Williamsburg",
+  "maker": "Arrow Dynamics",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 263,
+  "world_rank": 583,
+  "cc_id": 5612,
+  "name": "DarKoaster",
+  "park": "Busch Gardens Williamsburg",
+  "maker": "Intamin",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 264,
+  "world_rank": 585,
+  "cc_id": 618,
+  "name": "Grizzly",
+  "park": "Kings Dominion",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 265,
+  "world_rank": 586,
+  "cc_id": 2110,
+  "name": "Seven Dwarfs Mine Train",
+  "park": "Walt Disney World - Magic Kingdom",
+  "maker": "Vekoma",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 266,
+  "world_rank": 588,
+  "cc_id": 430,
+  "name": "Gemini (Blue)",
+  "park": "Cedar Point",
+  "maker": "Arrow Dynamics",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 267,
+  "world_rank": 590,
+  "cc_id": 1909,
+  "name": "Dare Devil Dive",
+  "park": "Six Flags Over Georgia",
+  "maker": "Gerstlauer",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 268,
+  "world_rank": 592,
+  "cc_id": 1207,
+  "name": "Timber Terror",
+  "park": "Silverwood Theme Park",
+  "maker": "Custom Coasters International, Inc.",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 269,
+  "world_rank": 593,
+  "cc_id": 311,
+  "name": "Hypersonic XLC",
+  "park": "Kings Dominion",
+  "maker": "S&S Sansei Technologies",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 270,
+  "world_rank": 597,
+  "cc_id": 6080,
+  "name": "Georgia Gold Rusher",
+  "park": "Six Flags Over Georgia",
+  "maker": "Intamin",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 271,
+  "world_rank": 601,
+  "cc_id": 180,
+  "name": "Queen City Stunt Coaster",
+  "park": "Kings Island",
+  "maker": "Premier Rides",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 272,
+  "world_rank": 603,
+  "cc_id": 2347,
+  "name": "Tempesto",
+  "park": "Busch Gardens Williamsburg",
+  "maker": "Premier Rides",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 273,
+  "world_rank": 606,
+  "cc_id": 3228,
+  "name": "Cannon Ball",
+  "park": "Lake Winnie",
+  "maker": "Philadelphia Toboggan Coasters",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 274,
+  "world_rank": 607,
+  "cc_id": 2286,
+  "name": "Slinky Dog Dash",
+  "park": "Walt Disney World - Disney's Hollywood Studios",
+  "maker": "Mack Rides",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 275,
+  "world_rank": 612,
+  "cc_id": 1027,
+  "name": "Sierra Sidewinder",
+  "park": "Knott's Berry Farm",
+  "maker": "Mack Rides",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 276,
+  "world_rank": 614,
+  "cc_id": 5705,
+  "name": "Mine Cart Madness",
+  "park": "Universal Epic Universe",
+  "maker": "SetPoint",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 277,
+  "world_rank": 615,
+  "cc_id": 2807,
+  "name": "Adrenaline Peak",
+  "park": "Oaks Amusement Park",
+  "maker": "Gerstlauer",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 278,
+  "world_rank": 618,
+  "cc_id": 3020,
+  "name": "Gemini (Red)",
+  "park": "Cedar Point",
+  "maker": "Arrow Dynamics",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 279,
+  "world_rank": 620,
+  "cc_id": 2367,
+  "name": "Steel Venom",
+  "park": "Valleyfair!",
+  "maker": "Intamin",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 280,
+  "world_rank": 623,
+  "cc_id": 400,
+  "name": "Great American Revolution",
+  "park": "Six Flags Magic Mountain",
+  "maker": "Schwarzkopf",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 281,
+  "world_rank": 625,
+  "cc_id": 275,
+  "name": "Racer (Left)",
+  "park": "Kings Island",
+  "maker": "Philadelphia Toboggan Coasters",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 282,
+  "world_rank": 633,
+  "cc_id": 2368,
+  "name": "Wave Breaker: The Rescue Coaster",
+  "park": "SeaWorld San Antonio",
+  "maker": "Intamin",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 283,
+  "world_rank": 634,
+  "cc_id": 2374,
+  "name": "Lost Coaster of Superstition Mountain",
+  "park": "Indiana Beach",
+  "maker": "Custom Coasters International, Inc.",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 284,
+  "world_rank": 635,
+  "cc_id": 582,
+  "name": "Batman And Robin: The Chiller",
+  "park": "Six Flags Great Adventure",
+  "maker": "Premier Rides",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 285,
+  "world_rank": 637,
+  "cc_id": 835,
+  "name": "Cyclops",
+  "park": "Mt. Olympus Water & Theme Park",
+  "maker": "Custom Coasters International, Inc.",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 286,
+  "world_rank": 641,
+  "cc_id": 2375,
+  "name": "New Mexico Rattler",
+  "park": "Cliff's Amusement Park",
+  "maker": "Custom Coasters International, Inc.",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 287,
+  "world_rank": 642,
+  "cc_id": 3197,
+  "name": "Racer (Right)",
+  "park": "Kings Island",
+  "maker": "Philadelphia Toboggan Coasters",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 288,
+  "world_rank": 644,
+  "cc_id": 365,
+  "name": "Wild One",
+  "park": "Six Flags America",
+  "maker": "Philadelphia Toboggan Coasters",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 289,
+  "world_rank": 646,
+  "cc_id": 471,
+  "name": "Boss",
+  "park": "Six Flags St Louis",
+  "maker": "Custom Coasters International, Inc.",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 290,
+  "world_rank": 649,
+  "cc_id": 620,
+  "name": "Backlot Stunt Coaster",
+  "park": "Kings Dominion",
+  "maker": "Premier Rides",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 291,
+  "world_rank": 650,
+  "cc_id": 1681,
+  "name": "Jack Rabbit",
+  "park": "Seabreeze",
+  "maker": "John A. Miller",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 292,
+  "world_rank": 651,
+  "cc_id": 1392,
+  "name": "SpongeBob SquarePants Rock Bottom Plunge",
+  "park": "Nickelodeon Universe",
+  "maker": "Gerstlauer",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 293,
+  "world_rank": 652,
+  "cc_id": 2388,
+  "name": "Joker",
+  "park": "Six Flags Great Adventure",
+  "maker": "S&S Sansei Technologies",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 294,
+  "world_rank": 656,
+  "cc_id": 218,
+  "name": "American Eagle (Red)",
+  "park": "Six Flags Great America",
+  "maker": "Intamin",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 295,
+  "world_rank": 657,
+  "cc_id": 2803,
+  "name": "Excalibur",
+  "park": "Valleyfair!",
+  "maker": "Arrow Dynamics",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 296,
+  "world_rank": 661,
+  "cc_id": 6584,
+  "name": "Superman: Escape from Krypton (right)",
+  "park": "Six Flags Magic Mountain",
+  "maker": "Intamin",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 297,
+  "world_rank": 664,
+  "cc_id": 4401,
+  "name": "Phoenix",
+  "park": "Deno's Wonder Wheel Amusement Park",
+  "maker": "Vekoma",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 298,
+  "world_rank": 665,
+  "cc_id": 2596,
+  "name": "Joker",
+  "park": "Six Flags New England",
+  "maker": "S&S Sansei Technologies",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 299,
+  "world_rank": 666,
+  "cc_id": 842,
+  "name": "Comet",
+  "park": "Hersheypark",
+  "maker": "Philadelphia Toboggan Coasters",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 300,
+  "world_rank": 667,
+  "cc_id": 3326,
+  "name": "Runaway",
+  "park": "Branson Mountain Adventure Park",
+  "maker": "Wiegand",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 301,
+  "world_rank": 671,
+  "cc_id": 5928,
+  "name": "American Eagle (Blue)",
+  "park": "Six Flags Great America",
+  "maker": "Intamin",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 302,
+  "world_rank": 673,
+  "cc_id": 2850,
+  "name": "Iron Shark",
+  "park": "Galveston Island Historic Pleasure Pier",
+  "maker": "Gerstlauer",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 303,
+  "world_rank": 679,
+  "cc_id": 6264,
+  "name": "Rail Runner",
+  "park": "Anakeesta",
+  "maker": "Brandauer",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 304,
+  "world_rank": 682,
+  "cc_id": 397,
+  "name": "X-Flight",
+  "park": "Geauga Lake",
+  "maker": "Vekoma",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 305,
+  "world_rank": 683,
+  "cc_id": 1006,
+  "name": "Cheetah",
+  "park": "Wild Adventures",
+  "maker": "Custom Coasters International, Inc.",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 306,
+  "world_rank": 684,
+  "cc_id": 3284,
+  "name": "Aquaman Power Wave",
+  "park": "Six Flags Over Texas",
+  "maker": "Mack Rides",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 307,
+  "world_rank": 687,
+  "cc_id": 697,
+  "name": "Backlot Stunt Coaster",
+  "park": "Canada's Wonderland",
+  "maker": "Premier Rides",
+  "country": "Canada",
+  "continent": "America"
+ },
+ {
+  "rank": 308,
+  "world_rank": 688,
+  "cc_id": 3165,
+  "name": "Swamp Fox",
+  "park": "Family Kingdom Amusement Park",
+  "maker": "Philadelphia Toboggan Coasters",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 309,
+  "world_rank": 689,
+  "cc_id": 717,
+  "name": "Nighthawk",
+  "park": "Carowinds",
+  "maker": "Vekoma",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 310,
+  "world_rank": 691,
+  "cc_id": 632,
+  "name": "Outlaw",
+  "park": "Adventureland Iowa",
+  "maker": "Custom Coasters International, Inc.",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 311,
+  "world_rank": 700,
+  "cc_id": 1062,
+  "name": "Dania Beach Hurricane",
+  "park": "Boomers!",
+  "maker": "Coaster Works",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 312,
+  "world_rank": 702,
+  "cc_id": 3049,
+  "name": "Batman: The Ride",
+  "park": "Six Flags Discovery Kingdom",
+  "maker": "S&S Sansei Technologies",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 313,
+  "world_rank": 704,
+  "cc_id": 960,
+  "name": "Fly the Great Nor'Easter",
+  "park": "Morey's Piers",
+  "maker": "Vekoma",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 314,
+  "world_rank": 705,
+  "cc_id": 3748,
+  "name": "Dragon Slayer",
+  "park": "Adventureland Iowa",
+  "maker": "S&S Sansei Technologies",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 315,
+  "world_rank": 706,
+  "cc_id": 2825,
+  "name": "Dragonflier",
+  "park": "Dollywood",
+  "maker": "Vekoma",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 316,
+  "world_rank": 707,
+  "cc_id": 3196,
+  "name": "Racer (Left)",
+  "park": "Kennywood",
+  "maker": "John A. Miller",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 317,
+  "world_rank": 715,
+  "cc_id": 846,
+  "name": "Sooperdooperlooper",
+  "park": "Hersheypark",
+  "maker": "Schwarzkopf",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 318,
+  "world_rank": 716,
+  "cc_id": 5728,
+  "name": "Arctic Rescue",
+  "park": "SeaWorld San Diego",
+  "maker": "Intamin",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 319,
+  "world_rank": 717,
+  "cc_id": 621,
+  "name": "Racer 75 (south / left)",
+  "park": "Kings Dominion",
+  "maker": "Philadelphia Toboggan Coasters",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 320,
+  "world_rank": 722,
+  "cc_id": 1800,
+  "name": "Racer 75 (north / right)",
+  "park": "Kings Dominion",
+  "maker": "Philadelphia Toboggan Coasters",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 321,
+  "world_rank": 724,
+  "cc_id": 492,
+  "name": "Scorpion",
+  "park": "Busch Gardens Tampa",
+  "maker": "Schwarzkopf",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 322,
+  "world_rank": 725,
+  "cc_id": 2188,
+  "name": "Yankee Cannonball",
+  "park": "Canobie Lake Park",
+  "maker": "Philadelphia Toboggan Coasters",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 323,
+  "world_rank": 731,
+  "cc_id": 2600,
+  "name": "Turbulence",
+  "park": "Adventureland Long Island",
+  "maker": "Mack Rides",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 324,
+  "world_rank": 732,
+  "cc_id": 1556,
+  "name": "Steel Hawg",
+  "park": "Indiana Beach",
+  "maker": "S&S Sansei Technologies",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 325,
+  "world_rank": 733,
+  "cc_id": 6025,
+  "name": "Fire In The Hole (2024)",
+  "park": "Silver Dollar City",
+  "maker": "Rocky Mountain Construction",
+  "country": "United States",
+  "continent": "America"
+ },
+ {
+  "rank": 1,
+  "world_rank": 4,
+  "cc_id": 2832,
+  "name": "Zadra",
+  "park": "Energylandia",
+  "maker": "Rocky Mountain Construction",
+  "country": "",
+  "continent": "Europe"
+ },
+ {
+  "rank": 2,
+  "world_rank": 7,
+  "cc_id": 3308,
+  "name": "Ride to Happiness",
+  "park": "Plopsaland Belgium",
+  "maker": "Mack Rides",
+  "country": "Belgium",
+  "continent": "Europe"
+ },
+ {
+  "rank": 3,
+  "world_rank": 11,
+  "cc_id": 2827,
+  "name": "Taiga",
+  "park": "Linnanmäki",
+  "maker": "Intamin",
+  "country": "Finland",
+  "continent": "Europe"
+ },
+ {
+  "rank": 4,
+  "world_rank": 14,
+  "cc_id": 5521,
+  "name": "Batman Gotham City Escape",
+  "park": "Parque Warner Madrid",
+  "maker": "Intamin",
+  "country": "Spain",
+  "continent": "Europe"
+ },
+ {
+  "rank": 5,
+  "world_rank": 18,
+  "cc_id": 5403,
+  "name": "Voltron",
+  "park": "Europa Park",
+  "maker": "Mack Rides",
+  "country": "Germany",
+  "continent": "Europe"
+ },
+ {
+  "rank": 6,
+  "world_rank": 19,
+  "cc_id": 2798,
+  "name": "Untamed",
+  "park": "Walibi Holland",
+  "maker": "Rocky Mountain Construction",
+  "country": "Netherlands",
+  "continent": "Europe"
+ },
+ {
+  "rank": 7,
+  "world_rank": 21,
+  "cc_id": 3044,
+  "name": "Toutatis",
+  "park": "Parc Astérix",
+  "maker": "Intamin",
+  "country": "France",
+  "continent": "Europe"
+ },
+ {
+  "rank": 8,
+  "world_rank": 22,
+  "cc_id": 2183,
+  "name": "Wildfire",
+  "park": "Kolmården",
+  "maker": "Rocky Mountain Construction",
+  "country": "Sweden",
+  "continent": "Europe"
+ },
+ {
+  "rank": 9,
+  "world_rank": 26,
+  "cc_id": 2329,
+  "name": "Kondaa",
+  "park": "Walibi Belgium",
+  "maker": "Intamin",
+  "country": "Belgium",
+  "continent": "Europe"
+ },
+ {
+  "rank": 10,
+  "world_rank": 27,
+  "cc_id": 2192,
+  "name": "Taron",
+  "park": "Phantasialand",
+  "maker": "Intamin",
+  "country": "Germany",
+  "continent": "Europe"
+ },
+ {
+  "rank": 11,
+  "world_rank": 28,
+  "cc_id": 2245,
+  "name": "Hyperion",
+  "park": "Energylandia",
+  "maker": "Intamin",
+  "country": "Poland",
+  "continent": "Europe"
+ },
+ {
+  "rank": 12,
+  "world_rank": 31,
+  "cc_id": 2135,
+  "name": "Helix",
+  "park": "Liseberg",
+  "maker": "Mack Rides",
+  "country": "Sweden",
+  "continent": "Europe"
+ },
+ {
+  "rank": 13,
+  "world_rank": 36,
+  "cc_id": 21,
+  "name": "Expedition GeForce",
+  "park": "Plopsaland Deutschland",
+  "maker": "Intamin",
+  "country": "Germany",
+  "continent": "Europe"
+ },
+ {
+  "rank": 14,
+  "world_rank": 37,
+  "cc_id": 5588,
+  "name": "Hyperia",
+  "park": "Thorpe Park",
+  "maker": "Mack Rides",
+  "country": "United Kingdom",
+  "continent": "Europe"
+ },
+ {
+  "rank": 15,
+  "world_rank": 40,
+  "cc_id": 2041,
+  "name": "Shambhala",
+  "park": "PortAventura Park",
+  "maker": "Bolliger & Mabillard",
+  "country": "Spain",
+  "continent": "Europe"
+ },
+ {
+  "rank": 16,
+  "world_rank": 45,
+  "cc_id": 2292,
+  "name": "Schwur des Kärnan",
+  "park": "Hansa-Park",
+  "maker": "Gerstlauer",
+  "country": "Germany",
+  "continent": "Europe"
+ },
+ {
+  "rank": 17,
+  "world_rank": 48,
+  "cc_id": 2247,
+  "name": "Lech Coaster",
+  "park": "Legendia",
+  "maker": "Vekoma",
+  "country": "Poland",
+  "continent": "Europe"
+ },
+ {
+  "rank": 18,
+  "world_rank": 55,
+  "cc_id": 5365,
+  "name": "Fønix",
+  "park": "Fårup Sommerland",
+  "maker": "Vekoma",
+  "country": "Denmark",
+  "continent": "Europe"
+ },
+ {
+  "rank": 19,
+  "world_rank": 56,
+  "cc_id": 2203,
+  "name": "FLY",
+  "park": "Phantasialand",
+  "maker": "Vekoma",
+  "country": "Germany",
+  "continent": "Europe"
+ },
+ {
+  "rank": 20,
+  "world_rank": 66,
+  "cc_id": 84,
+  "name": "Katun",
+  "park": "Mirabilandia",
+  "maker": "Bolliger & Mabillard",
+  "country": "Italy",
+  "continent": "Europe"
+ },
+ {
+  "rank": 21,
+  "world_rank": 69,
+  "cc_id": 1625,
+  "name": "iSpeed",
+  "park": "Mirabilandia",
+  "maker": "Intamin",
+  "country": "Italy",
+  "continent": "Europe"
+ },
+ {
+  "rank": 22,
+  "world_rank": 78,
+  "cc_id": 2494,
+  "name": "Junker",
+  "park": "PowerPark",
+  "maker": "Gerstlauer",
+  "country": "Finland",
+  "continent": "Europe"
+ },
+ {
+  "rank": 23,
+  "world_rank": 79,
+  "cc_id": 59,
+  "name": "Nemesis Reborn",
+  "park": "Alton Towers",
+  "maker": "Bolliger & Mabillard",
+  "country": "United Kingdom",
+  "continent": "Europe"
+ },
+ {
+  "rank": 24,
+  "world_rank": 89,
+  "cc_id": 1259,
+  "name": "Piraten",
+  "park": "Djurs Sommerland",
+  "maker": "Intamin",
+  "country": "Denmark",
+  "continent": "Europe"
+ },
+ {
+  "rank": 25,
+  "world_rank": 97,
+  "cc_id": 235,
+  "name": "Balder",
+  "park": "Liseberg",
+  "maker": "Intamin",
+  "country": "Sweden",
+  "continent": "Europe"
+ },
+ {
+  "rank": 26,
+  "world_rank": 102,
+  "cc_id": 1985,
+  "name": "OzIris",
+  "park": "Parc Astérix",
+  "maker": "Bolliger & Mabillard",
+  "country": "France",
+  "continent": "Europe"
+ },
+ {
+  "rank": 27,
+  "world_rank": 104,
+  "cc_id": 5575,
+  "name": "Mahuka",
+  "park": "Walibi Rhône-Alpes",
+  "maker": "Intamin",
+  "country": "France",
+  "continent": "Europe"
+ },
+ {
+  "rank": 28,
+  "world_rank": 105,
+  "cc_id": 2045,
+  "name": "Wodan Timbur Coaster",
+  "park": "Europa Park",
+  "maker": "Great Coasters International",
+  "country": "Germany",
+  "continent": "Europe"
+ },
+ {
+  "rank": 29,
+  "world_rank": 109,
+  "cc_id": 226,
+  "name": "Colossos - Kampf der Giganten",
+  "park": "Heide Park Resort",
+  "maker": "Intamin",
+  "country": "Germany",
+  "continent": "Europe"
+ },
+ {
+  "rank": 30,
+  "world_rank": 112,
+  "cc_id": 2190,
+  "name": "Red Force",
+  "park": "Ferrari Land",
+  "maker": "Intamin",
+  "country": "Spain",
+  "continent": "Europe"
+ },
+ {
+  "rank": 31,
+  "world_rank": 122,
+  "cc_id": 387,
+  "name": "Black Mamba",
+  "park": "Phantasialand",
+  "maker": "Bolliger & Mabillard",
+  "country": "Germany",
+  "continent": "Europe"
+ },
+ {
+  "rank": 32,
+  "world_rank": 123,
+  "cc_id": 205,
+  "name": "Goliath",
+  "park": "Walibi Holland",
+  "maker": "Intamin",
+  "country": "Netherlands",
+  "continent": "Europe"
+ },
+ {
+  "rank": 33,
+  "world_rank": 125,
+  "cc_id": 2833,
+  "name": "Abyssus",
+  "park": "Energylandia",
+  "maker": "Vekoma",
+  "country": "Poland",
+  "continent": "Europe"
+ },
+ {
+  "rank": 34,
+  "world_rank": 131,
+  "cc_id": 2113,
+  "name": "Fēnix",
+  "park": "Toverland",
+  "maker": "Bolliger & Mabillard",
+  "country": "Netherlands",
+  "continent": "Europe"
+ },
+ {
+  "rank": 35,
+  "world_rank": 132,
+  "cc_id": 1802,
+  "name": "Monster",
+  "park": "Walygator Grand Est",
+  "maker": "Bolliger & Mabillard",
+  "country": "France",
+  "continent": "Europe"
+ },
+ {
+  "rank": 36,
+  "world_rank": 133,
+  "cc_id": 35,
+  "name": "Superman la Atraccion de Acero",
+  "park": "Parque Warner Madrid",
+  "maker": "Bolliger & Mabillard",
+  "country": "Spain",
+  "continent": "Europe"
+ },
+ {
+  "rank": 37,
+  "world_rank": 137,
+  "cc_id": 3127,
+  "name": "Fianna Force",
+  "park": "Emerald Park",
+  "maker": "Vekoma",
+  "country": "Ireland",
+  "continent": "Europe"
+ },
+ {
+  "rank": 38,
+  "world_rank": 142,
+  "cc_id": 1174,
+  "name": "Troy",
+  "park": "Toverland",
+  "maker": "Great Coasters International",
+  "country": "Netherlands",
+  "continent": "Europe"
+ },
+ {
+  "rank": 39,
+  "world_rank": 143,
+  "cc_id": 344,
+  "name": "Stealth",
+  "park": "Thorpe Park",
+  "maker": "Intamin",
+  "country": "United Kingdom",
+  "continent": "Europe"
+ },
+ {
+  "rank": 40,
+  "world_rank": 147,
+  "cc_id": 2137,
+  "name": "Smiler",
+  "park": "Alton Towers",
+  "maker": "Gerstlauer",
+  "country": "United Kingdom",
+  "continent": "Europe"
+ },
+ {
+  "rank": 41,
+  "world_rank": 148,
+  "cc_id": 2195,
+  "name": "Icon",
+  "park": "Pleasure Beach Resort",
+  "maker": "Mack Rides",
+  "country": "United Kingdom",
+  "continent": "Europe"
+ },
+ {
+  "rank": 42,
+  "world_rank": 153,
+  "cc_id": 5384,
+  "name": "Helios",
+  "park": "Fantasiana",
+  "maker": "Mack Rides",
+  "country": "Austria",
+  "continent": "Europe"
+ },
+ {
+  "rank": 43,
+  "world_rank": 155,
+  "cc_id": 1632,
+  "name": "Flucht Von Novgorod",
+  "park": "Hansa-Park",
+  "maker": "Gerstlauer",
+  "country": "Germany",
+  "continent": "Europe"
+ },
+ {
+  "rank": 44,
+  "world_rank": 156,
+  "cc_id": 34,
+  "name": "Silver Star",
+  "park": "Europa Park",
+  "maker": "Bolliger & Mabillard",
+  "country": "Germany",
+  "continent": "Europe"
+ },
+ {
+  "rank": 45,
+  "world_rank": 160,
+  "cc_id": 3306,
+  "name": "Hals-über-Kopf",
+  "park": "Erlebnispark Tripsdrill",
+  "maker": "Vekoma",
+  "country": "Germany",
+  "continent": "Europe"
+ },
+ {
+  "rank": 46,
+  "world_rank": 167,
+  "cc_id": 2095,
+  "name": "Karacho",
+  "park": "Erlebnispark Tripsdrill",
+  "maker": "Gerstlauer",
+  "country": "Germany",
+  "continent": "Europe"
+ },
+ {
+  "rank": 47,
+  "world_rank": 173,
+  "cc_id": 2165,
+  "name": "Flug der Dämonen",
+  "park": "Heide Park Resort",
+  "maker": "Bolliger & Mabillard",
+  "country": "Germany",
+  "continent": "Europe"
+ },
+ {
+  "rank": 48,
+  "world_rank": 178,
+  "cc_id": 2138,
+  "name": "Alpina Blitz",
+  "park": "Nigloland",
+  "maker": "Mack Rides",
+  "country": "France",
+  "continent": "Europe"
+ },
+ {
+  "rank": 49,
+  "world_rank": 179,
+  "cc_id": 2809,
+  "name": "Mystic",
+  "park": "Walibi Rhône-Alpes",
+  "maker": "Gerstlauer",
+  "country": "France",
+  "continent": "Europe"
+ },
+ {
+  "rank": 50,
+  "world_rank": 184,
+  "cc_id": 2196,
+  "name": "Valkyria",
+  "park": "Liseberg",
+  "maker": "Bolliger & Mabillard",
+  "country": "Sweden",
+  "continent": "Europe"
+ },
+ {
+  "rank": 1,
+  "world_rank": 2,
+  "cc_id": 5906,
+  "name": "Falcons Flight",
+  "park": "Six Flags Qiddiya City",
+  "maker": "Intamin",
+  "country": "",
+  "continent": "Asia"
+ },
+ {
+  "rank": 2,
+  "world_rank": 8,
+  "cc_id": 716,
+  "name": "Eejanaika",
+  "park": "Fuji-Q Highland",
+  "maker": "S&S Sansei Technologies",
+  "country": "Japan",
+  "continent": "Asia"
+ },
+ {
+  "rank": 3,
+  "world_rank": 10,
+  "cc_id": 2898,
+  "name": "Hakugei",
+  "park": "Nagashima Spa Land",
+  "maker": "Rocky Mountain Construction",
+  "country": "Japan",
+  "continent": "Asia"
+ },
+ {
+  "rank": 4,
+  "world_rank": 12,
+  "cc_id": 1981,
+  "name": "Dinoconda",
+  "park": "China Dinosaurs Park",
+  "maker": "S&S Sansei Technologies",
+  "country": "China",
+  "continent": "Asia"
+ },
+ {
+  "rank": 5,
+  "world_rank": 23,
+  "cc_id": 4052,
+  "name": "Beyond the Cloud",
+  "park": "Suzhou Amusement Land Forest World",
+  "maker": "Mack Rides",
+  "country": "China",
+  "continent": "Asia"
+ },
+ {
+  "rank": 6,
+  "world_rank": 32,
+  "cc_id": 5914,
+  "name": "Iron Rattler",
+  "park": "Six Flags Qiddiya City",
+  "maker": "Vekoma",
+  "country": "Saudi Arabia",
+  "continent": "Asia"
+ },
+ {
+  "rank": 7,
+  "world_rank": 33,
+  "cc_id": 1476,
+  "name": "Monimo RUSH",
+  "park": "Everland",
+  "maker": "Intamin",
+  "country": "South Korea",
+  "continent": "Asia"
+ },
+ {
+  "rank": 8,
+  "world_rank": 35,
+  "cc_id": 2354,
+  "name": "Flying Dinosaur",
+  "park": "Universal Studios Japan",
+  "maker": "Bolliger & Mabillard",
+  "country": "Japan",
+  "continent": "Asia"
+ },
+ {
+  "rank": 9,
+  "world_rank": 52,
+  "cc_id": 2461,
+  "name": "Flying Aces",
+  "park": "Ferrari World Abu Dhabi",
+  "maker": "Intamin",
+  "country": "United Arab Emirates",
+  "continent": "Asia"
+ },
+ {
+  "rank": 10,
+  "world_rank": 57,
+  "cc_id": 4541,
+  "name": "Manta",
+  "park": "SeaWorld Yas Island, Abu Dhabi",
+  "maker": "Intamin",
+  "country": "United Arab Emirates",
+  "continent": "Asia"
+ },
+ {
+  "rank": 11,
+  "world_rank": 59,
+  "cc_id": 1773,
+  "name": "Formula Rossa",
+  "park": "Ferrari World Abu Dhabi",
+  "maker": "Intamin",
+  "country": "United Arab Emirates",
+  "continent": "Asia"
+ },
+ {
+  "rank": 12,
+  "world_rank": 65,
+  "cc_id": 1979,
+  "name": "Starry Sky Ripper",
+  "park": "Joyland Changzhou",
+  "maker": "Bolliger & Mabillard",
+  "country": "China",
+  "continent": "Asia"
+ },
+ {
+  "rank": 13,
+  "world_rank": 82,
+  "cc_id": 636,
+  "name": "Pyrenees",
+  "park": "Parque Espana-Shima Spain Village",
+  "maker": "Bolliger & Mabillard",
+  "country": "Japan",
+  "continent": "Asia"
+ },
+ {
+  "rank": 14,
+  "world_rank": 86,
+  "cc_id": 2288,
+  "name": "Hyper Coaster",
+  "park": "Land of Legends Theme Park",
+  "maker": "Mack Rides",
+  "country": "Türkiye",
+  "continent": "Asia"
+ },
+ {
+  "rank": 15,
+  "world_rank": 88,
+  "cc_id": 1808,
+  "name": "Extreme Rusher",
+  "park": "Happy Valley Beijing",
+  "maker": "S&S Sansei Technologies",
+  "country": "China",
+  "continent": "Asia"
+ },
+ {
+  "rank": 16,
+  "world_rank": 92,
+  "cc_id": 2751,
+  "name": "Flash",
+  "park": "Land of Giants",
+  "maker": "Mack Rides",
+  "country": "China",
+  "continent": "Asia"
+ },
+ {
+  "rank": 17,
+  "world_rank": 95,
+  "cc_id": 5911,
+  "name": "Colossus",
+  "park": "Six Flags Qiddiya City",
+  "maker": "Great Coasters International",
+  "country": "Saudi Arabia",
+  "continent": "Asia"
+ },
+ {
+  "rank": 18,
+  "world_rank": 96,
+  "cc_id": 2976,
+  "name": "Eagle Flying",
+  "park": "Wuxi Sunac Land",
+  "maker": "Bolliger & Mabillard",
+  "country": "China",
+  "continent": "Asia"
+ },
+ {
+  "rank": 19,
+  "world_rank": 98,
+  "cc_id": 3307,
+  "name": "Dodonpa",
+  "park": "Fuji-Q Highland",
+  "maker": "S&S Sansei Technologies",
+  "country": "Japan",
+  "continent": "Asia"
+ },
+ {
+  "rank": 20,
+  "world_rank": 106,
+  "cc_id": 2573,
+  "name": "Coaster Through the Clouds",
+  "park": "Nanchang Sunac Land",
+  "maker": "Intamin",
+  "country": "China",
+  "continent": "Asia"
+ },
+ {
+  "rank": 21,
+  "world_rank": 110,
+  "cc_id": 2581,
+  "name": "Soaring with Dragon",
+  "park": "Hefei Sunac Land",
+  "maker": "Intamin",
+  "country": "China",
+  "continent": "Asia"
+ },
+ {
+  "rank": 22,
+  "world_rank": 113,
+  "cc_id": 1314,
+  "name": "Kawasemi",
+  "park": "Tobu Zoo Park",
+  "maker": "Intamin",
+  "country": "Japan",
+  "continent": "Asia"
+ },
+ {
+  "rank": 23,
+  "world_rank": 114,
+  "cc_id": 2572,
+  "name": "Bullet Coaster",
+  "park": "Happy Valley Shenzhen",
+  "maker": "S&S Sansei Technologies",
+  "country": "China",
+  "continent": "Asia"
+ },
+ {
+  "rank": 24,
+  "world_rank": 115,
+  "cc_id": 5912,
+  "name": "Spitfire",
+  "park": "Six Flags Qiddiya City",
+  "maker": "Intamin",
+  "country": "Saudi Arabia",
+  "continent": "Asia"
+ },
+ {
+  "rank": 25,
+  "world_rank": 116,
+  "cc_id": 6171,
+  "name": "Sköll & Hati",
+  "park": "Gyeongju World",
+  "maker": "Rocky Mountain Construction",
+  "country": "South Korea",
+  "continent": "Asia"
+ },
+ {
+  "rank": 26,
+  "world_rank": 120,
+  "cc_id": 2173,
+  "name": "Mega-Lite",
+  "park": "Happy Valley Shanghai",
+  "maker": "Intamin",
+  "country": "China",
+  "continent": "Asia"
+ },
+ {
+  "rank": 27,
+  "world_rank": 129,
+  "cc_id": 2575,
+  "name": "Python in Bamboo Forest",
+  "park": "Nanchang Sunac Land",
+  "maker": "Great Coasters International",
+  "country": "China",
+  "continent": "Asia"
+ },
+ {
+  "rank": 28,
+  "world_rank": 139,
+  "cc_id": 737,
+  "name": "Steel Dragon 2000",
+  "park": "Nagashima Spa Land",
+  "maker": "Morgan",
+  "country": "Japan",
+  "continent": "Asia"
+ },
+ {
+  "rank": 29,
+  "world_rank": 154,
+  "cc_id": 2491,
+  "name": "OCT Thrust SSC1000",
+  "park": "Happy Valley Wuhan",
+  "maker": "S&S Sansei Technologies",
+  "country": "China",
+  "continent": "Asia"
+ },
+ {
+  "rank": 30,
+  "world_rank": 163,
+  "cc_id": 924,
+  "name": "Hollywood Dream : The Ride",
+  "park": "Universal Studios Japan",
+  "maker": "Bolliger & Mabillard",
+  "country": "Japan",
+  "continent": "Asia"
+ },
+ {
+  "rank": 31,
+  "world_rank": 164,
+  "cc_id": 2560,
+  "name": "Jungle Dragon",
+  "park": "Happy Valley Chongqing",
+  "maker": "Great Coasters International",
+  "country": "China",
+  "continent": "Asia"
+ },
+ {
+  "rank": 32,
+  "world_rank": 166,
+  "cc_id": 2590,
+  "name": "Jungle Trailblazer",
+  "park": "Oriental Heritage Jinan",
+  "maker": "Martin & Vleminckx",
+  "country": "China",
+  "continent": "Asia"
+ },
+ {
+  "rank": 33,
+  "world_rank": 169,
+  "cc_id": 2226,
+  "name": "Red Fire",
+  "park": "Viaport Marina Tema Park",
+  "maker": "Intamin",
+  "country": "Türkiye",
+  "continent": "Asia"
+ },
+ {
+  "rank": 34,
+  "world_rank": 171,
+  "cc_id": 3083,
+  "name": "Steel Dolphin",
+  "park": "Shanghai Haichang Ocean Park",
+  "maker": "Intamin",
+  "country": "China",
+  "continent": "Asia"
+ },
+ {
+  "rank": 35,
+  "world_rank": 172,
+  "cc_id": 3347,
+  "name": "Dragon in the Jungle",
+  "park": "Huachang Dragon Valley",
+  "maker": "Vekoma",
+  "country": "China",
+  "continent": "Asia"
+ },
+ {
+  "rank": 36,
+  "world_rank": 180,
+  "cc_id": 227,
+  "name": "Gravity Max",
+  "park": "Discovery World",
+  "maker": "Vekoma",
+  "country": "Taiwan",
+  "continent": "Asia"
+ },
+ {
+  "rank": 37,
+  "world_rank": 182,
+  "cc_id": 172,
+  "name": "Do-Dodonpa",
+  "park": "Fuji-Q Highland",
+  "maker": "S&S Sansei Technologies",
+  "country": "Japan",
+  "continent": "Asia"
+ },
+ {
+  "rank": 38,
+  "world_rank": 183,
+  "cc_id": 1176,
+  "name": "Phaethon",
+  "park": "Gyeongju World",
+  "maker": "Bolliger & Mabillard",
+  "country": "South Korea",
+  "continent": "Asia"
+ },
+ {
+  "rank": 39,
+  "world_rank": 187,
+  "cc_id": 637,
+  "name": "Fujiyama",
+  "park": "Fuji-Q Highland",
+  "maker": "Togo",
+  "country": "Japan",
+  "continent": "Asia"
+ },
+ {
+  "rank": 40,
+  "world_rank": 188,
+  "cc_id": 2279,
+  "name": "Draken",
+  "park": "Gyeongju World",
+  "maker": "Bolliger & Mabillard",
+  "country": "South Korea",
+  "continent": "Asia"
+ },
+ {
+  "rank": 41,
+  "world_rank": 209,
+  "cc_id": 4020,
+  "name": "Decepticoaster",
+  "park": "Universal Studios Beijing",
+  "maker": "Bolliger & Mabillard",
+  "country": "China",
+  "continent": "Asia"
+ },
+ {
+  "rank": 42,
+  "world_rank": 210,
+  "cc_id": 1312,
+  "name": "Dive Coaster",
+  "park": "Chimelong Paradise",
+  "maker": "Bolliger & Mabillard",
+  "country": "China",
+  "continent": "Asia"
+ },
+ {
+  "rank": 43,
+  "world_rank": 211,
+  "cc_id": 2005,
+  "name": "Parrot Coaster",
+  "park": "Chimelong Ocean Kingdom",
+  "maker": "Bolliger & Mabillard",
+  "country": "China",
+  "continent": "Asia"
+ },
+ {
+  "rank": 44,
+  "world_rank": 213,
+  "cc_id": 2162,
+  "name": "Big Grizzly Mountain Runaway Mine Cars",
+  "park": "Hong Kong Disneyland",
+  "maker": "Vekoma",
+  "country": "China",
+  "continent": "Asia"
+ },
+ {
+  "rank": 45,
+  "world_rank": 214,
+  "cc_id": 2782,
+  "name": "Flying Wing Coaster",
+  "park": "Happy Valley Chongqing",
+  "maker": "Bolliger & Mabillard",
+  "country": "China",
+  "continent": "Asia"
+ },
+ {
+  "rank": 46,
+  "world_rank": 215,
+  "cc_id": 312,
+  "name": "Thunder Dolphin",
+  "park": "Tokyo Dome City",
+  "maker": "Intamin",
+  "country": "Japan",
+  "continent": "Asia"
+ },
+ {
+  "rank": 47,
+  "world_rank": 217,
+  "cc_id": 1871,
+  "name": "Battlestar Galactica - CYLON",
+  "park": "Universal Studios Singapore",
+  "maker": "Vekoma",
+  "country": "Singapore",
+  "continent": "Asia"
+ },
+ {
+  "rank": 48,
+  "world_rank": 221,
+  "cc_id": 2274,
+  "name": "Acrobat",
+  "park": "Nagashima Spa Land",
+  "maker": "Bolliger & Mabillard",
+  "country": "Japan",
+  "continent": "Asia"
+ },
+ {
+  "rank": 49,
+  "world_rank": 222,
+  "cc_id": 3332,
+  "name": "Dueling Dragons (Sit Down)",
+  "park": "Guangzhou Sunac Land",
+  "maker": "Intamin",
+  "country": "China",
+  "continent": "Asia"
+ },
+ {
+  "rank": 50,
+  "world_rank": 224,
+  "cc_id": 2261,
+  "name": "Tron Lightcycle Power Run",
+  "park": "Shanghai Disneyland",
+  "maker": "Vekoma",
+  "country": "China",
+  "continent": "Asia"
+ },
+ {
+  "rank": 1,
+  "world_rank": 46,
+  "cc_id": 2186,
+  "name": "DC Rivals HyperCoaster",
+  "park": "Warner Bros. Movie World",
+  "maker": "Mack Rides",
+  "country": "",
+  "continent": "Oceania"
+ },
+ {
+  "rank": 2,
+  "world_rank": 196,
+  "cc_id": 3480,
+  "name": "Leviathan",
+  "park": "Sea World",
+  "maker": "Martin & Vleminckx",
+  "country": "Australia",
+  "continent": "Oceania"
+ },
+ {
+  "rank": 3,
+  "world_rank": 256,
+  "cc_id": 996,
+  "name": "Superman Escape",
+  "park": "Warner Bros. Movie World",
+  "maker": "Intamin",
+  "country": "Australia",
+  "continent": "Oceania"
+ },
+ {
+  "rank": 4,
+  "world_rank": 431,
+  "cc_id": 1631,
+  "name": "Jet Rescue",
+  "park": "Sea World",
+  "maker": "Intamin",
+  "country": "Australia",
+  "continent": "Oceania"
+ },
+ {
+  "rank": 5,
+  "world_rank": 446,
+  "cc_id": 3390,
+  "name": "Steel Taipan",
+  "park": "Dreamworld",
+  "maker": "Mack Rides",
+  "country": "Australia",
+  "continent": "Oceania"
+ },
+ {
+  "rank": 6,
+  "world_rank": 550,
+  "cc_id": 2062,
+  "name": "Green Lantern Coaster",
+  "park": "Warner Bros. Movie World",
+  "maker": "S&S Sansei Technologies",
+  "country": "Australia",
+  "continent": "Oceania"
+ },
+ {
+  "rank": 7,
+  "world_rank": 636,
+  "cc_id": 321,
+  "name": "Tower of Terror II",
+  "park": "Dreamworld",
+  "maker": "Intamin",
+  "country": "Australia",
+  "continent": "Oceania"
+ },
+ {
+  "rank": 8,
+  "world_rank": 690,
+  "cc_id": 4373,
+  "name": "Big Dipper",
+  "park": "Luna Park Sydney",
+  "maker": "Intamin",
+  "country": "Australia",
+  "continent": "Oceania"
+ },
+ {
+  "rank": 9,
+  "world_rank": 824,
+  "cc_id": 999,
+  "name": "Scooby-Doo Spooky Coaster",
+  "park": "Warner Bros. Movie World",
+  "maker": "Mack Rides",
+  "country": "Australia",
+  "continent": "Oceania"
+ },
+ {
+  "rank": 10,
+  "world_rank": 946,
+  "cc_id": 2421,
+  "name": "Wild Mouse",
+  "park": "Luna Park Sydney",
+  "maker": "Hopkins",
+  "country": "Australia",
+  "continent": "Oceania"
+ },
+ {
+  "rank": 11,
+  "world_rank": 993,
+  "cc_id": 2154,
+  "name": "Storm Coaster",
+  "park": "Sea World",
+  "maker": "Mack Rides",
+  "country": "Australia",
+  "continent": "Oceania"
+ },
+ {
+  "rank": 12,
+  "world_rank": 1041,
+  "cc_id": 5735,
+  "name": "Flight of the Wicked Witch",
+  "park": "Warner Bros. Movie World",
+  "maker": "Vekoma",
+  "country": "Australia",
+  "continent": "Oceania"
+ },
+ {
+  "rank": 13,
+  "world_rank": 1083,
+  "cc_id": 2048,
+  "name": "BuzzSaw",
+  "park": "Dreamworld",
+  "maker": "Maurer",
+  "country": "Australia",
+  "continent": "Oceania"
+ },
+ {
+  "rank": 14,
+  "world_rank": 1207,
+  "cc_id": 513,
+  "name": "Gold Coaster",
+  "park": "Dreamworld",
+  "maker": "Arrow Dynamics",
+  "country": "Australia",
+  "continent": "Oceania"
+ },
+ {
+  "rank": 15,
+  "world_rank": 1387,
+  "cc_id": 2422,
+  "name": "Scenic Railway",
+  "park": "Luna Park Melbourne",
+  "country": "Australia",
+  "continent": "Oceania"
+ },
+ {
+  "rank": 16,
+  "world_rank": 1454,
+  "cc_id": 1260,
+  "name": "Motocoaster",
+  "park": "Dreamworld",
+  "maker": "Intamin",
+  "country": "Australia",
+  "continent": "Oceania"
+ },
+ {
+  "rank": 17,
+  "world_rank": 1468,
+  "cc_id": 1099,
+  "name": "Sea Viper",
+  "park": "Sea World",
+  "maker": "Arrow Dynamics",
+  "country": "Australia",
+  "continent": "Oceania"
+ },
+ {
+  "rank": 18,
+  "world_rank": 1477,
+  "cc_id": 998,
+  "name": "Road Runner Rollercoaster",
+  "park": "Warner Bros. Movie World",
+  "maker": "Vekoma",
+  "country": "Australia",
+  "continent": "Oceania"
+ },
+ {
+  "rank": 19,
+  "world_rank": 1636,
+  "cc_id": 515,
+  "name": "Kenny's Forest Flyer",
+  "park": "Dreamworld",
+  "maker": "Vekoma",
+  "country": "Australia",
+  "continent": "Oceania"
+ },
+ {
+  "rank": 20,
+  "world_rank": 1662,
+  "cc_id": 4374,
+  "name": "Boomerang",
+  "park": "Luna Park Sydney",
+  "maker": "Gerstlauer",
+  "country": "Australia",
+  "continent": "Oceania"
+ },
+ {
+  "rank": 21,
+  "world_rank": 1680,
+  "cc_id": 997,
+  "name": "Arkham Asylum - Shock Therapy",
+  "park": "Warner Bros. Movie World",
+  "maker": "Vekoma",
+  "country": "Australia",
+  "continent": "Oceania"
+ }
+]

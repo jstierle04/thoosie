@@ -1,0 +1,9 @@
+data/coasters.js is generated from Coasterpedia (https://coasterpedia.net) by
+scripts/import_coasterpedia.py, and is licensed under the Creative Commons
+Attribution-ShareAlike 4.0 International license:
+https://creativecommons.org/licenses/by-sa/4.0/
+
+Changes from the source: infobox fields extracted and normalized (metric values
+converted to feet/mph, manufacturer names abbreviated, continents added).
+
+data/featured.txt is original to this project.
