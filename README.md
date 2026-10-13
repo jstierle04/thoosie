@@ -17,6 +17,9 @@ Opening `index.html` directly also works.
 
 Add `?day=N` to play puzzle N in practice mode (doesn't touch saved stats).
 
+Shared results end with a link to the game. Set `GAME_URL` in `src/game.js` once it has a
+permanent address; until then the link is whatever address the page was loaded from.
+
 ## Modes
 
 - **Daily:** one coaster per day, the same for everyone.

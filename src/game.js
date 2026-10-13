@@ -20,6 +20,16 @@
 
   const SHARE_GLYPH = { hit: "🟩", close: "🟨", miss: "⬛" };
 
+  // Link added to shared results. Set this once the game has a permanent home (e.g.
+  // "https://thoosie.com"); until then it uses the address the page was loaded from.
+  const GAME_URL = "";
+
+  function gameLink() {
+    if (GAME_URL) return GAME_URL;
+    if (!/^https?:$/.test(location.protocol)) return ""; // opened as a local file: nothing shareable
+    return location.origin + location.pathname.replace(/index\.html$/, "");
+  }
+
   // ---------- Data ----------
 
   // _n/_p/_a: normalized name, park and old name, precomputed for autocomplete
@@ -486,7 +496,8 @@
     const score = game.won ? game.guesses.length : "X";
     const rows = game.guesses.map((id) => compare(BY_ID.get(id)).map((r) => SHARE_GLYPH[r.status]).join(""));
     const title = mode === "infinite" ? "Thoosie ∞" : `Thoosie No. ${puzzleNo}`;
-    return [`${title}  ${score}/${MAX_GUESSES}`, ...rows].join("\n");
+    const link = gameLink();
+    return [`${title}  ${score}/${MAX_GUESSES}`, ...rows, ...(link ? ["", link] : [])].join("\n");
   }
 
   async function share() {
