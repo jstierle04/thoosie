@@ -1,0 +1,57 @@
+name: Generate trivia
+
+# Keeps data/trivia/ filled DAYS_AHEAD days into the future (see scripts/generate_trivia.py),
+# so a failed run has days to be retried and new puzzles can be reviewed before they go live.
+on:
+  schedule:
+    - cron: "17 9 * * *"   # daily, 09:17 UTC
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Generate one day only (YYYY-MM-DD); blank = fill the next few days"
+        required: false
+      force:
+        description: "Regenerate even if that day already exists"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write   # to commit the new puzzle files
+
+concurrency:
+  group: trivia
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90   # Gemini overload retries can take a while; free on public repos
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r scripts/requirements.txt
+
+      - name: Generate missing days
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          args=()
+          if [ -n "${{ inputs.date }}" ]; then args+=(--date "${{ inputs.date }}"); fi
+          if [ "${{ inputs.force }}" = "true" ]; then args+=(--force); fi
+          python scripts/generate_trivia.py "${args[@]}"
+
+      - name: Commit new puzzles
+        run: |
+          git add data/trivia
+          if git diff --cached --quiet; then
+            echo "Nothing new."
+            exit 0
+          fi
+          git config user.name "thoosie-bot"
+          git config user.email "thoosie-bot@users.noreply.github.com"
+          git commit -m "Add trivia puzzles"
+          git push

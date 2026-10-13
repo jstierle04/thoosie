@@ -37,6 +37,7 @@
       <div class="modes" role="group" aria-label="Game mode">
         <button type="button" class="mode-tab" data-mode="daily" aria-selected="true">Daily</button>
         <button type="button" class="mode-tab" data-mode="infinite" aria-selected="false">Infinite <span aria-hidden="true">∞</span></button>
+        <button type="button" class="mode-tab" data-mode="trivia" aria-selected="false">Trivia</button>
       </div>
       <div class="admit">
         <span class="admit-label">Admit</span>
@@ -49,6 +50,7 @@
         <button type="submit" class="ride-btn">Ride</button>
         <ul id="suggestions" class="suggestions" role="listbox" hidden></ul>
       </form>
+      <button type="button" id="skip-btn" class="skip-btn" hidden>Next clue → <span>costs a guess</span></button>
       <ul class="legend" aria-label="Key">
         <li><span class="swatch hit"></span>Exact</li>
         <li><span class="swatch close"></span>Close</li>
@@ -59,6 +61,7 @@
     <section id="result" class="result" hidden aria-live="polite"></section>
 
     <ol id="guesses" class="guesses" reversed></ol>
+    <ol id="clues" class="clues" hidden aria-live="polite"></ol>
   </main>
 
   <footer class="wrap footer">
@@ -77,7 +80,9 @@
       <dt><span class="arrow">↑↓</span></dt><dd>The answer is higher or lower.</dd>
     </dl>
     <p class="fine"><strong>Daily:</strong> one coaster a day, and everyone gets the same one.
-      <strong>Infinite:</strong> a random coaster every round, as many rounds as you like, with its own stats and streak.</p>
+      <strong>Infinite:</strong> a random coaster every round, as many rounds as you like, with its own stats and streak.
+      <strong>Trivia:</strong> no stats tickets, just trivia about one mystery coaster a day. Every miss (or
+      "Next clue") reveals another fact, from stats to fun facts to the park to a clue about the name.</p>
     <form method="dialog"><button class="ride-btn">Got it</button></form>
   </dialog>
 

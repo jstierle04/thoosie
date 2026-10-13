@@ -88,6 +88,50 @@ any line it can't match.
 Names come from the Coasterpedia page title, which follows renames; the infobox name is kept
 as `aka` when different, so searching "Mantis" finds Rougarou.
 
+## Trivia mode
+
+A third mode: one mystery coaster a day, guessed from trivia facts instead of stat tickets.
+Each miss (or "Next clue") reveals the next clue: ride stats, maker and year, location, a notable fact, a name hint.
+
+Puzzles are pre-generated into `data/trivia/YYYY-MM-DD.json` by `scripts/generate_trivia.py`:
+
+1. picks an answer-pool coaster not used in the last 300 puzzles;
+2. gathers sources: its Wikipedia article (only accepted if the infobox park matches) and its
+   Coasterpedia article as backup; skips coasters with too little text;
+3. asks Gemini (`MODELS` in the script: Gemini 3.8 Flash, falling back to older Flash models when it's overloaded) for exactly 5 clues using **your** system prompt in
+   `prompts/trivia_system.md`, with the output shape fixed by a JSON schema;
+4. writes the file with `"review": {"reviewed": false, "warnings": [...], "evidence": [...]}`
+   for you to check before the day goes live. Warnings come from code checks, not a second
+   model: the coaster's name in a clue, the park named before clue 4, a number in the stats
+   clues that doesn't match the coaster's data, or an evidence quote that isn't found word for
+   word in the source it cites.
+   Clue labels ("Stats", "The park", …) are set by position from `CLUE_ORDER` in the script; keep
+   it in step with the prompt.
+
+Locally the key is read from `GEMINI_API_KEY` in the environment or a `.env` file in the repo
+root (`GEMINI_API_KEY=...`). `.env` is gitignored; never commit it.
+
+```sh
+pip install -r scripts/requirements.txt
+python3 scripts/generate_trivia.py --dry-run      # fetch sources + show the prompt, no API call
+python3 scripts/generate_trivia.py                # fill today .. today+3
+python3 scripts/generate_trivia.py --date 2026-10-20 --force
+```
+
+Add `?trivia=YYYY-MM-DD` to the URL to play a given day without touching stats.
+
+**Everyone gets the same clues:** each day is generated once, committed, and served as a static
+file; the model is never called during play. `--force` only regenerates days that haven't
+started anywhere in the world yet (regenerating keeps that day's coaster). Fixing a live day
+needs `--replace-live`, or edit its JSON by hand.
+
+**Daily automation:** `.github/workflows/trivia.yml` runs the generator every day and commits
+new puzzles. Add a `GEMINI_API_KEY` repository secret (Settings → Secrets and variables →
+Actions). It keeps 3 days ahead, so you can review (and edit) puzzles before they go live,
+and a failed run has time to be retried. It can also be run by hand from the Actions tab.
+
+Puzzle files ship with the site, so the answers are readable by anyone who looks.
+
 ## How the daily coaster is picked
 
 The answer pool is shuffled with a fixed seed (`SHUFFLE_SEED` in `game.js`) and

@@ -1,0 +1,66 @@
+{
+ "date": "2026-10-13",
+ "answer": {
+  "name": "Matterhorn Bobsleds",
+  "park": "Disneyland Park",
+  "page": "Matterhorn Bobsleds"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "This coaster climbs to a height of 80 feet, features 0 inversions, and travels at a modest top speed of 27 mph."
+  },
+  {
+   "kind": "stats",
+   "text": "Constructed by pioneering manufacturer Arrow, this classic ride made its debut in 1959."
+  },
+  {
+   "kind": "park",
+   "text": "You can find this legendary family coaster operating in the sunny state of California."
+  },
+  {
+   "kind": "fact",
+   "text": "This historic attraction holds a revered place in amusement park lore as the world's first tubular steel track roller coaster."
+  },
+  {
+   "kind": "name",
+   "text": "The ride's name refers to an iconic peak in the Swiss Alps paired with a type of winter racing sled."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "\"height\": \"80 ft\", \"speed\": \"27 mph\", \"inversions\": 0"
+   },
+   {
+    "source": "stats",
+    "quote": "\"maker\": \"Arrow\", \"year\": 1959"
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "|state        = California"
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "The ride is often considered the first tubular [[steel]] [[track]] roller coaster ever constructed."
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "It is based on the Swiss mountain, \"[[wikipedia:Matterhorn|Matterhorn]]\"."
+   }
+  ],
+  "sources": [
+   {
+    "name": "coasterpedia",
+    "title": "Matterhorn Bobsleds",
+    "url": "https://coasterpedia.net/wiki/Matterhorn_Bobsleds"
+   }
+  ],
+  "model": "gemini-3.8-flash",
+  "response_id": "TpbOavL2CbLijrEPy57z4Qg",
+  "generated_at": "2026-10-13T20:42:47+00:00"
+ }
+}

@@ -20,6 +20,12 @@
 
   const SHARE_GLYPH = { hit: "🟩", close: "🟨", miss: "⬛" };
 
+  // Trivia mode: one generated puzzle per day (scripts/generate_trivia.py)
+  const TRIVIA_DIR = "data/trivia/";
+  const TRIVIA_MAX = 6; // most clues a puzzle can have; sizes the stats chart
+  const SKIP = "__skip"; // a "Next clue" press, stored in place of a guess
+  const CLUE_LABEL = { stats: "Stats", fact: "Fun fact", park: "The park", name: "Name clue" };
+
   // Link added to shared results. Set this once the game has a permanent home (e.g.
   // "https://thoosie.com"); until then it uses the address the page was loaded from.
   const GAME_URL = "";
@@ -158,7 +164,46 @@
     }
   }
 
-  let mode = !practice && store.mode === "infinite" ? "infinite" : "daily";
+  function localDate(d = new Date()) {
+    return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+  }
+
+  // ?trivia=YYYY-MM-DD plays that day's trivia without touching saved stats
+  const triviaOverride = new URLSearchParams(location.search).get("trivia") || "";
+  const triviaPractice = /^\d{4}-\d{2}-\d{2}$/.test(triviaOverride);
+  const triviaDate = triviaPractice ? triviaOverride : localDate();
+  const triviaStore = (store.trivia = store.trivia || { games: {} });
+  // status: idle → loading → ready | missing
+  const trivia = { status: "idle", puzzle: null, answer: null, practiceGame: null, fresh: false };
+
+  function triviaGame() {
+    if (triviaPractice) return (trivia.practiceGame = trivia.practiceGame || newGame());
+    return (triviaStore.games[triviaDate] = triviaStore.games[triviaDate] || newGame());
+  }
+
+  async function loadTrivia() {
+    trivia.status = "loading";
+    try {
+      const res = await fetch(`${TRIVIA_DIR}${triviaDate}.json`, { cache: "no-cache" });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const puzzle = await res.json();
+      const a = puzzle.answer || {};
+      trivia.answer = COASTERS.find((c) => c.page === a.page) || BY_ID.get(slug(`${a.name} ${a.park}`));
+      if (!trivia.answer) throw new Error(`answer "${a.name}" isn't in the coaster list`);
+      if (!puzzle.clues || !puzzle.clues.length) throw new Error("puzzle has no clues");
+      trivia.puzzle = puzzle;
+      trivia.status = "ready";
+    } catch (err) {
+      trivia.status = "missing";
+      console.warn(`Trivia for ${triviaDate} unavailable:`, err);
+    }
+    if (mode === "trivia") {
+      useMode("trivia");
+      renderAll();
+    }
+  }
+
+  let mode = triviaPractice ? "trivia" : !practice && ["infinite", "trivia"].includes(store.mode) ? store.mode : "daily";
   let answer;
   let game;
 
@@ -168,12 +213,23 @@
       if (!inf.current) startInfinite();
       game = inf.current;
       answer = BY_ID.get(game.answer);
+    } else if (m === "trivia") {
+      game = triviaGame();
+      answer = trivia.answer;
+      if (trivia.status === "idle") loadTrivia();
     } else {
       game = dailyGame;
       answer = dailyAnswer;
     }
-    game.guesses = game.guesses.filter((id) => BY_ID.has(id));
+    game.guesses = game.guesses.filter((id) => id === SKIP || BY_ID.has(id));
   }
+
+  function maxGuesses() {
+    if (mode !== "trivia") return MAX_GUESSES;
+    return trivia.puzzle ? trivia.puzzle.clues.length : 0;
+  }
+
+  const triviaReady = () => mode === "trivia" && trivia.status === "ready";
 
   // ---------- Scoring ----------
 
@@ -210,6 +266,8 @@
     statsBody: $("stats-body"),
     toast: $("toast"),
     modeTabs: document.querySelectorAll(".mode-tab"),
+    clues: $("clues"),
+    skip: $("skip-btn"),
   };
 
   function esc(s) {
@@ -217,8 +275,9 @@
   }
 
   function renderPunches() {
-    const left = MAX_GUESSES - game.guesses.length;
-    els.punches.innerHTML = Array.from({ length: MAX_GUESSES }, (_, i) =>
+    const total = maxGuesses();
+    const left = total - game.guesses.length;
+    els.punches.innerHTML = Array.from({ length: total }, (_, i) =>
       `<span class="punch${i < game.guesses.length ? " used" : ""}"></span>`
     ).join("");
     els.punches.setAttribute("aria-label", `${left} guess${left === 1 ? "" : "es"} left`);
@@ -255,19 +314,65 @@
     game.guesses.forEach((id, i) => els.guesses.prepend(ticket(BY_ID.get(id), i + 1, false)));
   }
 
+  function renderClues() {
+    if (trivia.status !== "ready") {
+      const msg = trivia.status === "missing"
+        ? `Today's trivia isn't ready yet. Check back soon, or play the Daily coaster.`
+        : "Loading today's trivia…";
+      els.clues.innerHTML = `<li class="clue clue-note">${esc(msg)}</li>`;
+      return;
+    }
+    const clues = trivia.puzzle.clues;
+    // a clue unlocks per guess made; finishing reveals the rest
+    const shown = game.done ? clues.length : Math.min(game.guesses.length + 1, clues.length);
+    const attempt = (id) => {
+      if (!id) return "";
+      if (id === SKIP) return `<p class="clue-attempt skipped">Skipped</p>`;
+      const c = BY_ID.get(id);
+      const hit = id === answer.id;
+      return `<p class="clue-attempt ${hit ? "hit" : "miss"}">${hit ? "✓" : "✗"} ${esc(c.name)} <span>${esc(c.park)}</span></p>`;
+    };
+    els.clues.innerHTML = clues
+      .map((clue, i) => {
+        const head = `<div class="clue-head"><span class="ticket-no">${String(i + 1).padStart(2, "0")}</span>
+          <span class="clue-kind">${esc(CLUE_LABEL[clue.kind] || "Clue")}</span></div>`;
+        if (i >= shown) {
+          return `<li class="clue locked">${head}<p class="clue-text">Unlocks after a miss</p></li>`;
+        }
+        const fresh = trivia.fresh && i === shown - 1 && !game.done;
+        return `<li class="clue${fresh ? " fresh" : ""}">${head}<p class="clue-text">${esc(clue.text)}</p>${attempt(game.guesses[i])}</li>`;
+      })
+      .join("");
+    trivia.fresh = false;
+  }
+
   function renderResult() {
+    if (mode === "trivia" && !triviaReady()) {
+      els.result.hidden = true;
+      return;
+    }
     if (!game.done) {
       els.result.hidden = true;
       return;
     }
     const a = answer;
     const infinite = mode === "infinite";
-    const lost = infinite ? "Out of tickets. It was" : "Out of tickets. Today's coaster was";
+    const isTrivia = mode === "trivia";
+    const lost = infinite ? "Out of tickets. It was" : isTrivia ? "Out of clues. Today's coaster was" : "Out of tickets. Today's coaster was";
+    const tries = game.guesses.length;
+    const won = isTrivia ? `Got it on clue ${tries}.` : `Got it in ${tries}. Credit counted.`;
     let actions = `<button type="button" class="ride-btn" id="share-btn">Share</button>`;
     if (infinite) actions = `<button type="button" class="ride-btn next-btn" id="next-btn">Next coaster →</button>` + actions;
-    else if (!practice) actions += `<span class="countdown">Next coaster in <span id="countdown">--:--:--</span></span>`;
+    else if (!(isTrivia ? triviaPractice : practice)) {
+      actions += `<span class="countdown">Next ${isTrivia ? "trivia" : "coaster"} in <span id="countdown">--:--:--</span></span>`;
+    }
+    const credits = isTrivia && trivia.puzzle.review && trivia.puzzle.review.sources
+      ? `<p class="result-credit">Clues written by AI from ${trivia.puzzle.review.sources
+          .map((src) => `<a href="${esc(src.url)}" target="_blank" rel="noopener">${src.name === "wikipedia" ? "Wikipedia" : "Coasterpedia"}</a>`)
+          .join(" and ")}.</p>`
+      : "";
     els.result.innerHTML = `
-      <p class="result-kicker">${game.won ? `Got it in ${game.guesses.length}. Credit counted.` : lost}</p>
+      <p class="result-kicker">${game.won ? won : lost}</p>
       <h2 class="result-name">${esc(a.name)}</h2>
       <p class="result-park">${esc(a.park)} &middot; ${esc(a.country)}${
         a.page ? ` &middot; <a href="https://coasterpedia.net/wiki/${encodeURIComponent(a.page.replace(/ /g, "_"))}" target="_blank" rel="noopener">Coasterpedia&nbsp;↗</a>` : ""
@@ -280,7 +385,7 @@
         <span><b>${a.speed}</b> mph</span>
         <span><b>${a.inversions}</b> inversions</span>
       </div>
-      <div class="result-actions">${actions}</div>`;
+      <div class="result-actions">${actions}</div>${credits}`;
     els.result.hidden = false;
     $("share-btn").addEventListener("click", share);
     if (infinite) $("next-btn").addEventListener("click", nextInfinite);
@@ -288,24 +393,36 @@
   }
 
   function renderInput() {
-    const locked = game.done;
+    const unavailable = mode === "trivia" && !triviaReady();
+    const locked = game.done || unavailable;
     els.input.disabled = locked;
     els.submit.disabled = locked;
-    if (!locked) els.input.placeholder = "Name a coaster or park…";
+    if (unavailable) els.input.placeholder = trivia.status === "missing" ? "No trivia today yet" : "Loading trivia…";
+    else if (!locked) els.input.placeholder = "Name a coaster or park…";
     else els.input.placeholder = mode === "infinite" ? "Ride again: hit Next coaster" : "Come back tomorrow…";
+    // "Next clue" only while there's another clue to reveal
+    els.skip.hidden = !triviaReady() || game.done || game.guesses.length + 1 >= maxGuesses();
+  }
+
+  function shortDate(iso) {
+    const [y, m, d] = iso.split("-").map(Number);
+    return new Date(y, m - 1, d).toLocaleDateString(undefined, { month: "short", day: "numeric" });
   }
 
   let renderGen = 0; // bumps on every full re-render so stale reveal timers can bail
 
   function renderAll() {
     renderGen++;
-    els.puzzleNo.textContent =
-      mode === "infinite"
-        ? `Infinite · Ride ${inf.played + (game.done ? 0 : 1)}`
-        : `No. ${String(puzzleNo).padStart(3, "0")}${practice ? " (practice)" : ""}`;
+    document.body.dataset.mode = mode;
+    if (mode === "infinite") els.puzzleNo.textContent = `Infinite · Ride ${inf.played + (game.done ? 0 : 1)}`;
+    else if (mode === "trivia") els.puzzleNo.textContent = `Trivia · ${shortDate(triviaDate)}${triviaPractice ? " (practice)" : ""}`;
+    else els.puzzleNo.textContent = `No. ${String(puzzleNo).padStart(3, "0")}${practice ? " (practice)" : ""}`;
     els.modeTabs.forEach((tab) => tab.setAttribute("aria-selected", String(tab.dataset.mode === mode)));
     renderPunches();
-    renderGuesses();
+    els.guesses.hidden = mode === "trivia";
+    els.clues.hidden = mode !== "trivia";
+    if (mode === "trivia") renderClues();
+    else renderGuesses();
     renderInput();
     renderResult();
   }
@@ -427,22 +544,29 @@
     toast(message);
   }
 
-  function submitGuess(coaster) {
-    if (game.done || !coaster || game.guesses.includes(coaster.id)) return;
-    game.guesses.push(coaster.id);
-    if (coaster.id === answer.id) {
+  function recordGuess(id) {
+    game.guesses.push(id);
+    if (id === answer.id) {
       game.done = true;
       game.won = true;
-    } else if (game.guesses.length >= MAX_GUESSES) {
+    } else if (game.guesses.length >= maxGuesses()) {
       game.done = true;
     }
     if (game.done && mode === "infinite") recordInfinite();
     saveStore();
+  }
 
-    els.input.value = "";
-    matches = [];
-    active = -1;
-    closeSuggestions();
+  function submitGuess(coaster) {
+    if (game.done || !coaster || game.guesses.includes(coaster.id)) return;
+    if (mode === "trivia" && !triviaReady()) return;
+    recordGuess(coaster.id);
+    resetInput();
+
+    if (mode === "trivia") {
+      if (!game.done) toast("Not it. Here's another clue");
+      afterTriviaMove();
+      return;
+    }
 
     els.guesses.prepend(ticket(coaster, game.guesses.length, true));
     renderPunches();
@@ -460,6 +584,19 @@
     }
   }
 
+  function afterTriviaMove() {
+    trivia.fresh = true;
+    renderAll();
+    if (game.done) els.result.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    else els.input.focus();
+  }
+
+  els.skip.addEventListener("click", () => {
+    if (!triviaReady() || game.done) return;
+    recordGuess(SKIP);
+    afterTriviaMove();
+  });
+
   // ---------- Modes ----------
 
   function resetInput() {
@@ -471,7 +608,7 @@
 
   function switchMode(m) {
     if (m === mode) return;
-    if (practice && m === "infinite") location.search = ""; // leave practice mode cleanly
+    if ((practice && m !== "daily") || (triviaPractice && m !== "trivia")) location.search = ""; // leave practice mode cleanly
     store.mode = m;
     useMode(m);
     saveStore();
@@ -493,10 +630,15 @@
   // ---------- Share ----------
 
   function shareText() {
+    const link = gameLink();
+    if (mode === "trivia") {
+      const score = game.won ? game.guesses.length : "X";
+      const row = game.guesses.map((id) => (id === SKIP ? "⬜" : id === answer.id ? "🟩" : "⬛")).join("");
+      return [`Thoosie Trivia · ${shortDate(triviaDate)}  ${score}/${maxGuesses()}`, row, ...(link ? ["", link] : [])].join("\n");
+    }
     const score = game.won ? game.guesses.length : "X";
     const rows = game.guesses.map((id) => compare(BY_ID.get(id)).map((r) => SHARE_GLYPH[r.status]).join(""));
     const title = mode === "infinite" ? "Thoosie ∞" : `Thoosie No. ${puzzleNo}`;
-    const link = gameLink();
     return [`${title}  ${score}/${MAX_GUESSES}`, ...rows, ...(link ? ["", link] : [])].join("\n");
   }
 
@@ -517,16 +659,23 @@
       const { played, won, dist, streak, best } = inf;
       return { played, won, dist, streak, best };
     }
-    const entries = Object.entries(store.games)
+    // daily: keyed by puzzle number; trivia: keyed by date, turned into a day number for streaks
+    const dayNum = (iso) => {
+      const [y, m, d] = iso.split("-").map(Number);
+      return Math.round(new Date(y, m - 1, d) / 86400000);
+    };
+    const isTrivia = mode === "trivia";
+    const games = isTrivia ? triviaStore.games : store.games;
+    const entries = Object.entries(games)
       .filter(([, g]) => g.done)
-      .map(([n, g]) => [Number(n), g]);
+      .map(([k, g]) => [isTrivia ? dayNum(k) : Number(k), g]);
     const played = entries.length;
     const won = entries.filter(([, g]) => g.won).length;
-    const dist = Array(MAX_GUESSES).fill(0);
-    entries.forEach(([, g]) => g.won && dist[g.guesses.length - 1]++);
+    const dist = Array(isTrivia ? TRIVIA_MAX : MAX_GUESSES).fill(0);
+    entries.forEach(([, g]) => g.won && dist[Math.min(g.guesses.length, dist.length) - 1]++);
 
     const wonDays = new Set(entries.filter(([, g]) => g.won).map(([n]) => n));
-    const today = todayNumber();
+    const today = isTrivia ? dayNum(localDate()) : todayNumber();
     let streak = 0;
     for (let n = wonDays.has(today) ? today : today - 1; wonDays.has(n); n--) streak++;
     let best = 0;
@@ -543,9 +692,9 @@
   function renderStats() {
     const s = computeStats();
     const max = Math.max(1, ...s.dist);
-    const todayWin = !practice && game.won ? game.guesses.length : 0;
+    const todayWin = !(mode === "trivia" ? triviaPractice : practice) && game.won ? game.guesses.length : 0;
     els.statsBody.innerHTML = `
-      <p class="stats-mode">${mode === "infinite" ? "Infinite mode" : "Daily coaster"}</p>
+      <p class="stats-mode">${{ infinite: "Infinite mode", trivia: "Trivia" }[mode] || "Daily coaster"}</p>
       <div class="stat-row">
         <div><span class="stat-num">${s.played}</span><span class="stat-label">Played</span></div>
         <div><span class="stat-num">${s.played ? Math.round((s.won / s.played) * 100) : 0}</span><span class="stat-label">Win %</span></div>
@@ -597,7 +746,7 @@
 
   useMode(mode);
   renderAll();
-  if (!practice && !game.guesses.length && !store.seenHelp) {
+  if (!practice && !triviaPractice && !game.guesses.length && !store.seenHelp) {
     store.seenHelp = true;
     saveStore();
     els.help.showModal();
