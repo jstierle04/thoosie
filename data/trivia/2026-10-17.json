@@ -1,0 +1,71 @@
+{
+ "date": "2026-10-17",
+ "answer": {
+  "name": "Cannon Ball",
+  "park": "Lake Winnepesaukah",
+  "page": "Cannon Ball (Lake Winnepesaukah)"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "This classic thrill machine climbs to a height of 70 feet, hits speeds of up to 50 mph, and features zero inversions."
+  },
+  {
+   "kind": "stats",
+   "text": "Designed by the legendary John C. Allen, it was built by Philadelphia Toboggan Coasters and made its debut in 1967."
+  },
+  {
+   "kind": "park",
+   "text": "You can find this ride in the state of Georgia, located just south of the Tennessee border in Rossville."
+  },
+  {
+   "kind": "fact",
+   "text": "This wooden ride is one of three roller coasters entertaining guests at Lake Winnepesaukah amusement park."
+  },
+  {
+   "kind": "name",
+   "text": "Sharing its name with a heavy spherical artillery projectile, this two-word title is also a popular way to make a big splash in a swimming pool."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "height: \"70 ft\", speed: \"50 mph\", inversions: 0"
+   },
+   {
+    "source": "wikipedia",
+    "quote": "The ride opened in 1967, was designed by John C. Allen, and was built by Philadelphia Toboggan Coasters."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Cannon Ball is a wooden roller coaster located at Lake Winnepesaukah amusement park in Rossville, Georgia, United States."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Cannon Ball is a wooden roller coaster located at Lake Winnepesaukah amusement park in Rossville, Georgia, United States. The ride opened in 1967, was designed by John C. Allen, and was built by Philadelphia Toboggan Coasters. It is one of three roller coasters at the park."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Cannon Ball is a wooden roller coaster located at Lake Winnepesaukah amusement park in Rossville, Georgia, United States."
+   }
+  ],
+  "sources": [
+   {
+    "name": "wikipedia",
+    "title": "Cannon Ball (roller coaster)",
+    "url": "https://en.wikipedia.org/wiki/Cannon_Ball_%28roller_coaster%29"
+   },
+   {
+    "name": "coasterpedia",
+    "title": "Cannon Ball (Lake Winnepesaukah)",
+    "url": "https://coasterpedia.net/wiki/Cannon_Ball_%28Lake_Winnepesaukah%29"
+   }
+  ],
+  "model": "gemini-3.8-flash",
+  "response_id": "xZLParemGMq3_PUP6-qToQE",
+  "generated_at": "2026-10-14T14:36:58+00:00"
+ }
+}
