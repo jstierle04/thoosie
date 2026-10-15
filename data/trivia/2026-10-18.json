@@ -1,0 +1,71 @@
+{
+ "date": "2026-10-18",
+ "answer": {
+  "name": "Mamba",
+  "park": "Worlds of Fun",
+  "page": "Mamba (Worlds of Fun)"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "This coaster climbs to a height of 205 feet, hits a top speed of 75 mph, and features zero inversions along its course."
+  },
+  {
+   "kind": "stats",
+   "text": "Manufactured by Morgan, this massive ride first opened to riders in 1998."
+  },
+  {
+   "kind": "park",
+   "text": "Riders will find this attraction thrilling guests in the state of Missouri."
+  },
+  {
+   "kind": "fact",
+   "text": "This ride ranks as the tallest, fastest, and longest continuous circuit roller coaster in the state of Missouri."
+  },
+  {
+   "kind": "name",
+   "text": "This coaster shares its name with a notoriously fast and venomous African snake."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "\"height\": \"205 ft\", \"speed\": \"75 mph\", \"inversions\": 0"
+   },
+   {
+    "source": "stats",
+    "quote": "\"maker\": \"Morgan\", \"year\": 1998"
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Mamba is a steel roller coaster located at Worlds of Fun in Kansas City, Missouri."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "It is also currently the tallest, fastest, and longest continuous circuit coaster in the state of Missouri; it is surpassed in height only by Mr. Freeze: Reverse Blast at Six Flags St. Louis, which is a Shuttle roller coaster."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Mamba is a steel roller coaster located at Worlds of Fun in Kansas City, Missouri."
+   }
+  ],
+  "sources": [
+   {
+    "name": "wikipedia",
+    "title": "Mamba (roller coaster)",
+    "url": "https://en.wikipedia.org/wiki/Mamba_%28roller_coaster%29"
+   },
+   {
+    "name": "coasterpedia",
+    "title": "Mamba (Worlds of Fun)",
+    "url": "https://coasterpedia.net/wiki/Mamba_%28Worlds_of_Fun%29"
+   }
+  ],
+  "model": "gemini-3.8-flash",
+  "response_id": "nN_QasaSC57RjMcPw7WekAE",
+  "generated_at": "2026-10-15T14:14:19+00:00"
+ }
+}
