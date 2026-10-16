@@ -34,10 +34,15 @@
 
   <main class="wrap">
     <section class="console">
-      <div class="modes" role="group" aria-label="Game mode">
-        <button type="button" class="mode-tab" data-mode="daily" aria-selected="true">Daily</button>
-        <button type="button" class="mode-tab" data-mode="infinite" aria-selected="false">Infinite <span aria-hidden="true">∞</span></button>
-        <button type="button" class="mode-tab" data-mode="trivia" aria-selected="false">Trivia</button>
+      <div class="mode-bar">
+        <div class="modes" role="group" aria-label="Game">
+          <button type="button" class="mode-tab" data-mode="trivia" aria-selected="true">Trivia</button>
+          <button type="button" class="mode-tab" data-mode="classic" aria-selected="false">Classic</button>
+        </div>
+        <div class="modes sub-modes" id="classic-modes" role="group" aria-label="Classic mode" hidden>
+          <button type="button" class="mode-tab" data-mode="daily" aria-selected="false">Daily</button>
+          <button type="button" class="mode-tab" data-mode="infinite" aria-selected="false">Infinite <span aria-hidden="true">∞</span></button>
+        </div>
       </div>
       <div class="admit">
         <span class="admit-label">Admit</span>
@@ -72,7 +77,10 @@
 
   <dialog id="help" class="sheet">
     <h2>How to ride</h2>
-    <p>Guess today's mystery coaster in <strong>8 rides</strong>. Every guess gets a ticket showing how close you were.</p>
+    <p><strong>Trivia:</strong> guess today's mystery coaster from trivia clues. Every miss (or
+      "Next clue") reveals another fact, from stats to fun facts to the park to a clue about the name.</p>
+    <p><strong>Classic</strong> is the stats game: guess in <strong>8 rides</strong>, and every
+      guess gets a ticket showing how close you were.</p>
     <dl class="rules">
       <dt><span class="swatch hit"></span></dt><dd>Exact match.</dd>
       <dt><span class="swatch close"></span></dt>
@@ -80,9 +88,7 @@
       <dt><span class="arrow">↑↓</span></dt><dd>The answer is higher or lower.</dd>
     </dl>
     <p class="fine"><strong>Daily:</strong> one coaster a day, and everyone gets the same one.
-      <strong>Infinite:</strong> a random coaster every round, as many rounds as you like, with its own stats and streak.
-      <strong>Trivia:</strong> no stats tickets, just trivia about one mystery coaster a day. Every miss (or
-      "Next clue") reveals another fact, from stats to fun facts to the park to a clue about the name.</p>
+      <strong>Infinite:</strong> a random coaster every round, as many rounds as you like, with its own stats and streak.</p>
     <form method="dialog"><button class="ride-btn">Got it</button></form>
   </dialog>
 
@@ -95,6 +101,7 @@
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
 
   <script src="data/coasters.js"></script>
+  <script src="data/schedule.js"></script>
   <script src="src/game.js"></script>
 </body>
 </html>

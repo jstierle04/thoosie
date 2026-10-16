@@ -4,3 +4,15 @@
 # Better long-term fix: add the stat to the Coasterpedia page itself, then delete the line here.
 
 Matterhorn Bobsleds | speed=27   # both tracks; Coasterpedia leaves speed blank. VERIFY before launch.
+
+# Stats missing on Coasterpedia, taken from English Wikipedia (Oct 2026).
+Goofy's Sky School | height=55                          # Wikipedia infobox
+Slinky Dog Dash | height=50                             # Wikipedia infobox
+Tron Lightcycle Run (Magic Kingdom) | height=78         # Wikipedia "Tron Lightcycle Power Run" infobox (78.1 ft)
+Wild Eagle | height=210                                 # Wikipedia article text: "reaches a height of 210 feet"
+Reptilian (Kings Dominion) | speed=41                   # Wikipedia infobox
+Woodstock Express (Carowinds) | height=40, speed=36     # Wikipedia infobox
+The Dark Knight Coaster (Six Flags Great Adventure) | height=45, speed=30   # Wikipedia infobox (same Mack model at both parks)
+The Dark Knight Coaster (Six Flags Great America) | height=45, speed=30     # Wikipedia infobox
+Little Dipper (Six Flags Great America) | speed=25      # Wikipedia infobox
+Barrels O' Fun (Six Flags Great Adventure) | year=2026  # Wikipedia: opened here July 8, 2026 (moved from Six Flags America)

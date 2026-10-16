@@ -65,3 +65,126 @@ Formula Rossa @ Ferrari World
 Steel Dragon 2000 @ Nagashima Spa Land
 Eejanaika @ Fuji-Q Highland
 T Express @ Everland
+
+# North American chain parks (Disney, Universal, Six Flags incl. former Cedar Fair, United Parks, Herschend),
+# added Oct 2026: coasters with full stats on Coasterpedia (gaps filled from Wikipedia in overrides.txt).
+# Disney
+Chip 'n' Dale’s Gadget Coaster @ Disneyland Park   # kiddie: Disney/Universal
+The Barnstormer @ Magic Kingdom   # kiddie: Disney/Universal
+Tron Lightcycle Run @ Magic Kingdom
+Goofy's Sky School @ Disney California Adventure Park
+Slinky Dog Dash @ Disney's Hollywood Studios
+# Universal
+Trolls TrollerCoaster @ Universal Studios Florida   # kiddie: Disney/Universal
+Flight of the Hippogriff @ Universal Islands of Adventure
+# Six Flags
+Demon @ California's Great America
+The Grizzly @ California's Great America
+Patriot @ California's Great America
+Bat @ Canada's Wonderland
+The Daredeviler @ Canada's Wonderland
+Mighty Canadian Minebuster @ Canada's Wonderland
+Wilde Beast @ Canada's Wonderland
+Dragon Fyre @ Canada's Wonderland
+Fly @ Canada's Wonderland
+Silver Streak @ Canada's Wonderland
+Ghoster Coaster @ Canada's Wonderland
+Snoopy's Racing Railway @ Canada's Wonderland
+Thunder Run @ Canada's Wonderland
+Flying Cobras @ Carowinds
+Carolina Cyclone @ Carowinds
+Vortex @ Carowinds
+Hurler @ Carowinds
+Kiddy Hawk @ Carowinds
+Ricochet @ Carowinds
+Carolina Goldrusher @ Carowinds
+Snoopy's Racing Railway @ Carowinds
+Woodstock Express @ Carowinds
+Corkscrew @ Cedar Point
+Blue Streak @ Cedar Point
+Iron Dragon @ Cedar Point
+Wild Mouse @ Cedar Point
+Cedar Creek Mine Ride @ Cedar Point
+Woodstock Express @ Cedar Point
+Wilderness Run @ Cedar Point   # kiddie: historic
+Thunderhawk @ Dorney Park & Wildwater Kingdom
+Wild Mouse @ Dorney Park & Wildwater Kingdom
+Silver Bullet @ Frontier City
+Wildcat @ Frontier City
+Diamond Back @ Frontier City
+Steel Lasso @ Frontier City
+Tumbili @ Kings Dominion
+Reptilian @ Kings Dominion
+Apple Zapple @ Kings Dominion
+Woodstock Express @ Kings Dominion
+Invertigo @ Kings Island
+Snoopy's Soap Box Racers @ Kings Island
+Adventure Express @ Kings Island
+Woodstock's Air Rail @ Kings Island
+Woodstock Express @ Kings Island
+Jaguar! @ Knott's Berry Farm
+Coast Rider @ Knott's Berry Farm
+Pony Express @ Knott's Berry Farm
+Viper @ Six Flags Darien Lake
+Boomerang Coast to Coaster @ Six Flags Darien Lake
+Mind Eraser @ Six Flags Darien Lake
+Predator @ Six Flags Darien Lake
+Moto Coaster @ Six Flags Darien Lake
+Boomerang Coast to Coaster @ Six Flags Discovery Kingdom
+Kong @ Six Flags Discovery Kingdom
+Sidewinder Safari @ Six Flags Discovery Kingdom
+Batman The Ride @ Six Flags Fiesta Texas
+Boomerang @ Six Flags Fiesta Texas
+Road Runner Express @ Six Flags Fiesta Texas
+Pandemonium @ Six Flags Fiesta Texas
+Runaway Mine Train @ Six Flags Great Adventure
+Barrels O' Fun @ Six Flags Great Adventure
+Skull Mountain @ Six Flags Great Adventure
+The Dark Knight Coaster @ Six Flags Great Adventure
+The Joker @ Six Flags Great America
+Demon @ Six Flags Great America
+Whizzer @ Six Flags Great America
+Little Dipper @ Six Flags Great America   # kiddie: historic
+The Dark Knight Coaster @ Six Flags Great America
+Viper @ Six Flags Magic Mountain
+Ninja @ Six Flags Magic Mountain
+Gold Rusher @ Six Flags Magic Mountain
+Wonder Woman @ Six Flags Mexico
+Batgirl Batarang @ Six Flags Mexico
+Batman The Ride @ Six Flags Mexico
+Joker @ Six Flags Mexico
+Flashback @ Six Flags New England
+The Riddler Revenge @ Six Flags New England
+Thunderbolt @ Six Flags New England
+Quantum Accelerator @ Six Flags New England
+Gotham City Gauntlet: Escape from Arkham Asylum @ Six Flags New England
+Pandemonium @ Six Flags New England
+Blue Hawk @ Six Flags Over Georgia
+The Great American Scream Machine @ Six Flags Over Georgia
+Dahlonega Mine Train @ Six Flags Over Georgia
+Joker @ Six Flags Over Texas
+Judge Roy Scream @ Six Flags Over Texas
+Runaway Mountain @ Six Flags Over Texas
+Pandemonium @ Six Flags Over Texas
+Runaway Mine Train @ Six Flags Over Texas
+# United Parks
+Phoenix Rising @ Busch Gardens Tampa
+The Big Bad Wolf: The Wolf's Revenge @ Busch Gardens Williamsburg
+Penguin Trek @ SeaWorld Orlando
+Journey to Atlantis @ SeaWorld San Antonio
+Barracuda Strike @ SeaWorld San Antonio
+Journey to Atlantis @ SeaWorld San Diego
+Vapor Trail @ Sesame Place Philadelphia
+# Herschend
+Tornado @ Adventureland
+Phoenix @ Adventureland
+Flying Viking @ Adventureland
+Wild Eagle @ Dollywood
+Blazing Fury @ Dollywood
+Woodland Run @ Kentucky Kingdom
+Flying Fox @ Kentucky Kingdom
+Thunderation @ Silver Dollar City
+Boomerang @ Wild Adventures
+Twisted Typhoon @ Wild Adventures
+Marsh Mayhem @ Wild Adventures
+Swamp Thing @ Wild Adventures

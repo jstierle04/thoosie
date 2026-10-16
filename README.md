@@ -22,6 +22,10 @@ permanent address; until then the link is whatever address the page was loaded f
 
 ## Modes
 
+The game always opens on **Trivia** (see below). The **Classic** tab is the stats game, with
+sub-tabs for Daily and Infinite; it reopens on whichever of the two was played last.
+`?mode=daily` or `?mode=infinite` opens one of those instead.
+
 - **Daily:** one coaster per day, the same for everyone.
 - **Infinite:** a random featured coaster each round, with separate stats and streak. It
   won't repeat any of the last 30 answers and never serves today's daily answer.
@@ -34,6 +38,7 @@ styles.css                     all styling (light + dark)
 src/game.js                    game logic: daily pick, scoring, autocomplete, stats, share
 data/coasters.js               GENERATED coaster list (window.COASTERS), CC BY-SA
 data/featured.txt              always-in answer pool additions
+data/schedule.js               GENERATED frozen Daily answers (scripts/schedule.py)
 data/exclude.txt               never-an-answer list
 scripts/import_coasterpedia.py builds data/coasters.js from Coasterpedia
 ```
@@ -134,7 +139,13 @@ Puzzle files ship with the site, so the answers are readable by anyone who looks
 
 ## How the daily coaster is picked
 
-The answer pool is shuffled with a fixed seed (`SHUFFLE_SEED` in `game.js`) and
-puzzle N takes entry `(N - 1) % length`. Puzzle 1 is 2026-01-01 local time.
-**Any change to the pool reorders every puzzle.** That's fine while prototyping; switch to
-an explicit schedule before launch.
+Days already played never change. `data/schedule.js` fixes the answer for days 1..N (by
+Coasterpedia page), and later days go through the answer pool shuffled with a fixed seed
+(`SHUFFLE_SEED` in `game.js`), coasters that haven't been a Daily answer yet first.
+Puzzle 1 is 2026-01-01 local time.
+
+Changing the pool only reorders days after the frozen ones. `import_coasterpedia.py` freezes
+through today + 2 days (using the pool that's live before the import) before it writes the new
+pool, so re-importing is safe. `scripts/schedule.py --show 7` prints the coming week's answers;
+`scripts/schedule.py --through YYYY-MM-DD` freezes further ahead. Keep `scripts/schedule.py`
+and `dailyAnswerFor` in `game.js` in step.

@@ -6,10 +6,8 @@ America #43: Kingda Ka @ Six Flags Great Adventure  -- Coasterpedia lists "Kingd
 America #59: Fire Runner @ Lost Island Theme Park  -- Coasterpedia page "Fire Runner" has incomplete stats (missing height)
 America #93: Volcano, the Blast Coaster @ Kings Dominion  -- Coasterpedia lists "Volcano The Blast Coaster" as defunct
 America #99: Dragon Challenge : Chinese Fireball @ Universal Islands of Adventure  -- Coasterpedia lists "Dragon Challenge (Universal Islands of Adventure)" as defunct
-America #107: TRON Lightcycle / Run @ Walt Disney World - Magic Kingdom  -- Coasterpedia page "Tron Lightcycle Run (Magic Kingdom)" has incomplete stats (missing height)
 America #114: Dragon Challenge : Hungarian Horntail @ Universal Islands of Adventure  -- Coasterpedia lists "Dragon Challenge (Universal Islands of Adventure)" as defunct
 America #116: Dominator @ Geauga Lake  -- no matching coaster on Coasterpedia
-America #123: Wild Eagle @ Dollywood  -- Coasterpedia page "Wild Eagle" has incomplete stats (missing height)
 America #131: Hiccup's Wing Gliders @ Universal Epic Universe  -- Coasterpedia page "Hiccup's Wing Gliders" has incomplete stats (missing height)
 America #143: Harry Potter and the Escape from Gringotts @ Universal Studios Florida  -- Coasterpedia page "Harry Potter and the Escape from Gringotts" has incomplete stats (missing height+speed)
 America #190: Hollywood Rip, Ride, Rockit @ Universal Studios Florida  -- Coasterpedia lists "Hollywood Rip Ride Rockit" as defunct
@@ -28,7 +26,6 @@ America #258: Greezed Lightnin' @ Kentucky Kingdom  -- Coasterpedia lists "Greez
 America #261: Firehawk @ Kings Island  -- Coasterpedia lists "Firehawk" as defunct
 America #265: Seven Dwarfs Mine Train @ Walt Disney World - Magic Kingdom  -- Coasterpedia page "Seven Dwarfs Mine Train (Magic Kingdom)" has incomplete stats (missing height)
 America #269: Hypersonic XLC @ Kings Dominion  -- Coasterpedia lists "HyperSonic XLC" as defunct
-America #274: Slinky Dog Dash @ Walt Disney World - Disney's Hollywood Studios  -- Coasterpedia page "Slinky Dog Dash" has incomplete stats (missing height)
 America #276: Mine Cart Madness @ Universal Epic Universe  -- Coasterpedia page "Mine-Cart Madness (Universal Epic Universe)" has incomplete stats (missing height+speed)
 America #284: Batman And Robin: The Chiller @ Six Flags Great Adventure  -- Coasterpedia lists "Batman And Robin: The Chiller" as defunct
 America #300: Runaway @ Branson Mountain Adventure Park  -- no matching coaster on Coasterpedia

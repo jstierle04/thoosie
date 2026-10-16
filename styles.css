@@ -122,9 +122,16 @@ button, .suggestions li { -webkit-tap-highlight-color: transparent; }
 
 .console { padding: 28px 0 8px; }
 
+.mode-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 14px;
+  margin-bottom: 20px;
+}
+
 .modes {
   display: inline-flex;
-  margin-bottom: 20px;
   border: 2px solid var(--ink);
   box-shadow: 3px 3px 0 var(--shadow);
 }
@@ -139,6 +146,10 @@ button, .suggestions li { -webkit-tap-highlight-color: transparent; }
 .mode-tab + .mode-tab { border-left: 2px solid var(--ink); }
 @media (hover: hover) { .mode-tab:hover { background: var(--mustard); color: #1e1a15; } }
 .mode-tab[aria-selected="true"] { background: var(--ink); color: var(--paper); cursor: default; }
+
+/* Classic's Daily/Infinite: a smaller second row of tabs */
+.sub-modes { box-shadow: 2px 2px 0 var(--shadow); }
+.sub-modes .mode-tab { padding: 5px 12px; font-size: 0.72rem; }
 
 .stats-mode {
   margin: -6px 0 16px;
@@ -602,6 +613,7 @@ body[data-mode="trivia"] .legend { display: none; }
   .console { padding-top: 20px; }
   .modes { display: flex; width: 100%; }
   .mode-tab { flex: 1; padding: 10px 6px; font-size: 0.78rem; }
+  .sub-modes .mode-tab { padding: 7px 6px; font-size: 0.7rem; }
   .guess-form input { padding: 12px; font-size: 1rem; }
   .ride-btn { padding: 10px 16px; }
 

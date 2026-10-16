@@ -4,7 +4,7 @@
   const MAX_GUESSES = 8;
   const STORAGE_KEY = "thoosie:v1";
   const EPOCH = new Date(2026, 0, 1); // puzzle No. 1
-  const SHUFFLE_SEED = 0x7400513; // changing this reorders every future puzzle
+  const SHUFFLE_SEED = 0x7400513; // changing this reorders every unfrozen puzzle (see dailyAnswerFor)
   const CLOSE = { year: 5, height: 25, speed: 8, inversions: 2 };
 
   const FIELDS = [
@@ -96,8 +96,22 @@
   const puzzleNo = practice ? override : todayNumber();
   // Every coaster is guessable; only the answer pool (built by the importer) can be the answer.
   const POOL = COASTERS.some((c) => c.answer) ? COASTERS.filter((c) => c.answer) : COASTERS;
-  const ORDER = shuffled(POOL, SHUFFLE_SEED);
-  const dailyAnswer = ORDER[(puzzleNo - 1) % ORDER.length];
+  const dailyAnswer = dailyAnswerFor(puzzleNo);
+
+  // Days 1..SCHEDULE.length are frozen (data/schedule.js, written by scripts/schedule.py) so that
+  // changing the pool never moves a played puzzle. Later days go through the pool shuffled,
+  // not-yet-used coasters first. Keep in step with scripts/schedule.py.
+  function dailyAnswerFor(n) {
+    const frozen = window.SCHEDULE || [];
+    const byPage = new Map(COASTERS.map((c) => [c.page, c]));
+    if (n <= frozen.length && byPage.has(frozen[n - 1])) return byPage.get(frozen[n - 1]);
+    const used = new Set(frozen);
+    const order = shuffled(POOL.filter((c) => !used.has(c.page)), SHUFFLE_SEED).concat(
+      shuffled(POOL.filter((c) => used.has(c.page)), SHUFFLE_SEED)
+    );
+    const k = n > frozen.length ? n - frozen.length : n; // (a frozen day whose coaster was removed: any will do)
+    return order[(k - 1) % order.length];
+  }
   // infinite mode won't repeat a coaster until this many others have come up
   const RECENT_LIMIT = Math.min(30, Math.floor(POOL.length / 2));
 
@@ -203,7 +217,10 @@
     }
   }
 
-  let mode = triviaPractice ? "trivia" : !practice && ["infinite", "trivia"].includes(store.mode) ? store.mode : "daily";
+  // Trivia is the main mode: the game always opens on it, except for practice links and
+  // ?mode=daily|infinite (used when leaving practice, since that reloads the page)
+  const modeParam = new URLSearchParams(location.search).get("mode");
+  let mode = practice ? "daily" : triviaPractice ? "trivia" : ["daily", "infinite"].includes(modeParam) ? modeParam : "trivia";
   let answer;
   let game;
 
@@ -266,6 +283,7 @@
     statsBody: $("stats-body"),
     toast: $("toast"),
     modeTabs: document.querySelectorAll(".mode-tab"),
+    classicModes: $("classic-modes"),
     clues: $("clues"),
     skip: $("skip-btn"),
   };
@@ -417,7 +435,9 @@
     if (mode === "infinite") els.puzzleNo.textContent = `Infinite · Ride ${inf.played + (game.done ? 0 : 1)}`;
     else if (mode === "trivia") els.puzzleNo.textContent = `Trivia · ${shortDate(triviaDate)}${triviaPractice ? " (practice)" : ""}`;
     else els.puzzleNo.textContent = `No. ${String(puzzleNo).padStart(3, "0")}${practice ? " (practice)" : ""}`;
-    els.modeTabs.forEach((tab) => tab.setAttribute("aria-selected", String(tab.dataset.mode === mode)));
+    const tabMode = (m) => (m === "classic" ? mode !== "trivia" : m === mode);
+    els.modeTabs.forEach((tab) => tab.setAttribute("aria-selected", String(tabMode(tab.dataset.mode))));
+    els.classicModes.hidden = mode === "trivia";
     renderPunches();
     els.guesses.hidden = mode === "trivia";
     els.clues.hidden = mode !== "trivia";
@@ -607,9 +627,13 @@
   }
 
   function switchMode(m) {
+    if (m === "classic") m = mode !== "trivia" ? mode : store.classicMode === "infinite" ? "infinite" : "daily";
     if (m === mode) return;
-    if ((practice && m !== "daily") || (triviaPractice && m !== "trivia")) location.search = ""; // leave practice mode cleanly
-    store.mode = m;
+    if ((practice && m !== "daily") || (triviaPractice && m !== "trivia")) {
+      location.search = m === "trivia" ? "" : `?mode=${m}`; // leave practice mode cleanly
+      return;
+    }
+    if (m !== "trivia") store.classicMode = m; // Classic reopens on whichever of Daily/Infinite was used last
     useMode(m);
     saveStore();
     resetInput();

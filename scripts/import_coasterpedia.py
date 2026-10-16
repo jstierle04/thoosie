@@ -28,6 +28,8 @@ import urllib.request
 from collections import Counter
 from pathlib import Path
 
+import schedule  # scripts/schedule.py
+
 API = "https://coasterpedia.net/w/api.php"
 USER_AGENT = "ThoosieImporter/0.1 (daily coaster guessing game; https://coasterpedia.net data, CC BY-SA)"
 # Racing/dueling coasters (Lightning Racer, Racer 75, ...) use the multitrack infobox, with
@@ -566,11 +568,15 @@ def main():
         "// Data from Coasterpedia (https://coasterpedia.net), CC BY-SA 4.0. See data/LICENSE.\n"
         "// height: feet, speed: mph, year: year opened.\n"
     )
+    # Pin the Daily answers up to today+2 to the pool that's live now, before replacing it.
+    frozen = schedule.freeze()
     body = ",\n".join("  " + json.dumps(c, ensure_ascii=False) for c in coasters)
     OUT_PATH.write_text(f"{header}window.COASTERS = [\n{body}\n];\n", encoding="utf-8")
 
     # ---- report ----
     print(f"\nWrote {len(coasters)} coasters to {OUT_PATH.relative_to(ROOT)}")
+    if frozen:
+        print(f"Froze {frozen} more Daily days in {schedule.SCHEDULE_PATH.relative_to(ROOT)} before changing the pool")
     print(f"Left out {len(dropped)} {'/'.join(sorted(DROP_STATUSES))} coasters")
     if GUESSABLE_ONLY_ANSWERS:
         print(f"Left out {not_answers} complete coasters that aren't in the answer pool (GUESSABLE_ONLY_ANSWERS)")
