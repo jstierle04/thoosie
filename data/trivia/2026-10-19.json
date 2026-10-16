@@ -1,0 +1,71 @@
+{
+ "date": "2026-10-19",
+ "answer": {
+  "name": "Apollo's Chariot",
+  "park": "Busch Gardens Williamsburg",
+  "page": "Apollo's Chariot"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "Featuring zero inversions, this high-speed ride climbs to a height of 170 feet and reaches a top speed of 73 mph."
+  },
+  {
+   "kind": "stats",
+   "text": "Manufactured by renowned Swiss firm B&M, this crowd-pleaser welcomed its very first riders in 1999."
+  },
+  {
+   "kind": "park",
+   "text": "Thrill-seekers can take a ride on this coaster in the state of Virginia."
+  },
+  {
+   "kind": "fact",
+   "text": "This coaster made international headlines during an inaugural run when Italian model Fabio was struck in the face by a goose."
+  },
+  {
+   "kind": "name",
+   "text": "Its name refers to the mythological conveyance belonging to the Greek and Roman god of the sun, music, and healing."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "\"height\": \"170 ft\", \"speed\": \"73 mph\", \"inversions\": 0"
+   },
+   {
+    "source": "stats",
+    "quote": "\"maker\": \"B&M\", \"year\": 1999"
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Apollo's Chariot is a steel roller coaster at the Busch Gardens Williamsburg amusement park in James City County, Virginia, United States."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "During the ride's inaugural run, a 10-pound goose struck him in the face leaving his nose covered with blood."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "This coaster is themed to the Greek and Roman god Apollo, who is the god of the sun, music, and healing."
+   }
+  ],
+  "sources": [
+   {
+    "name": "wikipedia",
+    "title": "Apollo's Chariot",
+    "url": "https://en.wikipedia.org/wiki/Apollo%27s_Chariot"
+   },
+   {
+    "name": "coasterpedia",
+    "title": "Apollo's Chariot",
+    "url": "https://coasterpedia.net/wiki/Apollo%27s_Chariot"
+   }
+  ],
+  "model": "gemini-3.8-flash",
+  "response_id": "UX3SaoG6H5SOytMPj72wiQ8",
+  "generated_at": "2026-10-16T19:42:01+00:00"
+ }
+}
