@@ -1,0 +1,71 @@
+{
+ "date": "2026-10-20",
+ "answer": {
+  "name": "Demon",
+  "park": "California's Great America",
+  "page": "Demon (California's Great America)"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "Reaching a top speed of 50 mph, this 102-foot-tall coaster sends riders upside down through 4 inversions."
+  },
+  {
+   "kind": "stats",
+   "text": "This vintage steel looping coaster was built by Arrow and made its original debut in 1976."
+  },
+  {
+   "kind": "park",
+   "text": "This coaster can be found thrilling park visitors in the sunny state of California."
+  },
+  {
+   "kind": "fact",
+   "text": "Following a major overhaul after the 1979 season, two of its original airtime hills were replaced by a pair of vertical loops, tying the world record for the most inversions at the time."
+  },
+  {
+   "kind": "name",
+   "text": "The name of this coaster refers to an evil supernatural spirit or fiend from the underworld."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "height: 102 ft, speed: 50 mph, inversions: 4"
+   },
+   {
+    "source": "stats",
+    "quote": "maker: Arrow, type: Steel, year: 1976"
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Demon is a looping roller coaster located at Six Flags Great America in Gurnee, Illinois and California's Great America in Santa Clara, California."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "The two airtime hills were replaced with two vertical loops, bringing each ride's inversion count to four – tied for the most in the world at the time."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "The backstory of the ride is that a demon slithered into Great America and attached himself to one of the ride's cars, then disappeared into the ride's structure."
+   }
+  ],
+  "sources": [
+   {
+    "name": "wikipedia",
+    "title": "Demon (roller coaster)",
+    "url": "https://en.wikipedia.org/wiki/Demon_%28roller_coaster%29"
+   },
+   {
+    "name": "coasterpedia",
+    "title": "Demon (California's Great America)",
+    "url": "https://coasterpedia.net/wiki/Demon_%28California%27s_Great_America%29"
+   }
+  ],
+  "model": "gemini-3.8-flash",
+  "response_id": "g3HTaqrzIcjmytMPtJuq8Q4",
+  "generated_at": "2026-10-17T13:01:11+00:00"
+ }
+}
