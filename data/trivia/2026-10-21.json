@@ -1,0 +1,71 @@
+{
+ "date": "2026-10-21",
+ "answer": {
+  "name": "Great White",
+  "park": "SeaWorld San Antonio",
+  "page": "Great White (SeaWorld San Antonio)"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "Reaching a top speed of 50 mph, this 108-foot-tall coaster sends riders through 5 inversions."
+  },
+  {
+   "kind": "stats",
+   "text": "This coaster was engineered by legendary Swiss manufacturer B&M and opened in 1997."
+  },
+  {
+   "kind": "park",
+   "text": "Thrill-seekers can find this inverted coaster operating in the state of Texas."
+  },
+  {
+   "kind": "fact",
+   "text": "This attraction holds the distinction of being the very first roller coaster built at a SeaWorld park."
+  },
+  {
+   "kind": "name",
+   "text": "This coaster takes its ferocious name from a legendary apex predator that roams the ocean: a massive species of shark."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "height: 108 ft, speed: 50 mph, inversions: 5"
+   },
+   {
+    "source": "stats",
+    "quote": "maker: B&M, year: 1997"
+   },
+   {
+    "source": "wikipedia",
+    "quote": "It was the first inverted roller coaster to be built in Texas."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "The Great White is an inverted roller coaster at SeaWorld San Antonio, and the first roller coaster to be built at a SeaWorld park."
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "The ride takes its name from the ''Great White'' shark."
+   }
+  ],
+  "sources": [
+   {
+    "name": "wikipedia",
+    "title": "The Great White (SeaWorld San Antonio)",
+    "url": "https://en.wikipedia.org/wiki/The_Great_White_%28SeaWorld_San_Antonio%29"
+   },
+   {
+    "name": "coasterpedia",
+    "title": "Great White (SeaWorld San Antonio)",
+    "url": "https://coasterpedia.net/wiki/Great_White_%28SeaWorld_San_Antonio%29"
+   }
+  ],
+  "model": "gemini-3.8-flash",
+  "response_id": "3MfUavGqEvrhytMPo4-QgAs",
+  "generated_at": "2026-10-18T13:21:50+00:00"
+ }
+}
