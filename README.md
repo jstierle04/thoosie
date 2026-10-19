@@ -130,10 +130,13 @@ file; the model is never called during play. `--force` only regenerates days tha
 started anywhere in the world yet (regenerating keeps that day's coaster). Fixing a live day
 needs `--replace-live`, or edit its JSON by hand.
 
-**Daily automation:** `.github/workflows/trivia.yml` runs the generator every day and commits
+**Daily automation:** `.github/workflows/trivia.yml` runs the generator every 3 hours and commits
 new puzzles. Add a `GEMINI_API_KEY` repository secret (Settings → Secrets and variables →
-Actions). It keeps 3 days ahead, so you can review (and edit) puzzles before they go live,
-and a failed run has time to be retried. It can also be run by hand from the Actions tab.
+Actions). It keeps 3 days ahead, so you can review (and edit) puzzles before they go live.
+Most runs find nothing missing and finish quickly; a day that failed because Gemini was
+unavailable is simply retried on the next run. A run only fails (and GitHub emails you) when a
+missing day is within a day of going live (`URGENT_DAYS`), or for a one-off `--date` run.
+It can also be run by hand from the Actions tab.
 
 Puzzle files ship with the site, so the answers are readable by anyone who looks.
 

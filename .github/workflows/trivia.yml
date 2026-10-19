@@ -1,10 +1,12 @@
 name: Generate trivia
 
 # Keeps data/trivia/ filled DAYS_AHEAD days into the future (see scripts/generate_trivia.py),
-# so a failed run has days to be retried and new puzzles can be reviewed before they go live.
+# so new puzzles can be reviewed before they go live. Runs every few hours: most runs find
+# nothing missing and finish quickly, and a day that failed (Gemini down) is retried on the
+# next run. The run only fails, and GitHub emails you, once a missing day is about to go live.
 on:
   schedule:
-    - cron: "17 9 * * *"   # daily, 09:17 UTC
+    - cron: "17 */3 * * *"   # every 3 hours
   workflow_dispatch:
     inputs:
       date:
@@ -45,6 +47,7 @@ jobs:
           python scripts/generate_trivia.py "${args[@]}"
 
       - name: Commit new puzzles
+        if: ${{ !cancelled() }}   # keep the days that worked even if another one failed
         run: |
           git add data/trivia
           if git diff --cached --quiet; then
@@ -54,4 +57,5 @@ jobs:
           git config user.name "thoosie-bot"
           git config user.email "thoosie-bot@users.noreply.github.com"
           git commit -m "Add trivia puzzles"
+          git pull --rebase   # in case something else was pushed during the run
           git push

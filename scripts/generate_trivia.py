@@ -54,6 +54,7 @@ MAX_OUTPUT_TOKENS = 8192
 RETRIES_PER_MODEL = 3
 RETRY_WAIT = 20  # seconds, doubled after each failed attempt
 DAYS_AHEAD = 3            # keep this many future days generated, so there's time to review
+URGENT_DAYS = 1           # a failed day this close to going live fails the run (and emails you)
 REPEAT_WINDOW = 300       # don't reuse a coaster that was an answer within this many puzzles
 MIN_CLUES, MAX_CLUES = 5, 5
 MIN_SOURCE_CHARS = 1500   # skip coasters whose sources are too thin to write good trivia from
@@ -378,6 +379,7 @@ def main():
     coasters = load_coasters()
     # the newest date anywhere on Earth (UTC+14); a puzzle for that day or earlier may already be in play
     live_until = (dt.datetime.now(dt.timezone.utc) + dt.timedelta(hours=14)).date()
+    failed = []
     for day in days:
         if (TRIVIA_DIR / f"{day.isoformat()}.json").exists():
             if not args.force:
@@ -387,7 +389,20 @@ def main():
                 print(f"{day}: already live somewhere, so keeping its clues (use --replace-live to override)")
                 continue
         print(f"{day}:")
-        generate_day(day, coasters, args.dry_run)
+        try:
+            generate_day(day, coasters, args.dry_run)
+        except Exception as err:  # API/network trouble; setup problems raise SystemExit and stop the run
+            print(f"{day}: FAILED: {type(err).__name__}: {err}")
+            failed.append(day)
+
+    # The scheduled workflow runs every few hours and only fills missing days, so a day that
+    # failed because Gemini was down gets retried automatically. Only report failure (and so get
+    # GitHub's failure email) once a missing day is close to going live, or for a one-off --date run.
+    if failed:
+        urgent = [d for d in failed if d <= live_until + dt.timedelta(days=URGENT_DAYS)]
+        if args.date or urgent:
+            sys.exit(f"Failed: {', '.join(map(str, failed))}")
+        print(f"Failed: {', '.join(map(str, failed))}; not live for a while yet, so the next scheduled run will retry.")
 
 
 if __name__ == "__main__":
