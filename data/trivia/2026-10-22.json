@@ -1,0 +1,71 @@
+{
+ "date": "2026-10-22",
+ "answer": {
+  "name": "Blue Fire Megacoaster",
+  "park": "Europa-Park",
+  "page": "Blue Fire Megacoaster"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "Riders are launched up to a brisk 62 mph, reaching a height of 125 feet while turning upside down through 4 inversions."
+  },
+  {
+   "kind": "stats",
+   "text": "Manufactured by Mack, this steel creation originally made its debut in 2009."
+  },
+  {
+   "kind": "park",
+   "text": "You will find this coaster operating in Germany, anchoring an Iceland-themed section of the park."
+  },
+  {
+   "kind": "fact",
+   "text": "This attraction made history as the very first launched coaster built by Mack Rides, as well as the first coaster at its park to include inversions."
+  },
+  {
+   "kind": "name",
+   "text": "The name of this coaster evokes an intensely hot, azure flame."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "\"height\": \"125 ft\", \"speed\": \"62 mph\", \"inversions\": 4,"
+   },
+   {
+    "source": "stats",
+    "quote": "\"maker\": \"Mack\", \"type\": \"Steel\", \"year\": 2009,"
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "'''Blue Fire Megacoaster''' is a [[steel]] [[launched]] [[roller coaster]] located at [[Europa-Park]] in Rust, Baden Wuerttemberg, Germany."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "As the first launched coaster built by Mack Rides, Blue Fire was the park's tenth roller coaster and the first to feature inversions."
+   },
+   {
+    "source": "stats",
+    "quote": "\"name\": \"Blue Fire Megacoaster\","
+   }
+  ],
+  "sources": [
+   {
+    "name": "wikipedia",
+    "title": "Blue Fire",
+    "url": "https://en.wikipedia.org/wiki/Blue_Fire"
+   },
+   {
+    "name": "coasterpedia",
+    "title": "Blue Fire Megacoaster",
+    "url": "https://coasterpedia.net/wiki/Blue_Fire_Megacoaster"
+   }
+  ],
+  "model": "gemini-3.8-flash",
+  "response_id": "zVbWasv7FtGp_uMP973zyQg",
+  "generated_at": "2026-10-19T17:44:00+00:00"
+ }
+}
