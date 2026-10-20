@@ -1,0 +1,71 @@
+{
+ "date": "2026-10-23",
+ "answer": {
+  "name": "Pantheon",
+  "park": "Busch Gardens Williamsburg",
+  "page": "Pantheon"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "Riders on this thrill machine rocket up to 73 mph, soar to heights of 178 feet, and flip through two inversions."
+  },
+  {
+   "kind": "stats",
+   "text": "This coaster was manufactured by Intamin and debuted to riders in 2022."
+  },
+  {
+   "kind": "park",
+   "text": "You will find this attraction operating at a popular theme park in Virginia."
+  },
+  {
+   "kind": "fact",
+   "text": "The coaster's dynamic layout features four launches, three of which take place on a swing launch between a vertical spike and a top hat."
+  },
+  {
+   "kind": "name",
+   "text": "The ride takes its name from a Greek word referring to a particular set of gods."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "\"height\": \"178 ft\", \"speed\": \"73 mph\", \"inversions\": 2"
+   },
+   {
+    "source": "stats",
+    "quote": "\"maker\": \"Intamin\", \"year\": 2022"
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Pantheon is a steel roller coaster at Busch Gardens Williamsburg theme park in Williamsburg, Virginia, United States."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "The ride's layout includes four launches – three of which take place on a swing launch between the vertical spike and top hat."
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "''Pantheon'' is a Greek word referring to a particular set of Gods."
+   }
+  ],
+  "sources": [
+   {
+    "name": "wikipedia",
+    "title": "Pantheon (roller coaster)",
+    "url": "https://en.wikipedia.org/wiki/Pantheon_%28roller_coaster%29"
+   },
+   {
+    "name": "coasterpedia",
+    "title": "Pantheon",
+    "url": "https://coasterpedia.net/wiki/Pantheon"
+   }
+  ],
+  "model": "gemini-3.8-flash",
+  "response_id": "0PPWapmYI_WV_uMPkvSBmQw",
+  "generated_at": "2026-10-20T04:54:59+00:00"
+ }
+}
