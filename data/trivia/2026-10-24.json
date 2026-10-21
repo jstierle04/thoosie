@@ -1,0 +1,71 @@
+{
+ "date": "2026-10-24",
+ "answer": {
+  "name": "TMNT Shellraiser",
+  "park": "Nickelodeon Universe American Dream",
+  "page": "TMNT Shellraiser"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "Reaching a top speed of 62 mph and standing 141 feet tall, this coaster turns riders upside down 7 times."
+  },
+  {
+   "kind": "stats",
+   "text": "This coaster was engineered by manufacturer Gerstlauer and opened to the public in 2019."
+  },
+  {
+   "kind": "park",
+   "text": "You can find this thrilling indoor coaster inside a massive shopping and entertainment complex in New Jersey."
+  },
+  {
+   "kind": "fact",
+   "text": "This coaster is famous for holding the world record for the steepest drop, plunging riders at an angle of 121.5 degrees."
+  },
+  {
+   "kind": "name",
+   "text": "The ride's name starts with a four-letter abbreviation for a quartet of crime-fighting reptiles and finishes with the name of their armored combat vehicle."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "height: 141 ft, speed: 62 mph, inversions: 7"
+   },
+   {
+    "source": "stats",
+    "quote": "maker: Gerstlauer, year: 2019"
+   },
+   {
+    "source": "wikipedia",
+    "quote": "TMNT Shellraiser is a steel indoor roller coaster at Nickelodeon Universe amusement park, within the American Dream mall, in East Rutherford, New Jersey, United States."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "It is the steepest roller coaster in the world, with a vertical drop of 121.5 degrees."
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "It is based on ''Teenage Mutant Ninja Turtles''. The ''Shellraiser'' is a vehicle used by the characters."
+   }
+  ],
+  "sources": [
+   {
+    "name": "wikipedia",
+    "title": "TMNT Shellraiser",
+    "url": "https://en.wikipedia.org/wiki/TMNT_Shellraiser"
+   },
+   {
+    "name": "coasterpedia",
+    "title": "TMNT Shellraiser",
+    "url": "https://coasterpedia.net/wiki/TMNT_Shellraiser"
+   }
+  ],
+  "model": "gemini-3.8-flash",
+  "response_id": "pETYasjnCIqU_uMP-ti3oAQ",
+  "generated_at": "2026-10-21T04:50:56+00:00"
+ }
+}
