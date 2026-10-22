@@ -1,0 +1,71 @@
+{
+ "date": "2026-10-25",
+ "answer": {
+  "name": "Ninja",
+  "park": "Six Flags Magic Mountain",
+  "page": "Ninja (Six Flags Magic Mountain)"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "Riders stay right-side up with zero inversions on this coaster, which tops out at a height of 60 feet and hits a top speed of 55 mph."
+  },
+  {
+   "kind": "stats",
+   "text": "Built by the legendary manufacturer Arrow, this classic ride first welcomed guests in 1988."
+  },
+  {
+   "kind": "park",
+   "text": "This coaster can be found in California, where it flies through the trees in the Samurai Summit section of the park."
+  },
+  {
+   "kind": "fact",
+   "text": "Among the remaining classic swinging models in North America, this ride holds the distinction of being the only Arrow Dynamics suspended coaster west of the Mississippi River."
+  },
+  {
+   "kind": "name",
+   "text": "The ride gets its title from the stealthy, shadow-dwelling covert agents and martial artists of feudal Japan."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "\"height\": \"60 ft\""
+   },
+   {
+    "source": "stats",
+    "quote": "\"maker\": \"Arrow\""
+   },
+   {
+    "source": "wikipedia",
+    "quote": "The coaster is located in the Samurai Summit area of Six Flags Magic Mountain in Valencia, California."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Ninja is the only Arrow Dynamics suspended coaster west of the Mississippi River."
+   },
+   {
+    "source": "stats",
+    "quote": "\"name\": \"Ninja\""
+   }
+  ],
+  "sources": [
+   {
+    "name": "wikipedia",
+    "title": "Ninja (Six Flags Magic Mountain)",
+    "url": "https://en.wikipedia.org/wiki/Ninja_%28Six_Flags_Magic_Mountain%29"
+   },
+   {
+    "name": "coasterpedia",
+    "title": "Ninja (Six Flags Magic Mountain)",
+    "url": "https://coasterpedia.net/wiki/Ninja_%28Six_Flags_Magic_Mountain%29"
+   }
+  ],
+  "model": "gemini-3.8-flash",
+  "response_id": "6JXZavKwJ5LUjMcPzrvCuQ8",
+  "generated_at": "2026-10-22T04:51:27+00:00"
+ }
+}
