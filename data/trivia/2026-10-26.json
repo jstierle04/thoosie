@@ -1,0 +1,71 @@
+{
+ "date": "2026-10-26",
+ "answer": {
+  "name": "Storm Runner",
+  "park": "Hersheypark",
+  "page": "Storm Runner"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "Standing 150 feet tall, this high-speed coaster launches riders into 3 inversions and reaches speeds up to 75 mph."
+  },
+  {
+   "kind": "stats",
+   "text": "Manufactured by Intamin, this intense steel machine made its debut in 2004."
+  },
+  {
+   "kind": "park",
+   "text": "You will find this attraction operating in Pennsylvania, where it races through the park's Pioneer Frontier section."
+  },
+  {
+   "kind": "fact",
+   "text": "This coaster made history as the very first Intamin Accelerator Coaster model to incorporate inversions into its layout."
+  },
+  {
+   "kind": "name",
+   "text": "The name of this ride suggests someone swiftly sprinting straight through severe, tempestuous weather."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "height: 150 ft, speed: 75 mph, inversions: 3"
+   },
+   {
+    "source": "stats",
+    "quote": "maker: Intamin, year: 2004"
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Storm Runner is a launched roller coaster located at Hersheypark in Hershey, Pennsylvania. Manufactured by Intamin Amusement Rides and located in the Pioneer Frontier section of the park, the Accelerator Coaster opened to the public on May 8, 2004."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "It was also the first Accelerator Coaster to feature inversions."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "In November 2003, before the name was officially announced, Hershey Entertainment filed a trademark for the name \"Storm Runner\"."
+   }
+  ],
+  "sources": [
+   {
+    "name": "wikipedia",
+    "title": "Storm Runner",
+    "url": "https://en.wikipedia.org/wiki/Storm_Runner"
+   },
+   {
+    "name": "coasterpedia",
+    "title": "Storm Runner",
+    "url": "https://coasterpedia.net/wiki/Storm_Runner"
+   }
+  ],
+  "model": "gemini-3.8-flash",
+  "response_id": "7ufaateHB9rSjMcPtMKFoQg",
+  "generated_at": "2026-10-23T04:53:43+00:00"
+ }
+}
