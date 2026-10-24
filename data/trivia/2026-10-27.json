@@ -1,0 +1,71 @@
+{
+ "date": "2026-10-27",
+ "answer": {
+  "name": "Copperhead Strike",
+  "park": "Carowinds",
+  "page": "Copperhead Strike"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "Reaching a top speed of 50 mph and an 82-foot height, this thrill ride turns passengers upside down 5 times."
+  },
+  {
+   "kind": "stats",
+   "text": "This steel coaster was manufactured by Mack Rides and welcomed its first riders in 2019."
+  },
+  {
+   "kind": "park",
+   "text": "Riders can find this attraction in the state of North Carolina, located in the city of Charlotte."
+  },
+  {
+   "kind": "fact",
+   "text": "Right out of the station and before its first launch, the train slowly rolls through an inversion commonly known as a jojo roll."
+  },
+  {
+   "kind": "name",
+   "text": "The name of this coaster evokes the sudden, venomous bite of a reddish-brown pit viper."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "\"height\": \"82 ft\", \"speed\": \"50 mph\", \"inversions\": 5"
+   },
+   {
+    "source": "stats",
+    "quote": "\"maker\": \"Mack\", \"year\": 2019"
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Copperhead Strike is a double launched roller coaster at Carowinds in Charlotte, North Carolina."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "The ride starts with a slow heartline roll out of the station (an element sometimes referred to as a jojo roll) before a right hand turn into Granny Byrd's shed."
+   },
+   {
+    "source": "stats",
+    "quote": "\"name\": \"Copperhead Strike\""
+   }
+  ],
+  "sources": [
+   {
+    "name": "wikipedia",
+    "title": "Copperhead Strike",
+    "url": "https://en.wikipedia.org/wiki/Copperhead_Strike"
+   },
+   {
+    "name": "coasterpedia",
+    "title": "Copperhead Strike",
+    "url": "https://coasterpedia.net/wiki/Copperhead_Strike"
+   }
+  ],
+  "model": "gemini-3.8-flash",
+  "response_id": "ZDbcauDpFvqdqtsPjqbD2Ao",
+  "generated_at": "2026-10-24T04:41:36+00:00"
+ }
+}
