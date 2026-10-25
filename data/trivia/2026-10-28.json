@@ -1,0 +1,71 @@
+{
+ "date": "2026-10-28",
+ "answer": {
+  "name": "Thunderbird",
+  "park": "Holiday World & Splashin' Safari",
+  "page": "Thunderbird (Holiday World)"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "Launching riders up to a top speed of 60 mph, this steel coaster towers 140 feet in the air and flips passengers upside down 4 times."
+  },
+  {
+   "kind": "stats",
+   "text": "This coaster officially made its debut in 2015, crafted by acclaimed Swiss manufacturer Bolliger & Mabillard."
+  },
+  {
+   "kind": "park",
+   "text": "This high-flying ride is located in the holiday-themed park found in Santa Claus, Indiana."
+  },
+  {
+   "kind": "fact",
+   "text": "This groundbreaking ride made history as the very first coaster built by Bolliger & Mabillard to utilize an LSM launch system."
+  },
+  {
+   "kind": "name",
+   "text": "The ride is named after a legendary avian creature from Indigenous folklore, famous for producing storms and lightning with its powerful wings."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "height: 140 ft, speed: 60 mph, inversions: 4"
+   },
+   {
+    "source": "stats",
+    "quote": "maker: B&M, year: 2015"
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Thunderbird is a steel roller coaster located in the Thanksgiving section of Holiday World & Splashin' Safari in Santa Claus, Indiana."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Thunderbird was the first Bolliger & Mabillard coaster to utilize an LSM launch."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "The designers took the Thunderbird name and coaster design and created a visual theme of the legendary bird's powerful flight through farms and forests of southern Indiana."
+   }
+  ],
+  "sources": [
+   {
+    "name": "wikipedia",
+    "title": "Thunderbird (Holiday World)",
+    "url": "https://en.wikipedia.org/wiki/Thunderbird_%28Holiday_World%29"
+   },
+   {
+    "name": "coasterpedia",
+    "title": "Thunderbird (Holiday World)",
+    "url": "https://coasterpedia.net/wiki/Thunderbird_%28Holiday_World%29"
+   }
+  ],
+  "model": "gemini-3.8-flash",
+  "response_id": "_Yjdar3wJ6KEytMPjcCKiAI",
+  "generated_at": "2026-10-25T04:45:00+00:00"
+ }
+}
