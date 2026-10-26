@@ -1,0 +1,71 @@
+{
+ "date": "2026-10-29",
+ "answer": {
+  "name": "Medusa Steel Coaster",
+  "park": "Six Flags Mexico",
+  "page": "Medusa Steel Coaster"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "This coaster reaches a maximum speed of 58 mph, stands 98 feet tall, and turns riders upside down through 3 inversions."
+  },
+  {
+   "kind": "stats",
+   "text": "Manufactured by Rocky Mountain Construction (RMC), this ride debuted in 2014."
+  },
+  {
+   "kind": "park",
+   "text": "To experience this coaster, you'll need to head to Mexico, where it operates in Mexico City."
+  },
+  {
+   "kind": "fact",
+   "text": "It was originally built as a wooden coaster by Custom Coasters International before its track was completely replaced with Rocky Mountain Construction's steel I-Box track."
+  },
+  {
+   "kind": "name",
+   "text": "The name of this attraction pairs a common metal alloy with the mythical Greek Gorgon notorious for having living snakes for hair."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "\"height\": \"98 ft\", \"speed\": \"58 mph\", \"inversions\": 3"
+   },
+   {
+    "source": "stats",
+    "quote": "\"maker\": \"RMC\", \"year\": 2014"
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Medusa Steel Coaster, formerly known as simply Medusa, is a steel roller coaster located at Six Flags México in Mexico City."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "It was originally a wooden coaster constructed by Custom Coasters International that debuted in June 2000. The wooden track was completely removed and replaced with RMC's I-Box track technology, a steel conversion that resulted in a new track layout with increased speed and the addition of three inversions."
+   },
+   {
+    "source": "stats",
+    "quote": "\"name\": \"Medusa Steel Coaster\""
+   }
+  ],
+  "sources": [
+   {
+    "name": "wikipedia",
+    "title": "Medusa Steel Coaster",
+    "url": "https://en.wikipedia.org/wiki/Medusa_Steel_Coaster"
+   },
+   {
+    "name": "coasterpedia",
+    "title": "Medusa Steel Coaster",
+    "url": "https://coasterpedia.net/wiki/Medusa_Steel_Coaster"
+   }
+  ],
+  "model": "gemini-3.8-flash",
+  "response_id": "Ntzeasj1MJboz7IPu82l0A8",
+  "generated_at": "2026-10-26T04:56:21+00:00"
+ }
+}
