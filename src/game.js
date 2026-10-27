@@ -764,7 +764,7 @@
     }
     const score = game.won ? game.guesses.length : "X";
     const rows = game.guesses.map((id) => compare(BY_ID.get(id)).map((r) => SHARE_GLYPH[r.status]).join(""));
-    const title = mode === "infinite" ? "Thoosie ∞" : `Thoosie No. ${puzzleNo}`;
+    const title = mode === "infinite" ? "Thoosie Classic ∞" : `Thoosie Classic No. ${puzzleNo}`;
     return [`${title}  ${score}/${MAX_GUESSES}`, ...rows, ...(link ? ["", link] : [])].join("\n");
   }
 
