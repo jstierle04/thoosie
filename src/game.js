@@ -191,9 +191,16 @@
   const triviaStore = (store.trivia = store.trivia || { games: {} });
   triviaStore.archive = triviaStore.archive || {}; // archive games: saved so a reload keeps progress, but never in stats
   // status: idle → loading → ready | missing
-  const trivia = { status: "idle", puzzle: null, answer: null, practiceGame: null, fresh: false };
+  // replay: an unsaved fresh copy of a finished archive day ("Play again"); a reload drops it
+  // revealed: the answer may be shown. A finished archive day opened later starts hidden, so it
+  // can be replayed unspoiled ("Show answer" reveals it); finishing a game in this visit reveals it.
+  const trivia = { status: "idle", puzzle: null, answer: null, replay: null, fresh: false, revealed: false };
+
+  // a finished archive day, opened again: keep the answer and clues out of sight
+  const triviaHidden = () => mode === "trivia" && triviaPractice && game.done && !trivia.revealed;
 
   function triviaGame() {
+    if (trivia.replay) return trivia.replay;
     if (triviaPractice) {
       // a day you played when it was live shows that game; otherwise it's an archive game
       const live = triviaStore.games[triviaDate];
@@ -344,6 +351,10 @@
   }
 
   function renderClues() {
+    if (triviaHidden()) {
+      els.clues.innerHTML = "";
+      return;
+    }
     if (trivia.status !== "ready") {
       const msg = trivia.status === "missing"
         ? triviaPractice
@@ -387,6 +398,23 @@
       els.result.hidden = true;
       return;
     }
+    if (triviaHidden()) {
+      const how = game.won ? `got it on clue ${game.guesses.length}${game.hard ? ", in hard mode" : ""}` : "ran out of clues";
+      els.result.innerHTML = `
+        <p class="result-kicker">You finished this one: ${how}.</p>
+        <p class="result-park">The answer and clues are hidden so you can play it again unspoiled.</p>
+        <div class="result-actions">
+          <button type="button" class="ride-btn next-btn" id="replay-btn">Play again</button>
+          <button type="button" class="ride-btn" id="reveal-btn">Show answer</button>
+        </div>`;
+      els.result.hidden = false;
+      $("replay-btn").addEventListener("click", replayTrivia);
+      $("reveal-btn").addEventListener("click", () => {
+        trivia.revealed = true;
+        renderAll();
+      });
+      return;
+    }
     const a = answer;
     const infinite = mode === "infinite";
     const isTrivia = mode === "trivia";
@@ -396,7 +424,9 @@
     const won = isTrivia ? `Got it on clue ${tries}${game.hard ? ", in hard mode" : ""}.` : `Got it in ${tries}. Credit counted.`;
     let actions = `<button type="button" class="ride-btn" id="share-btn">Share</button>`;
     if (infinite) actions = `<button type="button" class="ride-btn next-btn" id="next-btn">Next coaster →</button>` + actions;
-    else if (!(isTrivia ? triviaPractice : practice)) {
+    else if (isTrivia && triviaPractice) {
+      actions = `<button type="button" class="ride-btn next-btn" id="replay-btn">Play again</button>` + actions;
+    } else if (!(isTrivia ? triviaPractice : practice)) {
       actions += `<span class="countdown">Next ${isTrivia ? "trivia" : "coaster"} in <span id="countdown">--:--:--</span></span>`;
     }
     const credits = isTrivia && trivia.puzzle.review && trivia.puzzle.review.sources
@@ -422,6 +452,7 @@
     els.result.hidden = false;
     $("share-btn").addEventListener("click", share);
     if (infinite) $("next-btn").addEventListener("click", nextInfinite);
+    if ($("replay-btn")) $("replay-btn").addEventListener("click", replayTrivia);
     tickCountdown();
   }
 
@@ -449,7 +480,7 @@
     renderGen++;
     document.body.dataset.mode = mode;
     if (mode === "infinite") els.puzzleNo.textContent = `Infinite · Ride ${inf.played + (game.done ? 0 : 1)}`;
-    else if (mode === "trivia") els.puzzleNo.textContent = `Trivia · ${shortDate(triviaDate)}${triviaPractice ? " (archive)" : ""}`;
+    else if (mode === "trivia") els.puzzleNo.textContent = `Trivia · ${shortDate(triviaDate)}${trivia.replay ? " (replay)" : triviaPractice ? " (archive)" : ""}`;
     else els.puzzleNo.textContent = `No. ${String(puzzleNo).padStart(3, "0")}${practice ? " (practice)" : ""}`;
     const tabMode = (m) => (m === "classic" ? mode !== "trivia" : m === mode);
     els.modeTabs.forEach((tab) => tab.setAttribute("aria-selected", String(tabMode(tab.dataset.mode))));
@@ -697,6 +728,7 @@
 
   function afterTriviaMove() {
     trivia.fresh = true;
+    if (game.done) trivia.revealed = true;
     renderAll();
     if (game.done) els.result.scrollIntoView({ behavior: "smooth", block: "nearest" });
     else els.input.focus();
@@ -729,6 +761,16 @@
     saveStore();
     resetInput();
     renderAll();
+  }
+
+  // Archive only: replay a finished day. Not saved, never in stats; a reload shows the original result.
+  function replayTrivia() {
+    trivia.replay = newGame();
+    useMode("trivia");
+    resetInput();
+    renderAll();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    els.input.focus();
   }
 
   function nextInfinite() {

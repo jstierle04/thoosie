@@ -43,7 +43,10 @@ rejected without costing a guess. A game keeps the mode it started in, and share
 
 **Archive:** the "Past puzzles" date picker replays any day from `TRIVIA_FIRST` in `game.js` up
 to today. It loads `?trivia=YYYY-MM-DD`; archive games are saved so a reload keeps progress, but
-never count toward stats or streaks, and a day you already finished live shows that game. The
+never count toward stats or streaks, and a day you already finished live shows that game.
+A finished archive day has a **Play again** button: a fresh, unsaved copy (header says
+"replay"); a reload goes back to the original result. Opening a finished archive day later
+hides its answer and clues (with **Play again** / **Show answer**), so a replay isn't spoiled. The
 picker stops at today, but typing a future date into the URL works, for reviewing puzzles.
 
 Puzzles come from `data/trivia/`; see [Trivia puzzles](#trivia-puzzles) for how they're made.
