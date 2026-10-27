@@ -43,6 +43,16 @@
           <button type="button" class="mode-tab" data-mode="daily" aria-selected="false">Daily</button>
           <button type="button" class="mode-tab" data-mode="infinite" aria-selected="false">Infinite <span aria-hidden="true">∞</span></button>
         </div>
+        <div class="trivia-tools" id="trivia-tools" hidden>
+          <div class="archive">
+            <label for="archive-date">Past puzzles</label>
+            <input type="date" id="archive-date">
+            <a href="./" class="archive-today" id="archive-today" hidden>Today →</a>
+          </div>
+          <label class="hard-toggle" title="No suggestions: type the coaster's name yourself">
+            <input type="checkbox" id="hard-mode"> Hard mode
+          </label>
+        </div>
       </div>
       <div class="admit">
         <span class="admit-label">Admit</span>
@@ -78,7 +88,9 @@
   <dialog id="help" class="sheet">
     <h2>How to ride</h2>
     <p><strong>Trivia:</strong> guess today's mystery coaster from trivia clues. Every miss (or
-      "Next clue") reveals another fact, from stats to fun facts to the park to a clue about the name.</p>
+      "Next clue") reveals another fact, from stats to fun facts to the park to a clue about the name.
+      <strong>Hard mode</strong> turns off the suggestions: type the coaster's name yourself (spelling
+      slips are forgiven, and a name that isn't in the game doesn't cost a guess).</p>
     <p><strong>Classic</strong> is the stats game: guess in <strong>8 rides</strong>, and every
       guess gets a ticket showing how close you were.</p>
     <dl class="rules">

@@ -123,7 +123,15 @@ python3 scripts/generate_trivia.py                # fill today .. today+3
 python3 scripts/generate_trivia.py --date 2026-10-20 --force
 ```
 
-Add `?trivia=YYYY-MM-DD` to the URL to play a given day without touching stats.
+**Hard mode** (Trivia only, toggle next to the date picker): no suggestion dropdown; the typed
+name is matched forgivingly (case, punctuation, accents, leading "the", spacing, the part before a
+colon, old names, 1 typo from 6 letters and 2 from 12). A name that isn't in the game is rejected
+without costing a guess. A game keeps the mode it started in, and shares show "Hard".
+
+**Archive:** the "Past puzzles" date picker (Trivia tab) replays any day from `TRIVIA_FIRST` in
+`game.js` up to today. It loads `?trivia=YYYY-MM-DD`; archive games are saved so a reload keeps
+progress, but never count toward stats or streaks, and a day you already finished live shows that
+game. The picker stops at today, but typing a future date into the URL works, for reviewing puzzles.
 
 **Everyone gets the same clues:** each day is generated once, committed, and served as a static
 file; the model is never called during play. `--force` only regenerates days that haven't

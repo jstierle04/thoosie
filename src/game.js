@@ -22,6 +22,7 @@
 
   // Trivia mode: one generated puzzle per day (scripts/generate_trivia.py)
   const TRIVIA_DIR = "data/trivia/";
+  const TRIVIA_FIRST = "2026-10-13"; // earliest puzzle; the archive picker starts here
   const TRIVIA_MAX = 6; // most clues a puzzle can have; sizes the stats chart
   const SKIP = "__skip"; // a "Next clue" press, stored in place of a guess
   const CLUE_LABEL = { stats: "Stats", fact: "Fun fact", park: "The park", name: "Name clue" };
@@ -182,16 +183,23 @@
     return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
   }
 
-  // ?trivia=YYYY-MM-DD plays that day's trivia without touching saved stats
+  // ?trivia=YYYY-MM-DD plays that day's trivia from the archive without touching stats
+  // (the picker only offers past days; typing a future date in the URL is for reviewing puzzles)
   const triviaOverride = new URLSearchParams(location.search).get("trivia") || "";
-  const triviaPractice = /^\d{4}-\d{2}-\d{2}$/.test(triviaOverride);
+  const triviaPractice = /^\d{4}-\d{2}-\d{2}$/.test(triviaOverride) && triviaOverride !== localDate();
   const triviaDate = triviaPractice ? triviaOverride : localDate();
   const triviaStore = (store.trivia = store.trivia || { games: {} });
+  triviaStore.archive = triviaStore.archive || {}; // archive games: saved so a reload keeps progress, but never in stats
   // status: idle → loading → ready | missing
   const trivia = { status: "idle", puzzle: null, answer: null, practiceGame: null, fresh: false };
 
   function triviaGame() {
-    if (triviaPractice) return (trivia.practiceGame = trivia.practiceGame || newGame());
+    if (triviaPractice) {
+      // a day you played when it was live shows that game; otherwise it's an archive game
+      const live = triviaStore.games[triviaDate];
+      if (live && live.done) return live;
+      return (triviaStore.archive[triviaDate] = triviaStore.archive[triviaDate] || newGame());
+    }
     return (triviaStore.games[triviaDate] = triviaStore.games[triviaDate] || newGame());
   }
 
@@ -284,6 +292,9 @@
     toast: $("toast"),
     modeTabs: document.querySelectorAll(".mode-tab"),
     classicModes: $("classic-modes"),
+    triviaTools: $("trivia-tools"),
+    hard: $("hard-mode"),
+    archiveDate: $("archive-date"),
     clues: $("clues"),
     skip: $("skip-btn"),
   };
@@ -335,8 +346,10 @@
   function renderClues() {
     if (trivia.status !== "ready") {
       const msg = trivia.status === "missing"
-        ? `Today's trivia isn't ready yet. Check back soon, or play the Daily coaster.`
-        : "Loading today's trivia…";
+        ? triviaPractice
+          ? `There's no trivia puzzle for ${shortDate(triviaDate)}. Pick another day.`
+          : `Today's trivia isn't ready yet. Check back soon, or play the Daily coaster.`
+        : triviaPractice ? "Loading trivia…" : "Loading today's trivia…";
       els.clues.innerHTML = `<li class="clue clue-note">${esc(msg)}</li>`;
       return;
     }
@@ -348,7 +361,8 @@
       if (id === SKIP) return `<p class="clue-attempt skipped">Skipped</p>`;
       const c = BY_ID.get(id);
       const hit = id === answer.id;
-      return `<p class="clue-attempt ${hit ? "hit" : "miss"}">${hit ? "✓" : "✗"} ${esc(c.name)} <span>${esc(c.park)}</span></p>`;
+      const park = hit || !game.hard ? ` <span>${esc(c.park)}</span>` : ""; // a typed name can match several parks
+      return `<p class="clue-attempt ${hit ? "hit" : "miss"}">${hit ? "✓" : "✗"} ${esc(c.name)}${park}</p>`;
     };
     els.clues.innerHTML = clues
       .map((clue, i) => {
@@ -376,9 +390,10 @@
     const a = answer;
     const infinite = mode === "infinite";
     const isTrivia = mode === "trivia";
-    const lost = infinite ? "Out of tickets. It was" : isTrivia ? "Out of clues. Today's coaster was" : "Out of tickets. Today's coaster was";
+    const lost = infinite ? "Out of tickets. It was"
+      : isTrivia ? `Out of clues. ${triviaPractice ? "The" : "Today's"} coaster was` : "Out of tickets. Today's coaster was";
     const tries = game.guesses.length;
-    const won = isTrivia ? `Got it on clue ${tries}.` : `Got it in ${tries}. Credit counted.`;
+    const won = isTrivia ? `Got it on clue ${tries}${game.hard ? ", in hard mode" : ""}.` : `Got it in ${tries}. Credit counted.`;
     let actions = `<button type="button" class="ride-btn" id="share-btn">Share</button>`;
     if (infinite) actions = `<button type="button" class="ride-btn next-btn" id="next-btn">Next coaster →</button>` + actions;
     else if (!(isTrivia ? triviaPractice : practice)) {
@@ -415,9 +430,10 @@
     const locked = game.done || unavailable;
     els.input.disabled = locked;
     els.submit.disabled = locked;
-    if (unavailable) els.input.placeholder = trivia.status === "missing" ? "No trivia today yet" : "Loading trivia…";
-    else if (!locked) els.input.placeholder = "Name a coaster or park…";
-    else els.input.placeholder = mode === "infinite" ? "Ride again: hit Next coaster" : "Come back tomorrow…";
+    if (unavailable) els.input.placeholder = trivia.status !== "missing" ? "Loading trivia…" : triviaPractice ? "No puzzle that day" : "No trivia today yet";
+    else if (!locked) els.input.placeholder = isHard() ? "Type the coaster's name…" : "Name a coaster or park…";
+    else els.input.placeholder = mode === "infinite" ? "Ride again: hit Next coaster"
+      : mode === "trivia" && triviaPractice ? "Pick another day above" : "Come back tomorrow…";
     // "Next clue" only while there's another clue to reveal
     els.skip.hidden = !triviaReady() || game.done || game.guesses.length + 1 >= maxGuesses();
   }
@@ -433,11 +449,13 @@
     renderGen++;
     document.body.dataset.mode = mode;
     if (mode === "infinite") els.puzzleNo.textContent = `Infinite · Ride ${inf.played + (game.done ? 0 : 1)}`;
-    else if (mode === "trivia") els.puzzleNo.textContent = `Trivia · ${shortDate(triviaDate)}${triviaPractice ? " (practice)" : ""}`;
+    else if (mode === "trivia") els.puzzleNo.textContent = `Trivia · ${shortDate(triviaDate)}${triviaPractice ? " (archive)" : ""}`;
     else els.puzzleNo.textContent = `No. ${String(puzzleNo).padStart(3, "0")}${practice ? " (practice)" : ""}`;
     const tabMode = (m) => (m === "classic" ? mode !== "trivia" : m === mode);
     els.modeTabs.forEach((tab) => tab.setAttribute("aria-selected", String(tabMode(tab.dataset.mode))));
     els.classicModes.hidden = mode === "trivia";
+    els.triviaTools.hidden = mode !== "trivia";
+    renderHardToggle();
     renderPunches();
     els.guesses.hidden = mode === "trivia";
     els.clues.hidden = mode !== "trivia";
@@ -509,6 +527,7 @@
   }
 
   els.input.addEventListener("input", () => {
+    if (isHard()) return closeSuggestions();
     matches = findMatches(els.input.value);
     active = matches.length ? 0 : -1;
     renderSuggestions();
@@ -534,11 +553,81 @@
 
   els.input.addEventListener("blur", () => setTimeout(closeSuggestions, 100));
 
+  // ---------- Trivia hard mode ----------
+  // No suggestions: the typed name is matched forgivingly (case, punctuation, accents, a leading
+  // "the", spaces, the part before a colon, old names, and a typo or two in longer names).
+  // A game keeps the mode it started in; the toggle only changes games that haven't started.
+
+  function isHard() {
+    if (mode !== "trivia") return false;
+    return game && game.guesses.length ? !!game.hard : !!store.triviaHard;
+  }
+
+  function nameKeys(c) {
+    const keys = new Set();
+    for (const n of [c.name, c.aka || ""]) {
+      if (!n) continue;
+      keys.add(typedKey(n));
+      if (/[:–—]/.test(n)) keys.add(typedKey(n.split(/[:–—]/)[0])); // "Gotham City Gauntlet: Escape from…"
+    }
+    keys.delete("");
+    return keys;
+  }
+
+  function typedKey(s) {
+    return norm(s).replace(/^the /, "").replace(/ /g, "");
+  }
+
+  function editDistance(a, b, max) {
+    if (Math.abs(a.length - b.length) > max) return max + 1;
+    let prev = Array.from({ length: b.length + 1 }, (_, j) => j);
+    for (let i = 1; i <= a.length; i++) {
+      const cur = [i];
+      for (let j = 1; j <= b.length; j++) {
+        cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+      }
+      prev = cur;
+    }
+    return prev[b.length];
+  }
+
+  function resolveTyped(raw) {
+    const q = typedKey(raw);
+    if (!q) return null;
+    const slack = q.length >= 12 ? 2 : q.length >= 6 ? 1 : 0;
+    const close = (c, d) => [...nameKeys(c)].some((k) => editDistance(q, k, d) <= d);
+    // the answer first, so a near-miss spelling of it isn't mistaken for a similar-named coaster
+    if (close(answer, slack)) return game.guesses.includes(answer.id) ? null : answer;
+    const unguessed = COASTERS.filter((c) => !game.guesses.includes(c.id));
+    const exact = unguessed.filter((c) => close(c, 0));
+    if (exact.length) return exact[0]; // same name at several parks: any of them is "not it"
+    const near = unguessed.filter((c) => close(c, slack));
+    return near.length === 1 ? near[0] : null;
+  }
+
+  function renderHardToggle() {
+    els.hard.checked = isHard();
+    // can't switch mid-game, either way
+    els.hard.disabled = mode === "trivia" && game.guesses.length > 0 && !game.done;
+    els.hard.parentElement.title = els.hard.disabled
+      ? "Hard mode can't be switched mid-puzzle"
+      : "No suggestions: type the coaster's name yourself";
+  }
+
+  els.hard.addEventListener("change", () => {
+    store.triviaHard = els.hard.checked;
+    saveStore();
+    closeSuggestions();
+    renderInput();
+    els.input.focus();
+  });
+
   // ---------- Guessing ----------
 
   function resolveInput() {
     const q = norm(els.input.value);
     if (!q) return null;
+    if (isHard()) return resolveTyped(els.input.value);
     if (!els.list.hidden && matches[active]) return matches[active];
     const exact = COASTERS.filter((c) => (c._n === q || c._a === q) && !game.guesses.includes(c.id));
     if (exact.length === 1) return exact[0];
@@ -551,7 +640,8 @@
     if (game.done) return;
     const coaster = resolveInput();
     if (!coaster) {
-      reject(els.input.value.trim() ? "Not on the ride list" : "Name a coaster first");
+      reject(!els.input.value.trim() ? "Name a coaster first"
+        : isHard() ? "No coaster by that name. Check the spelling (this didn't cost a guess)" : "Not on the ride list");
       return;
     }
     submitGuess(coaster);
@@ -565,6 +655,7 @@
   }
 
   function recordGuess(id) {
+    if (mode === "trivia" && !game.guesses.length && store.triviaHard) game.hard = true; // fixed for the rest of the game
     game.guesses.push(id);
     if (id === answer.id) {
       game.done = true;
@@ -651,6 +742,17 @@
 
   els.modeTabs.forEach((tab) => tab.addEventListener("click", () => switchMode(tab.dataset.mode)));
 
+  // Trivia archive: pick a past day; the page reloads on that day's puzzle
+  els.archiveDate.min = TRIVIA_FIRST;
+  els.archiveDate.max = localDate();
+  els.archiveDate.value = triviaDate;
+  $("archive-today").hidden = !triviaPractice;
+  els.archiveDate.addEventListener("change", () => {
+    const d = els.archiveDate.value;
+    if (!d || d === triviaDate || d < TRIVIA_FIRST || d > localDate()) return;
+    location.search = d === localDate() ? "" : `?trivia=${d}`;
+  });
+
   // ---------- Share ----------
 
   function shareText() {
@@ -658,7 +760,7 @@
     if (mode === "trivia") {
       const score = game.won ? game.guesses.length : "X";
       const row = game.guesses.map((id) => (id === SKIP ? "⬜" : id === answer.id ? "🟩" : "⬛")).join("");
-      return [`Thoosie Trivia · ${shortDate(triviaDate)}  ${score}/${maxGuesses()}`, row, ...(link ? ["", link] : [])].join("\n");
+      return [`Thoosie Trivia · ${shortDate(triviaDate)}${game.hard ? " · Hard" : ""}  ${score}/${maxGuesses()}`, row, ...(link ? ["", link] : [])].join("\n");
     }
     const score = game.won ? game.guesses.length : "X";
     const rows = game.guesses.map((id) => compare(BY_ID.get(id)).map((r) => SHARE_GLYPH[r.status]).join(""));

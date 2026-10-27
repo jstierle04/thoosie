@@ -151,6 +151,50 @@ button, .suggestions li { -webkit-tap-highlight-color: transparent; }
 .sub-modes { box-shadow: 2px 2px 0 var(--shadow); }
 .sub-modes .mode-tab { padding: 5px 12px; font-size: 0.72rem; }
 
+/* Trivia controls: archive date picker + hard mode toggle */
+.trivia-tools { display: flex; align-items: center; gap: 10px 18px; flex-wrap: wrap; }
+.hard-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: "Archivo Narrow", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.75rem;
+  color: var(--ink-soft);
+  cursor: pointer;
+}
+.hard-toggle input { width: 16px; height: 16px; margin: 0; accent-color: var(--ink); cursor: inherit; }
+.hard-toggle:has(input:checked) { color: var(--ink); }
+.hard-toggle:has(input:disabled) { opacity: 0.6; cursor: not-allowed; }
+
+/* Trivia archive: a date picker in the same ticket style as the tabs */
+.archive { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.archive label {
+  font-family: "Archivo Narrow", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.75rem;
+  color: var(--ink-soft);
+}
+.archive input {
+  padding: 4px 8px;
+  border: 2px solid var(--ink);
+  box-shadow: 2px 2px 0 var(--shadow);
+  background: var(--paper-2);
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.85rem;
+  color-scheme: light dark;
+}
+.archive-today {
+  font-family: "Bungee", sans-serif;
+  font-size: 0.72rem;
+  color: var(--ink);
+}
+
 .stats-mode {
   margin: -6px 0 16px;
   font-family: "Archivo Narrow", sans-serif;
