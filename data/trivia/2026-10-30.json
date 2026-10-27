@@ -1,0 +1,66 @@
+{
+ "date": "2026-10-30",
+ "answer": {
+  "name": "Blazing Fury",
+  "park": "Dollywood",
+  "page": "Blazing Fury"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "This coaster reaches a modest top speed of 22 mph, stands just 22 feet tall, and features zero inversions."
+  },
+  {
+   "kind": "stats",
+   "text": "Built entirely in-house by park staff, this classic attraction opened to guests in 1978."
+  },
+  {
+   "kind": "park",
+   "text": "You will find this attraction tucked away in the mountain setting of a famous theme park in Tennessee."
+  },
+  {
+   "kind": "fact",
+   "text": "Operating at Dollywood as an enclosed dark ride roller coaster, this attraction was closely modeled after Fire In The Hole at Silver Dollar City."
+  },
+  {
+   "kind": "name",
+   "text": "The attraction's two-word name evokes an intensely burning, fiery wrath or rage."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "height: 22 ft, speed: 22 mph, inversions: 0"
+   },
+   {
+    "source": "stats",
+    "quote": "maker: In-House, year: 1978"
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "'''Blazing Fury''' is an [[enclosed]] [[dark ride]] [[roller coaster]] located at [[Dollywood]] in Pigeon Forge, Tennessee, USA."
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "The ride is based on [[Fire In The Hole (1972)|Fire In The Hole]] at [[Silver Dollar City]]."
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "'''Blazing Fury''' is an [[enclosed]] [[dark ride]] [[roller coaster]] located at [[Dollywood]] in Pigeon Forge, Tennessee, USA."
+   }
+  ],
+  "sources": [
+   {
+    "name": "coasterpedia",
+    "title": "Blazing Fury",
+    "url": "https://coasterpedia.net/wiki/Blazing_Fury"
+   }
+  ],
+  "model": "gemini-3.8-flash",
+  "response_id": "H_DfavXlF4S9_uMPusa16Ac",
+  "generated_at": "2026-10-27T00:31:00+00:00"
+ }
+}
