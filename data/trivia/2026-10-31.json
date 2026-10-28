@@ -1,0 +1,71 @@
+{
+ "date": "2026-10-31",
+ "answer": {
+  "name": "Zadra",
+  "park": "Energylandia",
+  "page": "Zadra"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "This towering coaster stands 206 feet tall, reaches a blistering top speed of 75 mph, and features 3 inversions."
+  },
+  {
+   "kind": "stats",
+   "text": "Manufactured by Rocky Mountain Construction (RMC), this massive hybrid powerhouse made its debut in 2019."
+  },
+  {
+   "kind": "park",
+   "text": "Thrills await international travelers looking for this record-breaking coaster, as it operates in the country of Poland."
+  },
+  {
+   "kind": "fact",
+   "text": "Unlike previous hybrid conversions, this ride made history as the very first coaster to be built from the ground up using RMC's patented I-Box Track."
+  },
+  {
+   "kind": "name",
+   "text": "Appropriate for a ride built with thousands of wooden beams, its one-word name is Polish for \"splinter\"."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "\"height\": \"206 ft\", \"speed\": \"75 mph\", \"inversions\": 3"
+   },
+   {
+    "source": "stats",
+    "quote": "\"maker\": \"RMC\", \"year\": 2019"
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Zadra (English: Splinter) is a steel roller coaster located at Energylandia in Zator, Poland."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "It is the first coaster to be built from the ground up using the I-Box Track, rather than using an existing structure."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Zadra (English: Splinter) is a steel roller coaster located at Energylandia in Zator, Poland."
+   }
+  ],
+  "sources": [
+   {
+    "name": "wikipedia",
+    "title": "Zadra (roller coaster)",
+    "url": "https://en.wikipedia.org/wiki/Zadra_%28roller_coaster%29"
+   },
+   {
+    "name": "coasterpedia",
+    "title": "Zadra",
+    "url": "https://coasterpedia.net/wiki/Zadra"
+   }
+  ],
+  "model": "gemini-3.8-flash",
+  "response_id": "v4vharXvCODCqtsPq9bY6Q0",
+  "generated_at": "2026-10-28T05:47:47+00:00"
+ }
+}
