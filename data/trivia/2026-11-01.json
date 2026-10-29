@@ -1,0 +1,66 @@
+{
+ "date": "2026-11-01",
+ "answer": {
+  "name": "SooperDooperLooper",
+  "park": "Hersheypark",
+  "page": "SooperDooperLooper"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "Standing 75 feet tall and reaching speeds of 45 mph, this coaster takes riders through just a single inversion."
+  },
+  {
+   "kind": "stats",
+   "text": "This classic attraction was manufactured by Schwarzkopf and opened to the public in 1977."
+  },
+  {
+   "kind": "park",
+   "text": "To take a ride on this coaster, you'll need to visit the state of Pennsylvania."
+  },
+  {
+   "kind": "fact",
+   "text": "Upon its debut, this coaster made amusement park history as only the third modern roller coaster in the world to feature a vertical loop."
+  },
+  {
+   "kind": "name",
+   "text": "The name of this ride is an alliterative, playful rhyme combining an exaggerated slang term for something truly marvelous with a word for an inversion."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "\"height\": \"75 ft\", \"speed\": \"45 mph\", \"inversions\": 1"
+   },
+   {
+    "source": "stats",
+    "quote": "\"maker\": \"Schwarzkopf\", \"year\": 1977"
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "'''SooperDooperLooper''' is a [[steel]] [[roller coaster]] located at [[Hersheypark]] in Hershey, Pennsylvania, USA."
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "It was built by [[Schwarzkopf]] and opened as the third modern roller coaster to feature a [[vertical loop]]."
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "'''SooperDooperLooper''' is a [[steel]] [[roller coaster]] located at [[Hersheypark]] in Hershey, Pennsylvania, USA."
+   }
+  ],
+  "sources": [
+   {
+    "name": "coasterpedia",
+    "title": "SooperDooperLooper",
+    "url": "https://coasterpedia.net/wiki/SooperDooperLooper"
+   }
+  ],
+  "model": "gemini-3.8-flash",
+  "response_id": "XJriarGSN8fVz7IPi_fvmQc",
+  "generated_at": "2026-10-29T01:02:21+00:00"
+ }
+}
