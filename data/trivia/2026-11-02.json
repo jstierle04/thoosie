@@ -1,0 +1,66 @@
+{
+ "date": "2026-11-02",
+ "answer": {
+  "name": "Tron Lightcycle Power Run",
+  "park": "Shanghai Disneyland",
+  "page": "Tron Lightcycle Power Run (Shanghai Disneyland)"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "This coaster reaches a top speed of 59 mph, stands 78 feet tall, and features zero inversions along its track."
+  },
+  {
+   "kind": "stats",
+   "text": "Manufactured by Vekoma, this high-tech ride officially opened to park guests in 2016."
+  },
+  {
+   "kind": "park",
+   "text": "Riders must head to China to experience this futuristic Disney attraction."
+  },
+  {
+   "kind": "fact",
+   "text": "This launched coaster is widely viewed as Shanghai Disneyland's replacement for Space Mountain, and its success led to a clone being built at the Magic Kingdom."
+  },
+  {
+   "kind": "name",
+   "text": "The attraction's name refers to an energetic sprint taken aboard the iconic, glowing two-wheeled vehicles from a Disney sci-fi movie universe."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "\"height\": \"78 ft\", \"speed\": \"59 mph\", \"inversions\": 0"
+   },
+   {
+    "source": "stats",
+    "quote": "\"maker\": \"Vekoma\", \"year\": 2016"
+   },
+   {
+    "source": "stats",
+    "quote": "\"country\": \"China\""
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "The ride is commonly seen as Shanghai Disneyland's replacement of [[Space Mountain]]."
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "The ride allows riders to go on their own Lightcycle [[train]]."
+   }
+  ],
+  "sources": [
+   {
+    "name": "coasterpedia",
+    "title": "Tron Lightcycle Power Run (Shanghai Disneyland)",
+    "url": "https://coasterpedia.net/wiki/Tron_Lightcycle_Power_Run_%28Shanghai_Disneyland%29"
+   }
+  ],
+  "model": "gemini-3.8-flash",
+  "response_id": "f-zjapLOD_2YuMYP1ZPRoAU",
+  "generated_at": "2026-10-30T01:03:58+00:00"
+ }
+}
