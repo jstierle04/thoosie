@@ -1,0 +1,71 @@
+{
+ "date": "2026-11-03",
+ "answer": {
+  "name": "Superman The Ride",
+  "park": "Six Flags New England",
+  "page": "Superman The Ride"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "Featuring a 208-foot lift hill and reaching top speeds of 77 mph, this steel coaster delivers high-speed thrills with zero inversions."
+  },
+  {
+   "kind": "stats",
+   "text": "Designed and built by Swiss manufacturer Intamin, this hypercoaster made its debut in 2000."
+  },
+  {
+   "kind": "park",
+   "text": "This coaster operates along the Connecticut River at an amusement park located in Agawam, Massachusetts."
+  },
+  {
+   "kind": "fact",
+   "text": "This coaster and Cedar Point's Millennium Force held the top two spots in the annual Golden Ticket Awards poll every year from 2001 to 2015."
+  },
+  {
+   "kind": "name",
+   "text": "The coaster's title honors DC Comics' iconic hero who saves cities from villains like Lex Luthor, paired with two words denoting it as an amusement park attraction."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "\"height\": \"208 ft\", \"speed\": \"77 mph\", \"inversions\": 0"
+   },
+   {
+    "source": "stats",
+    "quote": "\"maker\": \"Intamin\", \"year\": 2000"
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Superman The Ride (formerly Bizarro and Superman – Ride of Steel) is a steel roller coaster at Six Flags New England in Agawam, Massachusetts, United States."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Superman The Ride, along with Millennium Force, held the top two spots in the Golden Ticket Awards poll every year from 2001 to 2015."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "It was themed to Superman saving a city from Lex Luthor's Lex Bots who are causing chaos with an anti-gravity ray."
+   }
+  ],
+  "sources": [
+   {
+    "name": "wikipedia",
+    "title": "Superman The Ride",
+    "url": "https://en.wikipedia.org/wiki/Superman_The_Ride"
+   },
+   {
+    "name": "coasterpedia",
+    "title": "Superman The Ride",
+    "url": "https://coasterpedia.net/wiki/Superman_The_Ride"
+   }
+  ],
+  "model": "gemini-3.8-flash",
+  "response_id": "PYDlaq2PEcfVz7IPm_7K4A0",
+  "generated_at": "2026-10-31T05:46:25+00:00"
+ }
+}
