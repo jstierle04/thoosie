@@ -290,5 +290,22 @@ window.SCHEDULE = [
   "Diamondback",
   "The Joker (Six Flags Great Adventure)",
   "GateKeeper",
-  "Schwur des Kärnan"
+  "Schwur des Kärnan",
+  "The Dark Knight Coaster (Six Flags Great Adventure)",
+  "Iron Rattler (Six Flags Qiddiya City)",
+  "Woodland Run",
+  "Joker (Six Flags Mexico)",
+  "Vapor Trail",
+  "Iron Rattler (Six Flags Fiesta Texas)",
+  "Karacho",
+  "Coaster Through the Clouds",
+  "Wild Eagle",
+  "Shambhala",
+  "Emperor",
+  "Judge Roy Scream",
+  "Runaway Mountain",
+  "Thunderhawk (Dorney Park & Wildwater Kingdom)",
+  "New Mexico Rattler",
+  "Soaring with Dragon",
+  "The Ride to Happiness by Tomorrowland"
 ];

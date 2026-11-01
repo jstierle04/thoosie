@@ -110,8 +110,10 @@ MAKER_SHORT = {
     "Custom Coasters International": "CCI",
     "S&S Worldwide": "S&S",
     "S&S Power": "S&S",
+    "S&S Sansei Technologies": "S&S",
     "Arrow Dynamics": "Arrow",
     "Arrow Development": "Arrow",
+    "Arrow HUSS": "Arrow",  # Huss-licensed Arrow designs
     "Mack Rides": "Mack",
     "Maurer Rides": "Maurer",
     "Maurer Söhne": "Maurer",
@@ -266,7 +268,13 @@ def coaster_type(box):
 def maker(box):
     # Classic woodies often list only a designer (e.g. "The Gravity Group, LLC"), so fall back to it.
     name = next((clean(box.get(k, "")) for k in ("manufacturer", "builder", "designer") if clean(box.get(k, ""))), "Unknown")
-    name = re.sub(r",?\s+(LLC|Inc\.?|GmbH|Ltd\.?)$", "", name)
+    # Strip trailing notes and company suffixes, e.g. "Custom Coasters International, Inc., in house"
+    # or "Arrow Dynamics (original)", so the same maker always gets the same name.
+    prev = None
+    while prev != name:
+        prev = name
+        name = re.sub(r"\s*\([^)]*\)$", "", name)
+        name = re.sub(r",?\s+(LLC|Inc\.?|GmbH|Ltd\.?|AG|in[ -]house)$", "", name, flags=re.I)
     return MAKER_SHORT.get(name, name)
 
 
