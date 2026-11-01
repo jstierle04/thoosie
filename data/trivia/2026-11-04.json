@@ -1,0 +1,71 @@
+{
+ "date": "2026-11-04",
+ "answer": {
+  "name": "The Grizzly",
+  "park": "California's Great America",
+  "page": "The Grizzly (California's Great America)"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "This coaster reaches a top speed of 55 mph and stands 91 feet tall without featuring any inversions."
+  },
+  {
+   "kind": "stats",
+   "text": "Designed by Curtis D. Summers, this ride officially opened to park guests in 1986."
+  },
+  {
+   "kind": "park",
+   "text": "This attraction is located in Northern California, entertaining visitors in the city of Santa Clara."
+  },
+  {
+   "kind": "fact",
+   "text": "This wooden roller coaster delivers a traditional ride experience at California's Great America."
+  },
+  {
+   "kind": "name",
+   "text": "The coaster shares its name with a massive North American subspecies of brown bear."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "\"height\": \"91 ft\", \"speed\": \"55 mph\", \"inversions\": 0"
+   },
+   {
+    "source": "stats",
+    "quote": "\"maker\": \"Curtis D. Summers\", \"year\": 1986"
+   },
+   {
+    "source": "wikipedia",
+    "quote": "The Grizzly is a wooden roller coaster located at California's Great America  in Santa Clara, California."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "The Grizzly is a wooden roller coaster located at California's Great America  in Santa Clara, California."
+   },
+   {
+    "source": "stats",
+    "quote": "\"name\": \"The Grizzly\""
+   }
+  ],
+  "sources": [
+   {
+    "name": "wikipedia",
+    "title": "The Grizzly",
+    "url": "https://en.wikipedia.org/wiki/The_Grizzly"
+   },
+   {
+    "name": "coasterpedia",
+    "title": "The Grizzly (California's Great America)",
+    "url": "https://coasterpedia.net/wiki/The_Grizzly_%28California%27s_Great_America%29"
+   }
+  ],
+  "model": "gemini-3.8-flash",
+  "response_id": "OIPmavi3O7_pz7IPyqCn0Qg",
+  "generated_at": "2026-11-01T00:13:04+00:00"
+ }
+}
