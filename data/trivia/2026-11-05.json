@@ -1,0 +1,71 @@
+{
+ "date": "2026-11-05",
+ "answer": {
+  "name": "Afterburn",
+  "park": "Carowinds",
+  "page": "Afterburn"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "This high-flying coaster stands 113 feet tall, reaches a top speed of 62 mph, and flips riders through 6 inversions."
+  },
+  {
+   "kind": "stats",
+   "text": "Built by renowned Swiss manufacturer B&M, the thrill ride first took flight in 1999."
+  },
+  {
+   "kind": "park",
+   "text": "Guests will find this coaster soaring over an amusement park in North Carolina."
+  },
+  {
+   "kind": "fact",
+   "text": "This inverted coaster at Carowinds originally featured a military base aesthetic, with its main queue housed inside a hangar holding a two-thirds scale F-14 Tomcat fighter."
+  },
+  {
+   "kind": "name",
+   "text": "Its name refers to the fiery extra burst of thrust produced by a jet engine—or the lingering sting you feel after eating spicy wings."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "\"height\": \"113 ft\", \"speed\": \"62 mph\", \"inversions\": 6"
+   },
+   {
+    "source": "stats",
+    "quote": "\"maker\": \"B&M\", \"year\": 1999"
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Afterburn is an inverted roller coaster located at Carowinds amusement park in Charlotte, North Carolina."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "The main queue was housed in a hangar with a two-thirds scale F14 Tomcat fighter."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "The aforementioned Top Gun roller coasters at other parks were all renamed to Flight Deck by the 2008 season, with Carowinds' installation being renamed to Afterburn."
+   }
+  ],
+  "sources": [
+   {
+    "name": "wikipedia",
+    "title": "Afterburn (roller coaster)",
+    "url": "https://en.wikipedia.org/wiki/Afterburn_%28roller_coaster%29"
+   },
+   {
+    "name": "coasterpedia",
+    "title": "Afterburn",
+    "url": "https://coasterpedia.net/wiki/Afterburn"
+   }
+  ],
+  "model": "gemini-3.8-flash",
+  "response_id": "YN3nauCuF7r6-sAPxpTtoQ4",
+  "generated_at": "2026-11-02T00:47:41+00:00"
+ }
+}
