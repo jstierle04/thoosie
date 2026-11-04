@@ -1,0 +1,68 @@
+{
+ "date": "2026-11-07",
+ "answer": {
+  "name": "Boomerang",
+  "park": "Six Flags Fiesta Texas",
+  "page": "Boomerang (Six Flags Fiesta Texas)"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "This coaster reaches a top height of 116 feet, hits speeds up to 47 mph, and sends riders through 6 inversion experiences."
+  },
+  {
+   "kind": "stats",
+   "text": "Built by Dutch ride manufacturer Vekoma, this steel coaster made its official debut in 1999."
+  },
+  {
+   "kind": "park",
+   "text": "You can take a turn on this thrill ride in the state of Texas."
+  },
+  {
+   "kind": "fact",
+   "text": "Located at Six Flags Fiesta Texas, this steel shuttle coaster received a brand new train for its 2023 season."
+  },
+  {
+   "kind": "name",
+   "text": "This coaster shares its name with the traditional Australian curved hunting tool that flies in an arc back to the person who threw it."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [
+   "Clue 3: its evidence quote isn't found word for word in the coasterpedia source."
+  ],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "\"height\": \"116 ft\", \"speed\": \"47 mph\", \"inversions\": 6"
+   },
+   {
+    "source": "stats",
+    "quote": "\"maker\": \"Vekoma\", \"year\": 1999"
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "|state        = Texas"
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "The ride received a new train for the 2023 season."
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "'''Boomerang''' is a [[Vekoma]] [[shuttle]] [[roller coaster]] located at [[Six Flags Fiesta Texas]] in San Antonio, Texas, USA."
+   }
+  ],
+  "sources": [
+   {
+    "name": "coasterpedia",
+    "title": "Boomerang (Six Flags Fiesta Texas)",
+    "url": "https://coasterpedia.net/wiki/Boomerang_%28Six_Flags_Fiesta_Texas%29"
+   }
+  ],
+  "model": "gemini-3.6-flash",
+  "response_id": "INLqaoW_AcbRz7IPgN_k0AU",
+  "generated_at": "2026-11-04T06:35:51+00:00"
+ }
+}

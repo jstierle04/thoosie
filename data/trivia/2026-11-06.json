@@ -1,0 +1,71 @@
+{
+ "date": "2026-11-06",
+ "answer": {
+  "name": "Sky Rocket",
+  "park": "Kennywood",
+  "page": "Sky Rocket (Kennywood)"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "This launched steel coaster hits a top speed of 50 mph, reaches a height of 95 feet, and turns riders upside down through 3 inversions."
+  },
+  {
+   "kind": "stats",
+   "text": "Manufactured by Premier Rides, this high-energy attraction officially opened to the public in 2010."
+  },
+  {
+   "kind": "park",
+   "text": "Riders flock to the state of Pennsylvania to experience this compact, airtime-filled launch coaster."
+  },
+  {
+   "kind": "fact",
+   "text": "This coaster marked a major technical shift for its manufacturer as their first design to feature a linear synchronous motor (LSM) launch instead of linear induction motors."
+  },
+  {
+   "kind": "name",
+   "text": "The name of this ride evokes a classic festive firework launched high into the air, or a compound verb meaning to surge upward rapidly."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "\"height\": \"95 ft\", \"speed\": \"50 mph\", \"inversions\": 3"
+   },
+   {
+    "source": "stats",
+    "quote": "\"maker\": \"Premier\", \"year\": 2010"
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Sky Rocket is a steel roller coaster located at Kennywood amusement park in West Mifflin, Pennsylvania."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Sky Rocket is an electromagnetic launch coaster using linear synchronous motors (LSM), a first for Premier Rides' designs. Premier Rides had previously only used linear induction motors (LIM) launches on their coasters."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "The coaster did not have a name at the time of its announcement, but the park eventually decided on the name \"Sky Rocket\", after its ride model."
+   }
+  ],
+  "sources": [
+   {
+    "name": "wikipedia",
+    "title": "Sky Rocket",
+    "url": "https://en.wikipedia.org/wiki/Sky_Rocket"
+   },
+   {
+    "name": "coasterpedia",
+    "title": "Sky Rocket (Kennywood)",
+    "url": "https://coasterpedia.net/wiki/Sky_Rocket_%28Kennywood%29"
+   }
+  ],
+  "model": "gemini-3.8-flash",
+  "response_id": "zc_qav_zJtOsz7IPgMnlmAE",
+  "generated_at": "2026-11-04T06:25:34+00:00"
+ }
+}
