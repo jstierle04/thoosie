@@ -1,0 +1,71 @@
+{
+ "date": "2026-11-08",
+ "answer": {
+  "name": "Kondaa",
+  "park": "Walibi Belgium",
+  "page": "Kondaa"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "Riders plunge from a height of 164 feet and reach speeds of 70 mph on this thrill machine, which delivers tons of airtime with zero inversions."
+  },
+  {
+   "kind": "stats",
+   "text": "Engineered by Swiss manufacturer Intamin, this steel coaster made its official debut in 2021."
+  },
+  {
+   "kind": "park",
+   "text": "This coaster operates in the European nation of Belgium."
+  },
+  {
+   "kind": "fact",
+   "text": "Packed with a staggering 15 airtime moments, this coaster famously introduced the world's first non-inverting cobra roll element."
+  },
+  {
+   "kind": "name",
+   "text": "Take the name of a massive South American water boa, remove the 'Ana' from the beginning, and double the final vowel to get this coaster's name."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "\"height\": \"164 ft\",\n \"speed\": \"70 mph\",\n \"inversions\": 0"
+   },
+   {
+    "source": "stats",
+    "quote": "\"maker\": \"Intamin\",\n \"type\": \"Steel\",\n \"year\": 2021"
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Kondaa is a steel roller coaster at Walibi Belgium in Wavre, Belgium."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Kondaa features a top speed of 70.2 mph (113.0 km/h), a notable 15 airtime moments, and the world's first non-inverting cobra roll element."
+   },
+   {
+    "source": "stats",
+    "quote": "\"name\": \"Kondaa\""
+   }
+  ],
+  "sources": [
+   {
+    "name": "wikipedia",
+    "title": "Kondaa",
+    "url": "https://en.wikipedia.org/wiki/Kondaa"
+   },
+   {
+    "name": "coasterpedia",
+    "title": "Kondaa",
+    "url": "https://coasterpedia.net/wiki/Kondaa"
+   }
+  ],
+  "model": "gemini-3.8-flash",
+  "response_id": "KSfsaqWOA9210_gPy-2RuQM",
+  "generated_at": "2026-11-05T06:54:01+00:00"
+ }
+}
