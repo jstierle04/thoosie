@@ -1,0 +1,71 @@
+{
+ "date": "2026-11-09",
+ "answer": {
+  "name": "Goliath",
+  "park": "Six Flags Great America",
+  "page": "Goliath (Six Flags Great America)"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "Reaching a height of 165 feet and a top speed of 72 mph, this wooden coaster sends riders through 2 inversions."
+  },
+  {
+   "kind": "stats",
+   "text": "This creation was manufactured by RMC and made its thrilling debut in 2014."
+  },
+  {
+   "kind": "park",
+   "text": "Riders flock to the Midwestern state of Illinois to take on this coaster."
+  },
+  {
+   "kind": "fact",
+   "text": "Upon opening, this ride set world records for wooden coasters by featuring the longest drop at 180 feet and the steepest descent angle of 85 degrees."
+  },
+  {
+   "kind": "name",
+   "text": "Reflecting its monumental presence in the park, this coaster's name and theme were chosen purely on the basis of its immense size and scale."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "\"height\": \"165 ft\", \"speed\": \"72 mph\", \"inversions\": 2"
+   },
+   {
+    "source": "stats",
+    "quote": "\"maker\": \"RMC\", \"year\": 2014"
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Goliath is a wooden roller coaster located at Six Flags Great America in Gurnee, Illinois."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Goliath initially set three world records among wooden coasters, having the longest drop at 180 feet (55 m), the steepest angle of 85 degrees, and the fastest speed of 72 mph (116 km/h)."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Although the ride is located in the County Fair section of Six Flags Great America, the name and theme of the ride was chosen purely on the basis of the ride's size and scale."
+   }
+  ],
+  "sources": [
+   {
+    "name": "wikipedia",
+    "title": "Goliath (Six Flags Great America)",
+    "url": "https://en.wikipedia.org/wiki/Goliath_%28Six_Flags_Great_America%29"
+   },
+   {
+    "name": "coasterpedia",
+    "title": "Goliath (Six Flags Great America)",
+    "url": "https://coasterpedia.net/wiki/Goliath_%28Six_Flags_Great_America%29"
+   }
+  ],
+  "model": "gemini-3.8-flash",
+  "response_id": "U3ntav3YM765xdIPi9yoiA0",
+  "generated_at": "2026-11-06T06:54:22+00:00"
+ }
+}
