@@ -1,0 +1,71 @@
+{
+ "date": "2026-11-10",
+ "answer": {
+  "name": "Joker",
+  "park": "Six Flags Mexico",
+  "page": "Joker (Six Flags Mexico)"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "Standing 53 feet tall, this coaster hits a top speed of 31 mph and keeps riders upright with zero inversions."
+  },
+  {
+   "kind": "stats",
+   "text": "Manufactured by German ride builder Gerstlauer, this steel coaster opened to park guests in 2013."
+  },
+  {
+   "kind": "park",
+   "text": "To experience this coaster, you will have to travel to an amusement park located in Mexico."
+  },
+  {
+   "kind": "fact",
+   "text": "This attraction is a steel spinning roller coaster operating at Six Flags Mexico."
+  },
+  {
+   "kind": "name",
+   "text": "This coaster shares its name with the iconic DC Comics supervillain widely known in the Batman comics."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "\"height\": \"53 ft\",\n \"speed\": \"31 mph\",\n \"inversions\": 0,"
+   },
+   {
+    "source": "stats",
+    "quote": "\"maker\": \"Gerstlauer\",\n \"type\": \"Steel\",\n \"year\": 2013,"
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "'''Joker''' is a [[steel]] [[spinning]] [[roller coaster]] located at [[Six Flags Mexico]] in Mexico City, Mexico."
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "'''Joker''' is a [[steel]] [[spinning]] [[roller coaster]] located at [[Six Flags Mexico]] in Mexico City, Mexico."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "The Joker's trains are themed to the character widely known in the Batman comics."
+   }
+  ],
+  "sources": [
+   {
+    "name": "wikipedia",
+    "title": "The Joker (Six Flags Discovery Kingdom)",
+    "url": "https://en.wikipedia.org/wiki/The_Joker_%28Six_Flags_Discovery_Kingdom%29"
+   },
+   {
+    "name": "coasterpedia",
+    "title": "Joker (Six Flags Mexico)",
+    "url": "https://coasterpedia.net/wiki/Joker_%28Six_Flags_Mexico%29"
+   }
+  ],
+  "model": "gemini-3.8-flash",
+  "response_id": "cL7uaqiJIP-s6dkPj-XAgAg",
+  "generated_at": "2026-11-07T06:07:04+00:00"
+ }
+}
