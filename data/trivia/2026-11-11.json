@@ -1,0 +1,71 @@
+{
+ "date": "2026-11-11",
+ "answer": {
+  "name": "Goliath",
+  "park": "Six Flags Over Georgia",
+  "page": "Goliath (Six Flags Over Georgia)"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "Standing 200 feet tall, this non-inverting coaster sends riders flying along the track at speeds up to 70 mph."
+  },
+  {
+   "kind": "stats",
+   "text": "Manufactured by the Swiss ride masters at B&M, this coaster first debuted to riders in 2006."
+  },
+  {
+   "kind": "park",
+   "text": "You can find this soaring thrill machine at an amusement park located in the state of Georgia."
+  },
+  {
+   "kind": "fact",
+   "text": "This towering steel roller coaster is one of the signature headlining attractions at Six Flags Over Georgia."
+  },
+  {
+   "kind": "name",
+   "text": "Its name refers to the legendary biblical giant who was famously defeated by David with a sling and a stone."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "\"height\": \"200 ft\", \"speed\": \"70 mph\", \"inversions\": 0"
+   },
+   {
+    "source": "stats",
+    "quote": "\"maker\": \"B&M\", \"year\": 2006"
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Goliath is a steel roller coaster located at Six Flags Over Georgia in Mableton, Georgia, United States."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Goliath is a steel roller coaster located at Six Flags Over Georgia in Mableton, Georgia, United States."
+   },
+   {
+    "source": "stats",
+    "quote": "\"name\": \"Goliath\""
+   }
+  ],
+  "sources": [
+   {
+    "name": "wikipedia",
+    "title": "Goliath (Six Flags Over Georgia)",
+    "url": "https://en.wikipedia.org/wiki/Goliath_%28Six_Flags_Over_Georgia%29"
+   },
+   {
+    "name": "coasterpedia",
+    "title": "Goliath (Six Flags Over Georgia)",
+    "url": "https://coasterpedia.net/wiki/Goliath_%28Six_Flags_Over_Georgia%29"
+   }
+  ],
+  "model": "gemini-3.8-flash",
+  "response_id": "Q07warzAJLj9wbUPzffogQI",
+  "generated_at": "2026-11-08T10:29:24+00:00"
+ }
+}
