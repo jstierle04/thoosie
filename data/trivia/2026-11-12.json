@@ -1,0 +1,71 @@
+{
+ "date": "2026-11-12",
+ "answer": {
+  "name": "Jaguar!",
+  "park": "Knott's Berry Farm",
+  "page": "Jaguar!"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "Reaching a top speed of 35 mph and standing 65 feet tall, this family coaster features 0 inversions along its course."
+  },
+  {
+   "kind": "stats",
+   "text": "This coaster was manufactured by Zierer and officially opened to park guests in 1995."
+  },
+  {
+   "kind": "park",
+   "text": "This themed attraction is located at a park in the state of California."
+  },
+  {
+   "kind": "fact",
+   "text": "Located at Knott's Berry Farm, this coaster notably passes right through the vertical loop of another iconic roller coaster."
+  },
+  {
+   "kind": "name",
+   "text": "The ride shares its name with a large, spotted wild cat native to the Americas."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "\"height\": \"65 ft\", \"speed\": \"35 mph\", \"inversions\": 0"
+   },
+   {
+    "source": "stats",
+    "quote": "\"maker\": \"Zierer\", \"year\": 1995"
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Jaguar! is a steel family roller coaster at Knott's Berry Farm in Buena Park, California, United States."
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "The ride passes through the vertical loop of Montezooma's Revenge."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Straight ahead, there is giant stone tablet of some more Mayan Jaguar Warriors with the head of a jaguar."
+   }
+  ],
+  "sources": [
+   {
+    "name": "wikipedia",
+    "title": "Jaguar!",
+    "url": "https://en.wikipedia.org/wiki/Jaguar%21"
+   },
+   {
+    "name": "coasterpedia",
+    "title": "Jaguar!",
+    "url": "https://coasterpedia.net/wiki/Jaguar%21"
+   }
+  ],
+  "model": "gemini-3.6-flash",
+  "response_id": "3GnxaomjLfGFytMPkNDWmQ4",
+  "generated_at": "2026-11-09T06:36:20+00:00"
+ }
+}
