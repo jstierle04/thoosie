@@ -1,0 +1,71 @@
+{
+ "date": "2026-11-13",
+ "answer": {
+  "name": "Iron Gwazi",
+  "park": "Busch Gardens Tampa",
+  "page": "Iron Gwazi"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "This coaster sends riders plunging from a peak height of 206 feet, reaching a top speed of 76 mph through 2 inversions."
+  },
+  {
+   "kind": "stats",
+   "text": "Built by Rocky Mountain Construction, this hybrid titan officially opened to the public in 2022."
+  },
+  {
+   "kind": "park",
+   "text": "You can find this ride in Florida at an African-themed park located in Tampa."
+  },
+  {
+   "kind": "fact",
+   "text": "Upon its debut, this coaster took the records for being both the fastest and steepest hybrid roller coaster in the world."
+  },
+  {
+   "kind": "name",
+   "text": "The ride's name pairs a durable metallic element with a mythical creature featuring the head of a tiger and the body of a lion."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "\"height\": \"206 ft\",\n \"speed\": \"76 mph\",\n \"inversions\": 2,"
+   },
+   {
+    "source": "stats",
+    "quote": "\"maker\": \"RMC\",\n \"type\": \"Hybrid\",\n \"year\": 2022,"
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Iron Gwazi (formerly called Gwazi) is a steel-track hybrid roller coaster at Busch Gardens Tampa Bay, a theme park in Tampa, Florida, United States."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Iron Gwazi debuted as the tallest hybrid roller coaster in North America, as well as the fastest and steepest hybrid roller coaster in the world."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "The ride's name refers to a mythical creature with a tiger's head and a lion's body."
+   }
+  ],
+  "sources": [
+   {
+    "name": "wikipedia",
+    "title": "Iron Gwazi",
+    "url": "https://en.wikipedia.org/wiki/Iron_Gwazi"
+   },
+   {
+    "name": "coasterpedia",
+    "title": "Iron Gwazi",
+    "url": "https://coasterpedia.net/wiki/Iron_Gwazi"
+   }
+  ],
+  "model": "gemini-3.8-flash",
+  "response_id": "ApHyaqm0MtjS_PUPu5ygqAo",
+  "generated_at": "2026-11-10T03:40:58+00:00"
+ }
+}
