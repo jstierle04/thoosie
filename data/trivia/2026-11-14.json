@@ -1,0 +1,71 @@
+{
+ "date": "2026-11-14",
+ "answer": {
+  "name": "Parrot Coaster",
+  "park": "Chimelong Ocean Kingdom",
+  "page": "Parrot Coaster"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "Reaching a top speed of 67 mph, this coaster stands 164 feet tall and flips riders upside down through 3 inversions."
+  },
+  {
+   "kind": "stats",
+   "text": "Manufactured by B&M, this ride first welcomed park guests in 2014."
+  },
+  {
+   "kind": "park",
+   "text": "This massive ride operates in China at a major ocean-themed marine park."
+  },
+  {
+   "kind": "fact",
+   "text": "Upon debut, it became the first Wing Coaster built in Asia and the very first coaster of its model to feature a splashdown element."
+  },
+  {
+   "kind": "name",
+   "text": "The attraction takes its name from a colorful tropical bird famous for its ability to mimic human speech."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "\"height\": \"164 ft\", \"speed\": \"67 mph\", \"inversions\": 3"
+   },
+   {
+    "source": "stats",
+    "quote": "\"maker\": \"B&M\", \"year\": 2014"
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Parrot Coaster (formerly known as Flying Over the Rainforest) is a steel Wing Coaster at Chimelong Ocean Kingdom in Zhuhai, Guangdong, China."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Manufactured by Bolliger & Mabillard, upon its opening in 2014, it became the first Wing Coaster in Asia and also features the first splashdown on a Wing Coaster."
+   },
+   {
+    "source": "stats",
+    "quote": "\"name\": \"Parrot Coaster\""
+   }
+  ],
+  "sources": [
+   {
+    "name": "wikipedia",
+    "title": "Parrot Coaster",
+    "url": "https://en.wikipedia.org/wiki/Parrot_Coaster"
+   },
+   {
+    "name": "coasterpedia",
+    "title": "Parrot Coaster",
+    "url": "https://coasterpedia.net/wiki/Parrot_Coaster"
+   }
+  ],
+  "model": "gemini-3.8-flash",
+  "response_id": "PQr0au22Ft6FjrEP5brFiAY",
+  "generated_at": "2026-11-11T06:26:02+00:00"
+ }
+}
