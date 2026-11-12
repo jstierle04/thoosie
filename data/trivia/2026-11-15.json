@@ -1,0 +1,68 @@
+{
+ "date": "2026-11-15",
+ "answer": {
+  "name": "Racer 75",
+  "park": "Kings Dominion",
+  "page": "Racer 75"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "With an 85-foot lift hill and a top speed of 56 mph, this classic wooden coaster features zero inversions."
+  },
+  {
+   "kind": "stats",
+   "text": "This wooden coaster was built by Philadelphia Toboggan Coasters and officially opened in 1975."
+  },
+  {
+   "kind": "park",
+   "text": "You can find this twin wooden coaster operating in the state of Virginia."
+  },
+  {
+   "kind": "fact",
+   "text": "This attraction was officially designated an ACE Roller Coaster Landmark by the American Coaster Enthusiasts in June 2003."
+  },
+  {
+   "kind": "name",
+   "text": "The ride's name combines a term for a speed competitor with the two-digit year of its opening season."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [
+   "Clue 3: its evidence quote isn't found word for word in the coasterpedia source."
+  ],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "height: 85 ft, speed: 56 mph, inversions: 0"
+   },
+   {
+    "source": "stats",
+    "quote": "maker: PTC, year: 1975"
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "|state = Virginia"
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "The ride was designated an ACE Roller Coaster Landmark by the American Coaster Enthusiasts in June 2003."
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "On February 2, 2018, it was announced that Rebel Yell would be renamed Racer 75 for the new season."
+   }
+  ],
+  "sources": [
+   {
+    "name": "coasterpedia",
+    "title": "Racer 75",
+    "url": "https://coasterpedia.net/wiki/Racer_75"
+   }
+  ],
+  "model": "gemini-3.6-flash",
+  "response_id": "O6D1aoOJC_G0xdIP1bLyiQQ",
+  "generated_at": "2026-11-12T11:27:31+00:00"
+ }
+}
