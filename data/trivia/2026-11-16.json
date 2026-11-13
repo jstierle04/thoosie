@@ -1,0 +1,71 @@
+{
+ "date": "2026-11-16",
+ "answer": {
+  "name": "Viper",
+  "park": "Six Flags Darien Lake",
+  "page": "Viper (Six Flags Darien Lake)"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "This steel coaster climbs to a height of 121 feet, hits a top speed of 50 mph, and turns riders upside down 5 times."
+  },
+  {
+   "kind": "stats",
+   "text": "Manufactured by Arrow, this looping attraction welcomed its very first riders in 1982."
+  },
+  {
+   "kind": "park",
+   "text": "To experience this historic ride, you will need to head to an amusement park in New York."
+  },
+  {
+   "kind": "fact",
+   "text": "When it debuted, it achieved a major industry milestone by becoming the first roller coaster in the world to feature five inversions."
+  },
+  {
+   "kind": "name",
+   "text": "This coaster shares its name with a type of snake, leading the park to install wraps on its trains to give them a more snake-like appearance."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "height: 121 ft, speed: 50 mph, inversions: 5"
+   },
+   {
+    "source": "stats",
+    "quote": "maker: Arrow, year: 1982"
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Viper is a steel roller coaster located at Six Flags Darien Lake in Darien Center, New York."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Built by Arrow Huss, the ride opened in 1982 as the first roller coaster in the world to feature five inversions, surpassing Carolina Cyclone at Carowinds and the Demon model at Six Flags Great America and California's Great America, all of which featured four."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "In 2013, two of the trains were given green vinyl wraps to appear more snake-like."
+   }
+  ],
+  "sources": [
+   {
+    "name": "wikipedia",
+    "title": "Viper (Six Flags Darien Lake)",
+    "url": "https://en.wikipedia.org/wiki/Viper_%28Six_Flags_Darien_Lake%29"
+   },
+   {
+    "name": "coasterpedia",
+    "title": "Viper (Six Flags Darien Lake)",
+    "url": "https://coasterpedia.net/wiki/Viper_%28Six_Flags_Darien_Lake%29"
+   }
+  ],
+  "model": "gemini-3.8-flash",
+  "response_id": "4Wz2avWyNZmdz7IP7Pm0uQs",
+  "generated_at": "2026-11-13T02:06:41+00:00"
+ }
+}
