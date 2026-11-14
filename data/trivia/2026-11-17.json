@@ -1,0 +1,71 @@
+{
+ "date": "2026-11-17",
+ "answer": {
+  "name": "The Big Bad Wolf: The Wolf's Revenge",
+  "park": "Busch Gardens Williamsburg",
+  "page": "The Big Bad Wolf: The Wolf's Revenge"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "This coaster reaches a top speed of 40 mph, stands 67 feet tall, and features 0 inversions."
+  },
+  {
+   "kind": "stats",
+   "text": "This coaster was manufactured by B&M and opened to the public in 2025."
+  },
+  {
+   "kind": "park",
+   "text": "This coaster is located at a popular theme park in the state of Virginia."
+  },
+  {
+   "kind": "fact",
+   "text": "This ride was constructed on the former site of Drachen Fire, an Arrow Dynamics custom looping coaster that closed in 1998."
+  },
+  {
+   "kind": "name",
+   "text": "The ride's name suggests that a classic, huffing-and-puffing fairy tale canine villain is back to exact payback."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "\"height\": \"67 ft\", \"speed\": \"40 mph\", \"inversions\": 0"
+   },
+   {
+    "source": "stats",
+    "quote": "\"maker\": \"B&M\", \"year\": 2025"
+   },
+   {
+    "source": "wikipedia",
+    "quote": "The Big Bad Wolf: The Wolf's Revenge is a family inverted roller coaster at Busch Gardens Williamsburg in Williamsburg, Virginia."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "It was built on the site of Drachen Fire, an Arrow Dynamics Custom Looping Coaster that closed in 1998."
+   },
+   {
+    "source": "stats",
+    "quote": "\"name\": \"The Big Bad Wolf: The Wolf's Revenge\""
+   }
+  ],
+  "sources": [
+   {
+    "name": "wikipedia",
+    "title": "Big Bad Wolf: The Wolf's Revenge",
+    "url": "https://en.wikipedia.org/wiki/Big_Bad_Wolf%3A_The_Wolf%27s_Revenge"
+   },
+   {
+    "name": "coasterpedia",
+    "title": "The Big Bad Wolf: The Wolf's Revenge",
+    "url": "https://coasterpedia.net/wiki/The_Big_Bad_Wolf%3A_The_Wolf%27s_Revenge"
+   }
+  ],
+  "model": "gemini-3.8-flash",
+  "response_id": "Pbn3aqLDFJ_iz7IPu-WL2Qc",
+  "generated_at": "2026-11-14T01:34:47+00:00"
+ }
+}
