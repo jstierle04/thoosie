@@ -1,0 +1,71 @@
+{
+ "date": "2026-11-18",
+ "answer": {
+  "name": "Apple Zapple",
+  "park": "Kings Dominion",
+  "page": "Apple Zapple"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "This coaster climbs to a height of 52 feet, reaches a top speed of 35 mph, and features zero inversions."
+  },
+  {
+   "kind": "stats",
+   "text": "Manufactured by Mack, this attraction welcomed its very first riders back in 2002."
+  },
+  {
+   "kind": "park",
+   "text": "You'll find this family coaster operating in the state of Virginia."
+  },
+  {
+   "kind": "fact",
+   "text": "This Wild Mouse roller coaster delivers quick turns and drops to guests at Kings Dominion."
+  },
+  {
+   "kind": "name",
+   "text": "The ride features a playful, rhyming two-word name that pairs a common orchard fruit with an energetic, made-up word."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "\"height\": \"52 ft\",\n \"speed\": \"35 mph\",\n \"inversions\": 0"
+   },
+   {
+    "source": "stats",
+    "quote": "\"maker\": \"Mack\",\n \"year\": 2002"
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Apple Zapple (formerly known as Ricochet) is a Wild Mouse roller coaster located at Kings Dominion in Doswell, Virginia."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Apple Zapple (formerly known as Ricochet) is a Wild Mouse roller coaster located at Kings Dominion in Doswell, Virginia."
+   },
+   {
+    "source": "stats",
+    "quote": "\"name\": \"Apple Zapple\""
+   }
+  ],
+  "sources": [
+   {
+    "name": "wikipedia",
+    "title": "Apple Zapple (Kings Dominion)",
+    "url": "https://en.wikipedia.org/wiki/Apple_Zapple_%28Kings_Dominion%29"
+   },
+   {
+    "name": "coasterpedia",
+    "title": "Apple Zapple",
+    "url": "https://coasterpedia.net/wiki/Apple_Zapple"
+   }
+  ],
+  "model": "gemini-3.8-flash",
+  "response_id": "QFP5arfENs2lqtsPy9nlsQU",
+  "generated_at": "2026-11-15T06:48:17+00:00"
+ }
+}
