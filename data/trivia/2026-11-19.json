@@ -1,0 +1,66 @@
+{
+ "date": "2026-11-19",
+ "answer": {
+  "name": "Tigris",
+  "park": "Busch Gardens Tampa",
+  "page": "Tigris"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "This coaster reaches a maximum speed of 62 mph, stands 150 feet high, and features a single inversion along its track."
+  },
+  {
+   "kind": "stats",
+   "text": "Built by manufacturer Premier Rides, this attraction debuted to riders in 2019."
+  },
+  {
+   "kind": "park",
+   "text": "Thrill-seekers can find this coaster in the state of Florida."
+  },
+  {
+   "kind": "fact",
+   "text": "Located at Busch Gardens Tampa, this launched steel coaster was the tallest launched coaster in Florida until VelociCoaster debuted in 2021."
+  },
+  {
+   "kind": "name",
+   "text": "This coaster's name evokes a fierce striped big cat, having been trademarked alongside names like Twisted Tiger."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "\"height\": \"150 ft\", \"speed\": \"62 mph\", \"inversions\": 1"
+   },
+   {
+    "source": "stats",
+    "quote": "\"maker\": \"Premier\", \"year\": 2019"
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "'''Tigris''' is a [[steel]] [[launched]] [[roller coaster]] located at [[Busch Gardens Tampa]] in Tampa, Florida, USA."
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "It was the tallest launched roller coaster in Florida until [[VelociCoaster]] at [[Universal's Islands of Adventure]] opened in 2021."
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "In March 2018, [[SeaWorld Parks & Entertainment]] filed three trademark applications for the names ''Tigris'', ''Uproar'', and ''Twisted Tiger''."
+   }
+  ],
+  "sources": [
+   {
+    "name": "coasterpedia",
+    "title": "Tigris",
+    "url": "https://coasterpedia.net/wiki/Tigris"
+   }
+  ],
+  "model": "gemini-3.6-flash",
+  "response_id": "YVz7ase8B7yLqtsPmrLUgQM",
+  "generated_at": "2026-11-16T19:42:00+00:00"
+ }
+}
