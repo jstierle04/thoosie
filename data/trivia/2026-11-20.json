@@ -1,0 +1,71 @@
+{
+ "date": "2026-11-20",
+ "answer": {
+  "name": "Barracuda Strike",
+  "park": "SeaWorld San Antonio",
+  "page": "Barracuda Strike"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "This coaster climbs to a height of 90 feet, reaches a top speed of 44 mph, and features no inversions."
+  },
+  {
+   "kind": "stats",
+   "text": "Built by the renowned manufacturer Bolliger & Mabillard, this ride made its official debut in 2026."
+  },
+  {
+   "kind": "park",
+   "text": "Thrill-seekers can take a spin on this coaster in the state of Texas."
+  },
+  {
+   "kind": "fact",
+   "text": "Upon opening, this attraction was advertised as the tallest inverted family coaster in North America."
+  },
+  {
+   "kind": "name",
+   "text": "The ride's name suggests the sudden and aggressive attack of a sharp-toothed predatory marine fish."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "\"height\": \"90 ft\", \"speed\": \"44 mph\", \"inversions\": 0"
+   },
+   {
+    "source": "stats",
+    "quote": "\"maker\": \"B&M\", \"year\": 2026"
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "'''Barracuda Strike''' is an [[inverted]] [[roller coaster]] currently [[operating]] at [[SeaWorld San Antonio]] in San Antonio, Texas, USA."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Manufactured by Bolliger & Mabillard, the ride stands 90 feet (27 m) tall and was advertised as the tallest inverted family coaster in North America."
+   },
+   {
+    "source": "stats",
+    "quote": "\"name\": \"Barracuda Strike\""
+   }
+  ],
+  "sources": [
+   {
+    "name": "wikipedia",
+    "title": "Barracuda Strike",
+    "url": "https://en.wikipedia.org/wiki/Barracuda_Strike"
+   },
+   {
+    "name": "coasterpedia",
+    "title": "Barracuda Strike",
+    "url": "https://coasterpedia.net/wiki/Barracuda_Strike"
+   }
+  ],
+  "model": "gemini-3.8-flash",
+  "response_id": "I9D7asQm14zK0w-r3qLgDQ",
+  "generated_at": "2026-11-17T03:55:30+00:00"
+ }
+}
