@@ -1,0 +1,69 @@
+{
+ "date": "2026-11-21",
+ "answer": {
+  "name": "Boomerang",
+  "park": "Luna Park",
+  "page": "Boomerang (Luna Park Sydney)"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "This family coaster tops out at a modest height of 39 feet, reaches speeds of 31 mph, and contains zero inversions."
+  },
+  {
+   "kind": "stats",
+   "text": "Manufactured by Gerstlauer, this steel shuttle coaster welcomed its first riders in 2021."
+  },
+  {
+   "kind": "park",
+   "text": "This coaster operates in Australia, located within an iconic amusement park in Sydney, New South Wales."
+  },
+  {
+   "kind": "fact",
+   "text": "This shuttle coaster is actually a mirror clone of Rewind Racers at Adventure City in Anaheim, California."
+  },
+  {
+   "kind": "name",
+   "text": "Fitting for a ride that travels forward and backward, it is named after the traditional Australian curved wooden tool that flies back to you when thrown."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [
+   "Clue 3: its evidence quote isn't found word for word in the coasterpedia source.",
+   "Clue 4: its evidence quote isn't found word for word in the coasterpedia source."
+  ],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "height: 39 ft, speed: 31 mph, inversions: 0"
+   },
+   {
+    "source": "stats",
+    "quote": "maker: Gerstlauer, year: 2021"
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "Boomerang is a steel shuttle roller coaster at Luna Park in Sydney, New South Wales, Australia."
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "Opened in 2021, it is a mirror clone of Rewind Racers at Adventure City in Anaheim, California, USA."
+   },
+   {
+    "source": "stats",
+    "quote": "\"name\": \"Boomerang\""
+   }
+  ],
+  "sources": [
+   {
+    "name": "coasterpedia",
+    "title": "Boomerang (Luna Park Sydney)",
+    "url": "https://coasterpedia.net/wiki/Boomerang_%28Luna_Park_Sydney%29"
+   }
+  ],
+  "model": "gemini-3.8-flash",
+  "response_id": "RPj8arqRN5CZ_uMP78-l6Q8",
+  "generated_at": "2026-11-18T00:59:05+00:00"
+ }
+}
