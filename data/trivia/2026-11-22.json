@@ -1,0 +1,66 @@
+{
+ "date": "2026-11-22",
+ "answer": {
+  "name": "The Bobcat",
+  "park": "Great Escape",
+  "page": "The Bobcat"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "This family wooden coaster reaches a height of 55 feet and hits a top speed of 40 mph with zero inversions."
+  },
+  {
+   "kind": "stats",
+   "text": "Built by Gravitykraft Corporation, this coaster welcomed its first riders in 2024."
+  },
+  {
+   "kind": "park",
+   "text": "You can find this ride operating in the state of New York."
+  },
+  {
+   "kind": "fact",
+   "text": "This wooden coaster at Great Escape was built on the former site of Alpine Bobsled, even reusing that ride's old station building."
+  },
+  {
+   "kind": "name",
+   "text": "The ride shares its name with a fierce, short-tailed wildcat native to North America."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "height: \"55 ft\", speed: \"40 mph\", inversions: 0"
+   },
+   {
+    "source": "stats",
+    "quote": "maker: \"Gravitykraft Corporation\", year: 2024"
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "The Bobcat is a wooden roller coaster built by The Gravity Group at Great Escape in Queensbury, New York, USA."
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "It was built on the former site of Alpine Bobsled, which closed in 2023. Its former station was also reused."
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "The Bobcat is a wooden roller coaster built by The Gravity Group at Great Escape in Queensbury, New York, USA."
+   }
+  ],
+  "sources": [
+   {
+    "name": "coasterpedia",
+    "title": "The Bobcat",
+    "url": "https://coasterpedia.net/wiki/The_Bobcat"
+   }
+  ],
+  "model": "gemini-3.8-flash",
+  "response_id": "U2P-aqbMH9PEodAPlYqSiQM",
+  "generated_at": "2026-11-19T02:55:06+00:00"
+ }
+}
