@@ -1,0 +1,71 @@
+{
+ "date": "2026-11-23",
+ "answer": {
+  "name": "The Joker",
+  "park": "Six Flags Discovery Kingdom",
+  "page": "The Joker (Six Flags Discovery Kingdom)"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "Standing 100 feet tall, this hybrid coaster reaches a top speed of 53 mph and flips riders through 3 inversions."
+  },
+  {
+   "kind": "stats",
+   "text": "Constructed by Rocky Mountain Construction (RMC), this hybrid coaster officially opened to riders in 2016."
+  },
+  {
+   "kind": "park",
+   "text": "This coaster can be found in the state of California, thrilling visitors in the city of Vallejo."
+  },
+  {
+   "kind": "fact",
+   "text": "Built on an existing wooden support structure, this hybrid coaster debuted a brand-new inversion element described as a 'step-up under-flip inverted roll.'"
+  },
+  {
+   "kind": "name",
+   "text": "This coaster shares its name with the iconic comic book supervillain widely known from the Batman stories in DC Comics."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "\"height\": \"100 ft\",\n \"speed\": \"53 mph\",\n \"inversions\": 3"
+   },
+   {
+    "source": "stats",
+    "quote": "\"maker\": \"RMC\",\n \"year\": 2016"
+   },
+   {
+    "source": "wikipedia",
+    "quote": "The Joker is a steel roller coaster at Six Flags Discovery Kingdom in Vallejo, California."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "The wood-steel hybrid was designed to incorporate three inversions, including a new element described as a \"step-up under-flip inverted roll\", and it also received new trains themed to the Joker comic book character."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "The Joker's trains are themed to the character widely known in the Batman comics."
+   }
+  ],
+  "sources": [
+   {
+    "name": "wikipedia",
+    "title": "The Joker (Six Flags Discovery Kingdom)",
+    "url": "https://en.wikipedia.org/wiki/The_Joker_%28Six_Flags_Discovery_Kingdom%29"
+   },
+   {
+    "name": "coasterpedia",
+    "title": "The Joker (Six Flags Discovery Kingdom)",
+    "url": "https://coasterpedia.net/wiki/The_Joker_%28Six_Flags_Discovery_Kingdom%29"
+   }
+  ],
+  "model": "gemini-3.8-flash",
+  "response_id": "Wq7_as-_OfjzkPIPzNWEyAY",
+  "generated_at": "2026-11-20T02:22:04+00:00"
+ }
+}
