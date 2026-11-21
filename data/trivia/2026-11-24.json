@@ -1,0 +1,66 @@
+{
+ "date": "2026-11-24",
+ "answer": {
+  "name": "Roar-O-Saurus",
+  "park": "Story Land",
+  "page": "Roar-O-Saurus"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "This compact coaster stands 40 feet tall, reaches a top speed of 33 mph, and features zero inversions."
+  },
+  {
+   "kind": "stats",
+   "text": "Built by Gravitykraft Corporation, this attraction welcomed its very first riders in 2014."
+  },
+  {
+   "kind": "park",
+   "text": "You can find this ride entertaining families in the state of New Hampshire."
+  },
+  {
+   "kind": "fact",
+   "text": "This wooden coaster is one of the signature thrill rides at Story Land."
+  },
+  {
+   "kind": "name",
+   "text": "The attraction's name is a punny portmanteau blending a ferocious beast's loud vocalization with a prehistoric dinosaur suffix."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "\"height\": \"40 ft\", \"speed\": \"33 mph\", \"inversions\": 0"
+   },
+   {
+    "source": "stats",
+    "quote": "\"maker\": \"Gravitykraft Corporation\", \"year\": 2014"
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "'''Roar-O-Saurus''' is a [[wooden]] [[roller coaster]] located at [[Story Land]] in Glen, New Hampshire, USA."
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "'''Roar-O-Saurus''' is a [[wooden]] [[roller coaster]] located at [[Story Land]] in Glen, New Hampshire, USA."
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "'''Roar-O-Saurus''' is a [[wooden]] [[roller coaster]] located at [[Story Land]] in Glen, New Hampshire, USA."
+   }
+  ],
+  "sources": [
+   {
+    "name": "coasterpedia",
+    "title": "Roar-O-Saurus",
+    "url": "https://coasterpedia.net/wiki/Roar-O-Saurus"
+   }
+  ],
+  "model": "gemini-3.8-flash",
+  "response_id": "RP8Aa4BEqODQ8Q_ChZ_ZDw",
+  "generated_at": "2026-11-21T02:19:52+00:00"
+ }
+}
