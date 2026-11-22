@@ -1,0 +1,71 @@
+{
+ "date": "2026-11-25",
+ "answer": {
+  "name": "Switchback",
+  "park": "ZDT's Amusement Park",
+  "page": "Switchback (ZDT's Amusement Park)"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "This wooden roller coaster stands 64 feet tall, reaches a top speed of 41 mph, and features zero inversions."
+  },
+  {
+   "kind": "stats",
+   "text": "Manufactured by Gravitykraft Corporation, this thrill ride debuted in 2015."
+  },
+  {
+   "kind": "park",
+   "text": "This ride was installed at a 10-acre family amusement park located in Seguin, Texas."
+  },
+  {
+   "kind": "fact",
+   "text": "This ride navigated through and around various buildings before reaching a signature element known as the \"Grand Spike\", which sent riders up an 87-degree incline."
+  },
+  {
+   "kind": "name",
+   "text": "This coaster derived its name from an 1884 railway regarded as the very first true roller coaster in the United States."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "\"height\": \"64 ft\", \"speed\": \"41 mph\", \"inversions\": 0"
+   },
+   {
+    "source": "stats",
+    "quote": "\"maker\": \"Gravitykraft Corporation\", \"year\": 2015"
+   },
+   {
+    "source": "wikipedia",
+    "quote": "ZDT's Amusement Park was a 10-acre (4.0 ha) family amusement park located in Seguin, Texas."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "It navigated through and around various buildings and structures in the park before reaching a culminating element called the \"Grand Spike\", which sent riders up an 87-degree incline."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Switchback was the first and only wooden shuttle coaster of its kind, and derived its name from the 1884 Switchback Railway, the first true roller coaster in United States."
+   }
+  ],
+  "sources": [
+   {
+    "name": "wikipedia",
+    "title": "ZDT's Amusement Park",
+    "url": "https://en.wikipedia.org/wiki/ZDT%27s_Amusement_Park"
+   },
+   {
+    "name": "coasterpedia",
+    "title": "Switchback (ZDT's Amusement Park)",
+    "url": "https://coasterpedia.net/wiki/Switchback_%28ZDT%27s_Amusement_Park%29"
+   }
+  ],
+  "model": "gemini-3.8-flash",
+  "response_id": "gEMCa5SuD8OijdoPy9iSyA8",
+  "generated_at": "2026-11-22T01:25:44+00:00"
+ }
+}
