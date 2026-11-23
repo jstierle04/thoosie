@@ -1,0 +1,66 @@
+{
+ "date": "2026-11-26",
+ "answer": {
+  "name": "Possessed",
+  "park": "Dorney Park & Wildwater Kingdom",
+  "page": "Possessed"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "This steel attraction reaches a height of 180 feet and launches riders at 70 mph without ever going upside down."
+  },
+  {
+   "kind": "stats",
+   "text": "Designed by the manufacturer Intamin, this high-energy ride made its debut at its current park in 2008."
+  },
+  {
+   "kind": "park",
+   "text": "You will find this ride in Pennsylvania at a park that is famous for being paired with a major 'Wildwater Kingdom.'"
+  },
+  {
+   "kind": "fact",
+   "text": "This inverted launched shuttle coaster at Dorney Park is notable for being the first of its model to feature a twisted vertical spike."
+  },
+  {
+   "kind": "name",
+   "text": "The name of this ride suggests that you have been taken over by a ghost or an otherworldly spirit."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "height: 180 ft, speed: 70 mph, inversions: 0"
+   },
+   {
+    "source": "stats",
+    "quote": "maker: Intamin, year: 2008"
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "Possessed is a steel inverted launched shuttle roller coaster located at Dorney Park & Wildwater Kingdom in Allentown, Pennsylvania, USA."
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "Possessed is a steel inverted launched shuttle roller coaster located at Dorney Park & Wildwater Kingdom in Allentown, Pennsylvania, USA. ... This was the second Impulse Coaster to open and the first one with a vertical rollback (element)|twisted vertical spike."
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "For the following season, the name was changed to Possessed."
+   }
+  ],
+  "sources": [
+   {
+    "name": "coasterpedia",
+    "title": "Possessed",
+    "url": "https://coasterpedia.net/wiki/Possessed"
+   }
+  ],
+  "model": "gemini-3-flash-preview",
+  "response_id": "hjkEa62gELiqxdIPxoD1wQE",
+  "generated_at": "2026-11-23T13:14:42+00:00"
+ }
+}
