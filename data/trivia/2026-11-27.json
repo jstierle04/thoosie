@@ -1,0 +1,66 @@
+{
+ "date": "2026-11-27",
+ "answer": {
+  "name": "Snoopy's Racing Railway",
+  "park": "Carowinds",
+  "page": "Snoopy's Racing Railway (Carowinds)"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "Standing 39 feet tall with a top speed of 31 mph, this pint-sized coaster keeps things smooth and upright with zero inversions."
+  },
+  {
+   "kind": "stats",
+   "text": "This coaster was crafted by German manufacturer ART Engineering and opened to the public in 2025."
+  },
+  {
+   "kind": "park",
+   "text": "You can find this ride at an amusement park located in North Carolina."
+  },
+  {
+   "kind": "fact",
+   "text": "This steel launched coaster treats younger guests to thrills at Carowinds."
+  },
+  {
+   "kind": "name",
+   "text": "The attraction's name features Charlie Brown's iconic pet beagle competing on a high-speed locomotive track."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "height: 39 ft, speed: 31 mph, inversions: 0"
+   },
+   {
+    "source": "stats",
+    "quote": "maker: ART Engineering, year: 2025"
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "Snoopy's Racing Railway is a steel launched roller coaster built by German manufacturer ART Engineering currently located at Carowinds in Charlotte, North Carolina, USA."
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "Snoopy's Racing Railway is a steel launched roller coaster built by German manufacturer ART Engineering currently located at Carowinds in Charlotte, North Carolina, USA."
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "name = Snoopy's Racing Railway"
+   }
+  ],
+  "sources": [
+   {
+    "name": "coasterpedia",
+    "title": "Snoopy's Racing Railway (Carowinds)",
+    "url": "https://coasterpedia.net/wiki/Snoopy%27s_Racing_Railway_%28Carowinds%29"
+   }
+  ],
+  "model": "gemini-3.8-flash",
+  "response_id": "b_MEa4PRO_32kPIPitziwAM",
+  "generated_at": "2026-11-24T02:16:21+00:00"
+ }
+}
