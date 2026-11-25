@@ -1,0 +1,71 @@
+{
+ "date": "2026-11-28",
+ "answer": {
+  "name": "Skull Mountain",
+  "park": "Six Flags Great Adventure",
+  "page": "Skull Mountain (Six Flags Great Adventure)"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "This indoor ride features a modest height of 40 ft, reaches top speeds of 33 mph, and contains 0 inversions."
+  },
+  {
+   "kind": "stats",
+   "text": "Designed and constructed by Swiss manufacturer Intamin, this roller coaster first opened to park guests in 1996."
+  },
+  {
+   "kind": "park",
+   "text": "Located at a major theme park in New Jersey, this ride's enclosed nature allows it to keep running even during light thunderstorms."
+  },
+  {
+   "kind": "fact",
+   "text": "To keep waiting guests cool during hot summer days, the park turns on an exterior waterfall that pours directly out of the main facade's eyes."
+  },
+  {
+   "kind": "name",
+   "text": "This coaster's title evokes a sinister peak shaped like the bony framework of a human head."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "\"height\": \"40 ft\", \"speed\": \"33 mph\", \"inversions\": 0"
+   },
+   {
+    "source": "stats",
+    "quote": "\"maker\": \"Intamin\", \"year\": 1996"
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Skull Mountain is an enclosed roller coaster located at Six Flags Great Adventure in Jackson Township, New Jersey."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "On hot summer days, the park turns on the ride's exterior waterfall, which falls from the exterior skull's eyes."
+   },
+   {
+    "source": "stats",
+    "quote": "\"name\": \"Skull Mountain\""
+   }
+  ],
+  "sources": [
+   {
+    "name": "wikipedia",
+    "title": "Skull Mountain",
+    "url": "https://en.wikipedia.org/wiki/Skull_Mountain"
+   },
+   {
+    "name": "coasterpedia",
+    "title": "Skull Mountain (Six Flags Great Adventure)",
+    "url": "https://coasterpedia.net/wiki/Skull_Mountain_%28Six_Flags_Great_Adventure%29"
+   }
+  ],
+  "model": "gemini-3.6-flash",
+  "response_id": "up4Ga57RMtjgytMP86aeSA",
+  "generated_at": "2026-11-25T08:39:30+00:00"
+ }
+}
