@@ -1,0 +1,71 @@
+{
+ "date": "2026-11-29",
+ "answer": {
+  "name": "Fønix",
+  "park": "Fårup Sommerland",
+  "page": "Fønix"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "Standing 131 feet tall, this coaster hits speeds up to 59 mph and turns riders upside down through 3 inversions."
+  },
+  {
+   "kind": "stats",
+   "text": "This modern steel coaster was manufactured by Vekoma and made its public debut in 2022."
+  },
+  {
+   "kind": "park",
+   "text": "Thrill-seekers can find this attraction nestled in the coastal forests of Denmark."
+  },
+  {
+   "kind": "fact",
+   "text": "This coaster made international headlines by introducing the world's first 'stall loop' element alongside 14 moments of airtime."
+  },
+  {
+   "kind": "name",
+   "text": "The attraction shares its name with the Danish word for a legendary mythical bird known for rising from its own ashes."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "\"height\": \"131 ft\", \"speed\": \"59 mph\", \"inversions\": 3"
+   },
+   {
+    "source": "stats",
+    "quote": "\"maker\": \"Vekoma\", \"type\": \"Steel\", \"year\": 2022"
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Fønix (\"Phoenix\" in English) is a steel roller coaster at Fårup Sommerland in Blokhus, North Jutland, Denmark."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Fønix was designed and manufactured by Vekoma, and features 3 inversions - including the world's first \"stall loop\" element - as well as 14 airtime moments."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Using park teasers, fans eventually determined the name of the new coaster to be Fønix (Danish for \"Phoenix\")."
+   }
+  ],
+  "sources": [
+   {
+    "name": "wikipedia",
+    "title": "Fønix (roller coaster)",
+    "url": "https://en.wikipedia.org/wiki/F%C3%B8nix_%28roller_coaster%29"
+   },
+   {
+    "name": "coasterpedia",
+    "title": "Fønix",
+    "url": "https://coasterpedia.net/wiki/F%C3%B8nix"
+   }
+  ],
+  "model": "gemini-3.8-flash",
+  "response_id": "7KgHa6ruKZq0xdIPlt3ssAU",
+  "generated_at": "2026-11-26T03:42:07+00:00"
+ }
+}
