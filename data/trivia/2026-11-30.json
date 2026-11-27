@@ -1,0 +1,71 @@
+{
+ "date": "2026-11-30",
+ "answer": {
+  "name": "Cornball Express",
+  "park": "Indiana Beach",
+  "page": "Cornball Express"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "This compact wooden roller coaster reaches a modest height of 55 feet and a top speed of 45 mph with zero inversions."
+  },
+  {
+   "kind": "stats",
+   "text": "Manufactured by Custom Coasters International (CCI), this ride made its official debut in 2001."
+  },
+  {
+   "kind": "park",
+   "text": "You can find this ride delighting visitors at an amusement park located in the state of Indiana."
+  },
+  {
+   "kind": "fact",
+   "text": "Famous for being shoehorned into tight spaces, its layout weaves right through the structure of another wooden coaster and wraps around the park's Tig'rr Coaster."
+  },
+  {
+   "kind": "name",
+   "text": "The ride's name sounds like a high-speed transit train dedicated to an overly cheesy, sentimental joke."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "\"height\": \"55 ft\", \"speed\": \"45 mph\", \"inversions\": 0"
+   },
+   {
+    "source": "stats",
+    "quote": "\"maker\": \"CCI\", \"year\": 2001"
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Cornball Express is a wooden roller coaster at Indiana Beach amusement park in Monticello, Indiana, United States."
+   },
+   {
+    "source": "wikipedia",
+    "quote": "Cornball Express, as with other rides at the park, is also notable for being 'shoehorned' into other rides at the park."
+   },
+   {
+    "source": "stats",
+    "quote": "\"name\": \"Cornball Express\""
+   }
+  ],
+  "sources": [
+   {
+    "name": "wikipedia",
+    "title": "Cornball Express",
+    "url": "https://en.wikipedia.org/wiki/Cornball_Express"
+   },
+   {
+    "name": "coasterpedia",
+    "title": "Cornball Express",
+    "url": "https://coasterpedia.net/wiki/Cornball_Express"
+   }
+  ],
+  "model": "gemini-3.8-flash",
+  "response_id": "2eAIa67YPJC0xdIP1_ymiAE",
+  "generated_at": "2026-11-27T01:47:21+00:00"
+ }
+}
