@@ -1,0 +1,66 @@
+{
+ "date": "2026-12-01",
+ "answer": {
+  "name": "Jersey Devil Coaster",
+  "park": "Six Flags Great Adventure",
+  "page": "Jersey Devil Coaster"
+ },
+ "clues": [
+  {
+   "kind": "stats",
+   "text": "Standing 130 feet tall, this high-energy ride reaches a top speed of 58 mph and flips riders upside down through 3 inversions."
+  },
+  {
+   "kind": "stats",
+   "text": "Manufactured by RMC, this coaster officially opened to park guests in 2021."
+  },
+  {
+   "kind": "park",
+   "text": "This coaster operates at an amusement park located in Jackson, New Jersey."
+  },
+  {
+   "kind": "fact",
+   "text": "It made headlines as RMC's first custom Raptor Track layout and debuted as the world's tallest, fastest, and longest single-rail roller coaster."
+  },
+  {
+   "kind": "name",
+   "text": "This coaster shares its name with the legendary winged, demonic cryptid said to haunt the local region."
+  }
+ ],
+ "review": {
+  "reviewed": false,
+  "warnings": [],
+  "evidence": [
+   {
+    "source": "stats",
+    "quote": "\"height\": \"130 ft\", \"speed\": \"58 mph\", \"inversions\": 3,"
+   },
+   {
+    "source": "stats",
+    "quote": "\"maker\": \"RMC\", \"year\": 2021,"
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "'''Jersey Devil Coaster''' is a [[steel]] [[single rail roller coaster|single rail]] [[roller coaster]] at [[Six Flags Great Adventure]] in Jackson, New Jersey, USA."
+   },
+   {
+    "source": "coasterpedia",
+    "quote": "It is the first custom-made RMC [[Raptor Track]], as well as the world's tallest, fastest, and longest single-rail roller coaster."
+   },
+   {
+    "source": "stats",
+    "quote": "\"name\": \"Jersey Devil Coaster\","
+   }
+  ],
+  "sources": [
+   {
+    "name": "coasterpedia",
+    "title": "Jersey Devil Coaster",
+    "url": "https://coasterpedia.net/wiki/Jersey_Devil_Coaster"
+   }
+  ],
+  "model": "gemini-3.8-flash",
+  "response_id": "QIgKa9eZJKOsm9cPw5vMoQU",
+  "generated_at": "2026-11-28T07:56:12+00:00"
+ }
+}
